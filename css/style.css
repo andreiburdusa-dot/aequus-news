@@ -10,7 +10,6 @@
 }
 
 :root {
-  /* Color Palette — Editorial Monochrome with Gold Accent */
   --ink: #0a0a0a;
   --ink-light: #2a2a2a;
   --ink-lighter: #505050;
@@ -18,26 +17,25 @@
   --paper-dark: #f0f0ed;
   --gold: #b8954a;
   --gold-dark: #9d7d3a;
+  --navy: #1a2e5a;
   --line: #e0e0dd;
   --line-dark: #d0d0cd;
-  
-  /* Typography Scale */
+
   --font-display: 'Newsreader', serif;
   --font-body: 'Inter', sans-serif;
-  
-  /* Spacing */
+  --font-logo: 'Cinzel', serif;
+  --font-tagline: 'Cormorant Garamond', serif;
+
   --space-xs: 0.5rem;
   --space-sm: 1rem;
   --space-md: 1.5rem;
   --space-lg: 2.5rem;
   --space-xl: 4rem;
-  
-  /* Layout */
+
   --max-width: 1200px;
   --content-width: 680px;
 }
 
-/* Typography */
 html {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
@@ -52,16 +50,17 @@ body {
   background: var(--paper);
 }
 
-/* Header */
+/* ==========================================
+   HEADER & LOGO
+   ========================================== */
 .site-header {
   border-bottom: 1px solid var(--line);
-  background: var(--paper);
-  padding: var(--space-lg) var(--space-md);
+  padding: var(--space-md) var(--space-md);
   position: sticky;
   top: 0;
   z-index: 100;
   backdrop-filter: blur(8px);
-  background: rgba(250, 250, 248, 0.95);
+  background: rgba(250, 250, 248, 0.96);
 }
 
 .header-content {
@@ -74,40 +73,58 @@ body {
   gap: var(--space-md);
 }
 
-.masthead {
-  text-align: left;
-}
-
-.site-title {
-  font-family: var(--font-display);
-  font-size: 2.8rem;
-  font-weight: 300;
-  letter-spacing: 0.05em;
-  line-height: 1;
-  margin-bottom: var(--space-xs);
-}
-
-.site-title a {
-  color: var(--ink);
+/* Logo — sigla + text */
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
-.site-title a:hover {
-  color: var(--gold);
+.logo-link:hover {
+  opacity: 0.82;
 }
 
-.site-title .accent {
-  color: var(--gold);
+.logo-sigla {
+  flex-shrink: 0;
+  /* fondul cercului SVG se potriveste cu background-ul headerului */
 }
 
-.tagline {
-  font-family: var(--font-display);
-  font-size: 0.85rem;
+.logo-sigla circle:last-of-type {
+  fill: rgba(250, 250, 248, 0.96);
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.logo-titlu {
+  font-family: var(--font-logo);
+  font-size: 1.55rem;
+  font-weight: 400;
+  color: var(--navy);
+  letter-spacing: 0.45em;
+  text-indent: 0.45em;
+  line-height: 1;
+}
+
+.logo-tagline {
+  font-family: var(--font-tagline);
+  font-size: 0.72rem;
   font-style: italic;
   font-weight: 300;
-  color: var(--ink-lighter);
-  letter-spacing: 0.02em;
+  color: #6a7a8a;
+  letter-spacing: 0.06em;
+}
+
+/* Separator vertical între sigla și text */
+.logo-link .logo-sep {
+  width: 1px;
+  height: 38px;
+  background: linear-gradient(to bottom, transparent, rgba(26,46,90,0.2), transparent);
 }
 
 /* Navigation */
@@ -135,14 +152,15 @@ body {
   border-bottom-color: var(--gold);
 }
 
-/* Main Content */
+/* ==========================================
+   MAIN CONTENT
+   ========================================== */
 .content-wrapper {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: var(--space-xl) var(--space-md);
 }
 
-/* Featured Article */
 .featured-article {
   border-bottom: 2px solid var(--line-dark);
   padding-bottom: var(--space-xl);
@@ -161,13 +179,8 @@ body {
   text-transform: uppercase;
 }
 
-.category {
-  color: var(--gold);
-}
-
-.reading-time {
-  color: var(--ink-lighter);
-}
+.category { color: var(--gold); }
+.reading-time { color: var(--ink-lighter); }
 
 .article-meta::before {
   content: '';
@@ -190,9 +203,7 @@ body {
   transition: color 0.3s ease;
 }
 
-.featured-article .article-title a:hover {
-  color: var(--gold-dark);
-}
+.featured-article .article-title a:hover { color: var(--gold-dark); }
 
 .article-excerpt {
   font-size: 1.05rem;
@@ -246,9 +257,7 @@ body {
   transition: border-color 0.3s ease;
 }
 
-.article-card:hover {
-  border-left-color: var(--gold);
-}
+.article-card:hover { border-left-color: var(--gold); }
 
 .article-card .article-title {
   font-family: var(--font-display);
@@ -264,9 +273,7 @@ body {
   transition: color 0.3s ease;
 }
 
-.article-card .article-title a:hover {
-  color: var(--gold-dark);
-}
+.article-card .article-title a:hover { color: var(--gold-dark); }
 
 .article-card .article-excerpt {
   font-size: 0.95rem;
@@ -275,18 +282,29 @@ body {
   margin-bottom: var(--space-md);
 }
 
-/* Footer */
+/* ==========================================
+   FOOTER
+   ========================================== */
 .site-footer {
   border-top: 2px solid var(--line-dark);
   background: var(--paper-dark);
   padding: var(--space-xl) var(--space-md);
-  margin-top: var(--space-xl) * 2;
+  margin-top: calc(var(--space-xl) * 2);
 }
 
 .footer-content {
   max-width: var(--max-width);
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.footer-logo {
+  opacity: 0.55;
+  margin-bottom: var(--space-xs);
 }
 
 .footer-text {
@@ -294,7 +312,6 @@ body {
   font-size: 1rem;
   font-style: italic;
   color: var(--ink-light);
-  margin-bottom: var(--space-sm);
 }
 
 .copyright {
@@ -303,7 +320,9 @@ body {
   letter-spacing: 0.05em;
 }
 
-/* Article Page Styles */
+/* ==========================================
+   ARTICLE PAGE
+   ========================================== */
 .article-header {
   max-width: var(--content-width);
   margin: 0 auto var(--space-xl);
@@ -318,10 +337,6 @@ body {
   line-height: 1.15;
   margin-bottom: var(--space-md);
   color: var(--ink);
-}
-
-.article-header .article-meta {
-  margin-bottom: var(--space-md);
 }
 
 .article-header .article-excerpt {
@@ -368,10 +383,6 @@ body {
   color: var(--ink);
 }
 
-.article-content em {
-  font-style: italic;
-}
-
 .article-content ul,
 .article-content ol {
   margin-bottom: var(--space-md);
@@ -395,44 +406,32 @@ body {
   color: var(--ink);
 }
 
-/* Responsive */
+/* ==========================================
+   RESPONSIVE
+   ========================================== */
 @media (max-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+  html { font-size: 16px; }
 
-  .site-title {
-    font-size: 2.2rem;
-  }
+  .logo-titlu { font-size: 1.25rem; }
+  .logo-sigla { width: 42px; height: 42px; }
 
-  .featured-article .article-title {
-    font-size: 1.8rem;
-  }
-
-  .article-header .article-title {
-    font-size: 2.2rem;
-  }
-
-  .articles-grid {
-    grid-template-columns: 1fr;
-  }
+  .featured-article .article-title { font-size: 1.8rem; }
+  .article-header .article-title { font-size: 2.2rem; }
+  .articles-grid { grid-template-columns: 1fr; }
 
   .header-content {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
-/* Animations */
+/* ==========================================
+   ANIMATIONS
+   ========================================== */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .featured-article,
