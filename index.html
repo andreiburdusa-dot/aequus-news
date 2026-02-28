@@ -14,7 +14,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,10 +23,27 @@
   <header class="site-header">
     <div class="header-content">
       <div class="masthead">
-        <h1 class="site-title">
-          <a href="/">AEQU<span class="accent">U</span>S</a>
-        </h1>
-        <p class="tagline">Echilibru. Luciditate. Atitudine civică.</p>
+        <a href="/" class="logo-link">
+          <!-- Sigla SVG -->
+          <svg class="logo-sigla" width="52" height="52" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="80" cy="80" r="74" fill="none" stroke="#1a2e5a" stroke-width="0.8" opacity="0.15"/>
+            <circle cx="80" cy="80" r="66" fill="none" stroke="#1a2e5a" stroke-width="1.4" opacity="0.65"/>
+            <circle cx="80" cy="80" r="65" fill="transparent"/>
+            <g stroke="#1a2e5a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+              <line x1="80" y1="28" x2="50" y2="112" stroke-width="2.4"/>
+              <line x1="80" y1="28" x2="110" y2="112" stroke-width="2.4"/>
+              <line x1="63" y1="83" x2="97" y2="83" stroke-width="1.8"/>
+              <line x1="42" y1="112" x2="58" y2="112" stroke-width="2.1"/>
+              <line x1="102" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+            </g>
+            <polygon points="80,19 83.5,28 80,37 76.5,28" fill="#1a2e5a" opacity="0.8"/>
+          </svg>
+          <!-- Text logo -->
+          <div class="logo-text">
+            <span class="logo-titlu">AEQUUS</span>
+            <span class="logo-tagline">echilibru · luciditate · atitudine civică</span>
+          </div>
+        </a>
       </div>
       <nav class="main-nav">
         <a href="/">Articole</a>
@@ -124,6 +141,20 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-content">
+      <!-- Logo mic în footer -->
+      <div class="footer-logo">
+        <svg width="36" height="36" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="80" cy="80" r="66" fill="none" stroke="#b8954a" stroke-width="1.4" opacity="0.5"/>
+          <g stroke="#b8954a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <line x1="80" y1="28" x2="50" y2="112" stroke-width="2.4"/>
+            <line x1="80" y1="28" x2="110" y2="112" stroke-width="2.4"/>
+            <line x1="63" y1="83" x2="97" y2="83" stroke-width="1.8"/>
+            <line x1="42" y1="112" x2="58" y2="112" stroke-width="2.1"/>
+            <line x1="102" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+          </g>
+          <polygon points="80,19 83.5,28 80,37 76.5,28" fill="#b8954a" opacity="0.7"/>
+        </svg>
+      </div>
       <p class="footer-text">
         Aequus — O voce pentru cei care gândesc și nu tac
       </p>
