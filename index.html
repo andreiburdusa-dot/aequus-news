@@ -43,6 +43,48 @@
       padding: 0.1rem 0.5rem;
       border-radius: 2px;
     }
+
+    /* TAG-URI FLUX */
+    .flux-tag {
+      display: inline-block;
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 2px;
+      margin-right: 8px;
+      vertical-align: middle;
+      position: relative;
+      top: -1px;
+    }
+    .flux-iran { background: #c0392b; color: #fff; }
+    .flux-ucraina { background: #1a5fa8; color: #fff; }
+    .flux-romania { background: #2c7a3a; color: #fff; }
+    .flux-global { background: #555; color: #fff; }
+    /* SEPARATOARE FLUX */
+    .section-divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 40px 0 24px;
+    }
+    .section-divider .sdline {
+      height: 1px;
+      background: var(--c-gold, #c8b89a);
+      flex: 1;
+    }
+    .section-divider .sdlabel {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--c-gold-text, #9a7f5a);
+      white-space: nowrap;
+    }
+
   </style>
 </head>
 <body>
@@ -50,8 +92,8 @@
   <!-- Breaking News Banner -->
   <div class="breaking-banner">
     <span class="breaking-tag">&#9632; Breaking</span>
-    Ziua 18: Directorul contraterorismului american demisionează și acuză: „Am început acest război din cauza presiunii Israelului. A fost o minciună."
-    <a href="/articles/ziua18-omul-care-stia.html">Citește analiza →</a>
+    Ziua 19: Israel lovește South Pars fără să anunțe SUA. Iran ripostează asupra Qatarului. Brent depășește 108$/baril. Trump: „Nu știam."
+    <a href="/articles/ziua19-focul-care-nu-era-al-lor.html">Citește analiza →</a>
   </div>
 
   <header class="site-header">
@@ -88,29 +130,55 @@
 
     <!-- Featured Article -->
     <article class="featured-article">
-      <div class="article-meta">
+      <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
         <span class="category">Analiză geopolitică</span>
-        <span class="reading-time">14 min</span>
+        <span class="reading-time">13 min</span>
       </div>
       <h2 class="article-title">
-        <a href="/articles/ziua18-omul-care-stia.html">
-          Ziua 18: Omul care știa totul și a ales să plece
+        <a href="/articles/ziua19-focul-care-nu-era-al-lor.html">
+          Ziua 19: Focul care nu era al lor
         </a>
       </h2>
       <p class="article-excerpt">
-        Joe Kent, directorul contraterorismului american, demisionează și acuză public: războiul din Iran este ilegal, a fost construit pe minciuni israeliene și trădează America First. Nu e o opinie de stânga. E mărturia unui Army Ranger cu 11 tururi de luptă, din interiorul administrației Trump.
+        Israel a lovit South Pars fără să anunțe Washingtonul. Iranul a ripostat asupra Qatarului. Trump a aflat din presă. Arabia Saudită: „puținul de încredere rămas s-a sfărâmat complet." Despre cum un singur atac neautorizat a transformat aliații în victime colaterale.
       </p>
       <div class="article-footer">
-        <time datetime="2026-03-18">18 martie 2026</time>
-        <a href="/articles/ziua18-omul-care-stia.html" class="read-more">Citește →</a>
+        <time datetime="2026-03-19">19 martie 2026</time>
+        <a href="/articles/ziua19-focul-care-nu-era-al-lor.html" class="read-more">Citește →</a>
       </div>
     </article>
+
+
+    <div class="section-divider">
+      <div class="sdline"></div>
+      <div class="sdlabel">● Iran — Ziua cu zi</div>
+      <div class="sdline"></div>
+    </div>
 
     <!-- Article Grid -->
     <div class="articles-grid">
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">14 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ziua18-omul-care-stia.html">
+            Ziua 18: Omul care știa totul și a ales să plece
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Joe Kent demisionează și acuză: acest război a fost construit pe minciuni israeliene. Nu e o opinie de stânga — e mărturia unui Army Ranger cu 11 tururi de luptă din interiorul administrației Trump.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-18">18 martie 2026</time>
+          <a href="/articles/ziua18-omul-care-stia.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză geopolitică</span>
           <span class="reading-time">12 min</span>
         </div>
@@ -128,8 +196,34 @@
         </div>
       </article>
 
+
+    <div class="section-divider">
+      <div class="sdline"></div>
+      <div class="sdlabel">● România</div>
+      <div class="sdline"></div>
+    </div>
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-romania">România</span>
+          <span class="category">Analiză politică</span>
+          <span class="reading-time">În curând</span>
+        </div>
+        <h3 class="article-title">
+          <a href="#">
+            Bugetul de joi: ce votează parlamentarii și ce plătim noi
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Pe 20 martie, România votează bugetul de stat. Cifrele sunt acolo. Întrebările — mai puțin. Cine câștigă, cine pierde și de ce contează mai mult decât pare.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-20">20 martie 2026</time>
+          <span style="font-family: Arial, sans-serif; font-size: 13px; color: #c0392b; font-weight: 600;">În pregătire</span>
+        </div>
+      </article>
+
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză geopolitică</span>
           <span class="reading-time">13 min</span>
         </div>
@@ -149,7 +243,7 @@
 
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză geopolitică</span>
           <span class="reading-time">6 min</span>
         </div>
@@ -168,7 +262,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză geopolitică</span>
           <span class="reading-time">8 min</span>
         </div>
@@ -187,7 +281,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză politică</span>
           <span class="reading-time">7 min</span>
         </div>
@@ -206,7 +300,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-romania">România</span>
           <span class="category">Analiză politică</span>
           <span class="reading-time">9 min</span>
         </div>
@@ -225,7 +319,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-romania">România</span>
           <span class="category">Analiză politică</span>
           <span class="reading-time">8 min</span>
         </div>
@@ -244,7 +338,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză geopolitică</span>
           <span class="reading-time">8 min</span>
         </div>
@@ -263,7 +357,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză geopolitică</span>
           <span class="reading-time">20 min</span>
         </div>
@@ -301,7 +395,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
           <span class="category">Analiză socială</span>
           <span class="reading-time">20 min</span>
         </div>
@@ -320,7 +414,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Analiză geopolitică</span>
           <span class="reading-time">25 min</span>
         </div>
@@ -339,7 +433,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
           <span class="category">Eseu</span>
           <span class="reading-time">50 min</span>
         </div>
@@ -358,7 +452,7 @@
       </article>
 
       <article class="article-card">
-        <div class="article-meta">
+        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
           <span class="category">Eseu</span>
           <span class="reading-time">30 min</span>
         </div>
