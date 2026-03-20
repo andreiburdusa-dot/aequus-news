@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aequus — Atitudine civică în vremuri decisive</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCTB1JK5C6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WCTB1JK5C6');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .breaking-banner {
+      background-color: #cc0000;
+      color: #ffffff;
+      padding: 0.75rem 0;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .breaking-banner a {
+      color: #ffffff;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .breaking-banner .breaking-tag {
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-right: 0.6rem;
+      background: rgba(0,0,0,0.2);
+      padding: 0.1rem 0.5rem;
+      border-radius: 2px;
+    }
+
+    /* TAG-URI FLUX */
+    .flux-tag {
+      display: inline-block;
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 2px;
+      margin-right: 8px;
+      vertical-align: middle;
+      position: relative;
+      top: -1px;
+    }
+    .flux-iran { background: #c0392b; color: #fff; }
+    .flux-ucraina { background: #1a5fa8; color: #fff; }
+    .flux-romania { background: #2c7a3a; color: #fff; }
+    .flux-global { background: #555; color: #fff; }
+    /* SEPARATOARE FLUX */
+    .section-divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 40px 0 24px;
+    }
+    .section-divider .sdline {
+      height: 1px;
+      background: var(--c-gold, #c8b89a);
+      flex: 1;
+    }
+    .section-divider .sdlabel {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--c-gold-text, #9a7f5a);
+      white-space: nowrap;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Breaking News Banner -->
+  <div class="breaking-banner">
+    <span class="breaking-tag">&#9632; Breaking</span>
+    Ziua 20: Trump a spus că nu știa de South Pars. Sursele contrazic. Pentagonul cere 200 miliarde. Nowruz în timp de război.
+    <a href="/articles/ziua20-omul-care-nu-stia-nimic.html">Citește analiza →</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <div class="masthead">
+        <a href="/" class="logo-link">
+          <svg class="logo-sigla" width="52" height="52" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="80" cy="80" r="74" fill="none" stroke="#1a2e5a" stroke-width="0.8" opacity="0.15"/>
+            <circle cx="80" cy="80" r="66" fill="none" stroke="#1a2e5a" stroke-width="1.4" opacity="0.65"/>
+            <circle cx="80" cy="80" r="65" fill="transparent"/>
+            <g stroke="#1a2e5a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+              <line x1="80" y1="28" x2="50" y2="112" stroke-width="2.4"/>
+              <line x1="80" y1="28" x2="110" y2="112" stroke-width="2.4"/>
+              <line x1="63" y1="83" x2="97" y2="83" stroke-width="1.8"/>
+              <line x1="42" y1="112" x2="58" y2="112" stroke-width="2.1"/>
+              <line x1="102" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+            </g>
+            <polygon points="80,19 83.5,28 80,37 76.5,28" fill="#1a2e5a" opacity="0.8"/>
+          </svg>
+          <div class="logo-text">
+            <span class="logo-titlu">AEQUUS</span>
+            <span class="logo-tagline">echilibru · luciditate · atitudine civică</span>
+          </div>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <a href="/">Toate</a>
+        <a href="/iran.html">Iran</a>
+        <a href="/ucraina.html">Ucraina</a>
+        <a href="/romania.html">România</a>
+        <a href="/ue.html">UE</a>
+        <a href="/global.html">Global</a>
+        <a href="/despre.html">Despre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+
+    <!-- Featured Article -->
+    <article class="featured-article">
+      <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+        <span class="category">Analiză geopolitică</span>
+        <span class="reading-time">15 min</span>
+      </div>
+      <h2 class="article-title">
+        <a href="/articles/ziua20-omul-care-nu-stia-nimic.html">
+          Ziua 20: Omul care nu știa nimic
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        Trump a spus că SUA nu a știut de atacul israelian asupra South Pars. Sursele contrazic. Pentagonul cere 200 de miliarde. Netanyahu sugerează trupe terestre. Prețul gazelor explodează cu 30% în Europa. Și undeva în Teheran, iranienii aprind focuri pentru Nowruz — în timp ce rafinăriile din Golf încă ard.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-03-20">20 martie 2026</time>
+        <a href="/articles/ziua20-omul-care-nu-stia-nimic.html" class="read-more">Citește →</a>
+      </div>
+    </article>
+
+    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+      <div class="article-meta"><span class="flux-tag flux-global">Global</span>
+        <span class="category">Editorial</span>
+        <span class="reading-time">11 min</span>
+      </div>
+      <h2 class="article-title">
+        <a href="/articles/acelasi-drum-acelasi-capat.html">
+          Același drum, același capăt
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        Despre mecanismul prin care dictatorii își construiesc propria cădere — purjele lui Putin, paranoia post-Khamenei, războiul din Ucraina ca capcană structurală. Și de ce Putin nu face excepție de la un pattern pe care istoria îl confirmă de fiecare dată.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-03-19">19 martie 2026</time>
+        <a href="/articles/acelasi-drum-acelasi-capat.html" class="read-more">Cel mai nou editorial →</a>
+      </div>
+    </article>
+
+
+    <div class="section-divider">
+      <div class="sdline"></div>
+      <div class="sdlabel">● Global — Analiză structurală</div>
+      <div class="sdline"></div>
+    </div>
+
+    <div class="articles-grid">
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
+          <span class="category">Editorial</span>
+          <span class="reading-time">11 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/acelasi-drum-acelasi-capat.html">
+            Același drum, același capăt
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Mecanismul prin care dictatorii își construiesc propria cădere. Putin, purjele, paranoia, Ucraina. Istoria nu face excepții.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-19">19 martie 2026</time>
+          <a href="/articles/acelasi-drum-acelasi-capat.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">10 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/castigatorul-tacut.html">
+            Câștigătorul tăcut: de ce China e adevăratul beneficiar al războiului din Golf
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          În timp ce SUA și Iran consumă resurse militare și diplomatice, China privește, calculează și avansează. Un conflict care slăbește America e, prin definiție, un conflict care întărește Beijing-ul.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-15">15 martie 2026</time>
+          <a href="/articles/castigatorul-tacut.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">8 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/hormuz-coalitie-imposibila.html">
+            Strâmtoarea Hormuz: coaliția care nu se va forma
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          De ce niciun aliat nu trimite nave în Golf și ce spune asta despre starea reală a alianțelor americane după trei săptămâni de conflict.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-11">11 martie 2026</time>
+          <a href="/articles/hormuz-coalitie-imposibila.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
+          <span class="category">Scenariu</span>
+          <span class="reading-time">10 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/jocul-mare.html">
+            Jocul mare: criza iraniană și recompunerea ordinii globale
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Dincolo de rachete și strâmtori — ce se recompune în ordinea globală în timp real și cine câștigă pe termen lung dintr-un conflict pe care nimeni nu îl poate câștiga pe termen scurt.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-12">12 martie 2026</time>
+          <a href="/articles/jocul-mare.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="section-divider">
+      <div class="sdline"></div>
+      <div class="sdlabel">● Iran — Ziua cu zi</div>
+      <div class="sdline"></div>
+    </div>
+
+    <!-- Article Grid -->
+    <div class="articles-grid">
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">12 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ziua15-reality-show.html">
+            Ziua 15: Producătorul de haos
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Pe 14 martie, Trump a anunțat „unul dintre cele mai puternice bombardamente din istoria Orientului Mijlociu". Tonul triumfal. Realitatea — alta.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-15">15 martie 2026</time>
+          <a href="/articles/ziua15-reality-show.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">12 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ziua14-doua-haosuri.html">
+            Ziua 14: Ayatolahul fantomă și incoerența lui Trump
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Un nou lider suprem invizibil la Teheran. Un președinte american ale cărui declarații contrazic acțiunile propriilor generali. Două haosuri care se alimentează reciproc.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-14">14 martie 2026</time>
+          <a href="/articles/ziua14-doua-haosuri.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">12 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ziua13-haos-controlat.html">
+            Ziua 13: Haosul controlat și tăcerea care contează
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          La 13 zile de la începerea conflictului, tăcerea unor actori cheie spune mai mult decât toate declarațiile oficiale la un loc.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-13">13 martie 2026</time>
+          <a href="/articles/ziua13-haos-controlat.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">14 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ziua18-omul-care-stia.html">
+            Ziua 18: Omul care știa totul și a ales să plece
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Joe Kent demisionează și acuză: acest război a fost construit pe minciuni israeliene. Nu e o opinie de stânga — e mărturia unui Army Ranger cu 11 tururi de luptă din interiorul administrației Trump.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-18">18 martie 2026</time>
+          <a href="/articles/ziua18-omul-care-stia.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">12 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ziua17-trei-razboaie-un-conflict.html">
+            Ziua 17: Trei războaie, un singur conflict
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          De ce SUA, Israel și armata americană nu vor același lucru — și de ce această divergență contează mai mult decât orice rachetă iraniană.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-17">17 martie 2026</time>
+          <a href="/articles/ziua17-trei-razboaie-un-conflict.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+
+    <div class="section-divider">
+      <div class="sdline"></div>
+      <div class="sdlabel">● România</div>
+      <div class="sdline"></div>
+    </div>
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-romania">România</span>
+          <span class="category">Analiză politică</span>
+          <span class="reading-time">În curând</span>
+        </div>
+        <h3 class="article-title">
+          <a href="#">
+            Bugetul de joi: ce votează parlamentarii și ce plătim noi
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Pe 20 martie, România votează bugetul de stat. Cifrele sunt acolo. Întrebările — mai puțin. Cine câștigă, cine pierde și de ce contează mai mult decât pare.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-20">20 martie 2026</time>
+          <span style="font-family: Arial, sans-serif; font-size: 13px; color: #c0392b; font-weight: 600;">În pregătire</span>
+        </div>
+      </article>
+
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">13 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ziua16-narativul-care-se-prabuseste.html">
+            Ziua 16: Când realitatea contrazice narativul
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Trump, axa adversarilor și capcanele unui război fără ieșire. La șaisprezece zile, narativul victoriei rapide se prăbușește metodic, o afirmație după alta.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-16">16 martie 2026</time>
+          <a href="/articles/ziua16-narativul-care-se-prabuseste.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">6 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/iran-epuizare-si-presiune.html">
+            Iranul nu va mai avea rachete săptămâna viitoare
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Conflictul din Golf nu va dura șase luni. Nu pentru că cineva vrea pacea — ci pentru că arsenalul iranian se epuizează mai repede decât orice negociere. Atacurile balistice au scăzut cu 90% în 9 zile.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-09">9 martie 2026</time>
+          <a href="/articles/iran-epuizare-si-presiune.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">8 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/victoria-fara-ziua-de-dupa.html">
+            Victoria fără ziua de după
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          SUA și Israel vor decima Iranul. Și apoi? Despre iluzia că poți câștiga un război fără să ai un plan pentru pacea care urmează.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-08">8 martie 2026</time>
+          <a href="/articles/victoria-fara-ziua-de-dupa.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză politică</span>
+          <span class="reading-time">7 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/doua-megalomanii.html">
+            Două megalomanii, o groapă comună
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          De ce lovitura SUA–Israel asupra Iranului nu se va stinge rapid și ce va costa. Khamenei a subestimat ce vor face SUA și Israel. Trump a subestimat ce va face Iranul. Greșelile lor nu s-au anulat reciproc — s-au amplificat.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-01">1 martie 2026</time>
+          <a href="/articles/doua-megalomanii.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-romania">România</span>
+          <span class="category">Analiză politică</span>
+          <span class="reading-time">9 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/paradoxul-intelectualului.html">
+            Paradoxul intelectualului neadaptat
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          România are la vârf cei mai onești oameni din ultimele decenii. Și totuși ceva scrâșnește. Nu din lipsă de intenție bună — ci din ceva mai profund și mai greu de reparat.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-06">6 martie 2026</time>
+          <a href="/articles/paradoxul-intelectualului.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-romania">România</span>
+          <span class="category">Analiză politică</span>
+          <span class="reading-time">8 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/nicusor-dan-umbrela.html">
+            România între două umbrele: arta periculoasă a ambiguității
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Nicușor Dan a ales să nu aleagă. În geopolitică, această opțiune are un preț pe care îl plătești mai târziu — cu dobândă.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-06">6 martie 2026</time>
+          <a href="/articles/nicusor-dan-umbrela.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">8 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/iran-factor-echilibru.html">
+            După Iran, cine ține lumea în echilibru?
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Războaiele se pot încheia. Rănile rămân deschise mult mai mult. Cu Iranul în flăcări, Ucraina în impas și Taiwan în așteptare, întrebarea nu mai e cine câștigă războiul — ci cine construiește pacea.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-06">6 martie 2026</time>
+          <a href="/articles/iran-factor-echilibru.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">20 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/speculantul-in-corzi.html">
+            Speculantul în corzi: De ce Trump a atacat Iranul tocmai pentru că îi era frică
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Am scris azi-dimineață că speculantul atacă din frică, nu din putere. Câteva ore mai târziu, bomba a căzut. SUA și Israel lovesc Iranul acum.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-02-28">28 februarie 2026 · Actualizat</time>
+          <a href="/articles/speculantul-in-corzi.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta">
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">10 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/cine-castiga-iranul.html">
+            Cine câștigă cu adevărat din atacul asupra Iranului?
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Nu America. Nu Israelul. Ci cel care privește de departe și tace. O analiză despre cine sunt adevărații câștigători ai zilei în care lumea s-a uitat în altă parte.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-02-28">28 februarie 2026</time>
+          <a href="/articles/cine-castiga-iranul.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
+          <span class="category">Analiză socială</span>
+          <span class="reading-time">20 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/educatie-bazata-ai.html">
+            Când Mașina Devine Profesor: Promisiunile și Pericolele Educației Bazate pe Inteligență Artificială
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Un sistem conceput în secolul al XIX-lea supraviețuiește aproape intact în era algoritmilor. Merită inteligența artificială să îl înlocuiască?
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-02-19">19 februarie 2026</time>
+          <a href="/articles/educatie-bazata-ai.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Analiză geopolitică</span>
+          <span class="reading-time">25 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/matematica-supravietuirii.html">
+            Matematica supraviețuirii: De ce Europa are exact 5 ani să se federalizeze
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          München, 13 februarie 2026. Cancelarul german Friedrich Merz anunță ceva de neimaginat cu doi ani în urmă: discuții confidențiale despre deterentul nuclear european.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-02-16">16 februarie 2026</time>
+          <a href="/articles/matematica-supravietuirii.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-iran">Iran</span>
+          <span class="category">Eseu</span>
+          <span class="reading-time">50 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/ultima-fereastra.html">
+            Ultima fereastră: Anatomia federalizării europene rapide
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Cum să construiești o superputere în 5 ani. O analiză completă a transformării istorice care se întâmplă în timp real, de la München 2026 la viitorul Europei federale.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-02-16">16 februarie 2026</time>
+          <a href="/articles/ultima-fereastra.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
+          <span class="category">Eseu</span>
+          <span class="reading-time">30 min</span>
+        </div>
+        <h3 class="article-title">
+          <a href="/articles/noul-contract-social.html">
+            Noul Contract Social și Proiectul Pilot: Spre o reconfigurare fundamentală a relației dintre individ și colectiv
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Trăim într-o epocă a paradoxurilor: niciodată drepturile individuale nu au fost mai bine codificate, și totuși cetățenia activă pare să se fi evaporat.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-01-28">28 ianuarie 2026</time>
+          <a href="/articles/noul-contract-social.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <svg width="36" height="36" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="80" cy="80" r="66" fill="none" stroke="#b8954a" stroke-width="1.4" opacity="0.5"/>
+          <g stroke="#b8954a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <line x1="80" y1="28" x2="50" y2="112" stroke-width="2.4"/>
+            <line x1="80" y1="28" x2="110" y2="112" stroke-width="2.4"/>
+            <line x1="63" y1="83" x2="97" y2="83" stroke-width="1.8"/>
+            <line x1="42" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+            <line x1="102" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+          </g>
+          <polygon points="80,19 83.5,28 80,37 76.5,28" fill="#b8954a" opacity="0.7"/>
+        </svg>
+      </div>
+      <p class="footer-text">Aequus — O voce pentru cei care gândesc și nu tac</p>
+      <p class="copyright">© 2026 Aequus. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
