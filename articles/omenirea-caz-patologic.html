@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="De ce istoria se repetă. De ce omenirea nu-și creează anticorpi. Un editorial de fond despre mecanismele care aduc mereu același dezastru.">
+  <meta property="og:title" content="Omenirea — un caz patologic de istorie inutilă">
+  <meta property="og:description" content="De ce istoria se repetă. De ce omenirea nu-și creează anticorpi.">
+  <meta property="og:type" content="article">
+  <title>Omenirea — un caz patologic de istorie inutilă | Aequus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1610;
+      --paper: #f8f4ed;
+      --warm: #c8a96e;
+      --muted: #7a7268;
+      --rule: rgba(26,22,16,0.12);
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'DM Sans', sans-serif;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 19px;
+      line-height: 1.8;
+    }
+
+    /* NAV */
+    nav {
+      border-bottom: 1px solid var(--rule);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-brand {
+      font-family: var(--sans);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .nav-section {
+      font-family: var(--sans);
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* HEADER ARTICOL */
+    .article-header {
+      max-width: 740px;
+      margin: 80px auto 60px;
+      padding: 0 40px;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 48px;
+    }
+
+    .article-label {
+      font-family: var(--sans);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--warm);
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+    }
+
+    h1 em {
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .article-meta {
+      font-family: var(--sans);
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      margin-top: 28px;
+    }
+
+    .article-intro {
+      font-size: 21px;
+      font-style: italic;
+      color: #3a3530;
+      line-height: 1.7;
+      margin-top: 32px;
+      padding-left: 20px;
+      border-left: 2px solid var(--warm);
+    }
+
+    /* BODY */
+    .article-body {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 40px 80px;
+    }
+
+    .article-body p {
+      margin-bottom: 1.6em;
+    }
+
+    /* INTERTITLURI */
+    .article-body h2 {
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin: 2.4em 0 0.8em;
+      color: var(--ink);
+    }
+
+    /* CITAT EXTRAS */
+    blockquote {
+      margin: 2.4em 0;
+      padding: 24px 32px;
+      border-left: 3px solid var(--warm);
+      background: rgba(200,169,110,0.06);
+      font-style: italic;
+      font-size: 20px;
+      line-height: 1.7;
+      color: #3a3530;
+    }
+
+    blockquote cite {
+      display: block;
+      margin-top: 12px;
+      font-style: normal;
+      font-family: var(--sans);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    /* SEPARATOR */
+    .ornament {
+      text-align: center;
+      margin: 2.4em 0;
+      color: var(--warm);
+      font-size: 20px;
+      letter-spacing: 0.4em;
+    }
+
+    /* FOOTER ARTICOL */
+    .article-footer {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 32px 40px 60px;
+      border-top: 1px solid var(--rule);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .article-footer p {
+      font-family: var(--sans);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      nav, .article-header, .article-body, .article-footer {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      .article-header { margin-top: 48px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="https://www.aequus.news" class="nav-brand">Aequus</a>
+  <span class="nav-section">Eseu · Global</span>
+</nav>
+
+<header class="article-header">
+  <p class="article-label">Editorial · Analiză de fond</p>
+  <h1>Omenirea —<br><em>un caz patologic<br>de istorie inutilă</em></h1>
+  <p class="article-intro">
+    De ce istoria se repetă. De ce nu se creează anticorpi. 
+    De ce aceleași mecanisme produc, la fiecare generație, același dezastru 
+    — și de ce suntem din nou, în 2026, exact în același punct în care eram acum un secol.
+  </p>
+  <p class="article-meta">Andrei Burdușa · Aequus · 22 martie 2026</p>
+</header>
+
+<article class="article-body">
+
+  <p>
+    În martie 2026, bombardiere americane B-1B lovesc Teheranul cu bombe bunker-buster. 
+    Primul avion american este doborât deasupra Iranului. Strâmtoarea Ormuz este blocată 
+    pentru prima dată în istorie simultan cu Marea Roșie. Prețul petrolului a depășit 
+    112 dolari pe baril și continuă să crească. Un portavion de 13 miliarde de dolari 
+    s-a retras după ce a fost avariat de drone de câteva mii. Liderul suprem al Iranului 
+    a murit în conflict. Europa privește neputincioasă.
+  </p>
+
+  <p>
+    Cineva care ar fi adormit în 1914 și s-ar fi trezit acum n-ar fi surprins de nimic. 
+    Ar recunoaște imediat peisajul: o mare putere în declin care forțează o confruntare 
+    militară pentru a-și menține hegemonia, alianțe care se destramă, o Europă prinsă 
+    la mijloc, și o populație care urmărește totul în timp real — ieri prin ziare, 
+    azi prin telefon — fără să înțeleagă mai mult.
+  </p>
+
+  <p>
+    Întrebarea care se impune nu este de ce s-a ajuns aici. Întrebarea cu adevărat 
+    importantă este alta: de ce ajungem mereu aici? De ce, după fiecare catastrofă 
+    istorică, omenirea reconstruiește cu meticulozitate condițiile pentru următoarea?
+  </p>
+
+  <h2>Istoria nu e circulară. Oamenii sunt</h2>
+
+  <p>
+    Prima eroare de diagnostic este să tratăm repetiția istorică ca pe un fenomen 
+    misterios, aproape mistic. Nu e. Istoria nu se repetă pentru că ar exista un 
+    destin ciclic sau o forță supranaturală care resetează lumea la fiecare generație. 
+    Se repetă pentru că substratul care o produce — psihologia umană — nu s-a schimbat 
+    în niciun mod semnificativ în ultimii zece mii de ani.
+  </p>
+
+  <p>
+    Creierul uman nu e un organ unitar. E o structură stratificată, construită 
+    în etape evolutive distincte, fiecare strat depus peste cel anterior 
+    ca sedimentele geologice. La bază se află creierul reptilian — trunchiul 
+    cerebral și cerebelul — responsabil de supraviețuire imediată, teritorialitate 
+    și dominanță. Are cel puțin 400.000 de ani. Nu se negociază cu el. 
+    Nu procesează argumente. Răspunde la stimuli.
+  </p>
+
+  <p>
+    Peste el, sistemul limbic — amigdala, hipocampul, hipotalamusul. 
+    Emoție, frică, memorie afectivă, atașament de grup. Acesta e motorul 
+    tribalismului: noi și ei, prieteni și dușmani, siguranță și amenințare. 
+    Tot aici se procesează frica — și tot de aici pornește răspunsul 
+    care suspendă rațiunea în momentele de criză percepută.
+  </p>
+
+  <p>
+    Deasupra, neocortexul — stratul subțire și recent care raționează, 
+    planifică, construiește instituții, scrie constituții și tratate de pace. 
+    E ceea ce ne face, în teorie, diferiți de celelalte specii. 
+    Problema e că în ierarhia neurologică, neocortexul vine ultimul. 
+    Când amigdala semnalează pericol, neocortexul e pus în așteptare. 
+    Rațiunea cedează în fața fricii — nu ca eșec moral, ci ca mecanism 
+    biologic, proiectat pentru un mediu în care pericolul era imediat 
+    și fizic, nu abstract și sistemic.
+  </p>
+
+  <p>
+    Demagogia nu e o tehnică retorică. E neurologie aplicată. 
+    Orice lider care activează frica — inamicul extern, amenințarea 
+    la adresa tribului, pericolul iminent — nu convinge neocortexul. 
+    Dezactivează neocortexul și vorbește direct amigdalei. 
+    Funcționează în 2026 exact cum funcționa în paleolitic, 
+    pentru că hardware-ul e același. Ce s-a schimbat e doar amplificatorul: 
+    focul de tabără a devenit televiziune, televiziunea a devenit 
+    algoritm de social media — și fiecare salt tehnologic a dat 
+    creierului vechi o voce mai puternică și o rază mai mare de acțiune. 
+    Nu creierul s-a schimbat. S-a schimbat microfonul.
+  </p>
+
+  <blockquote>
+    Memoria istorică este individuală, nu colectivă. Generația care a trăit 
+    Al Doilea Război Mondial a murit. Ce a rămas sunt reprezentări ale traumei 
+    — cărți, muzee, comemorări. Reprezentarea nu imunizează. Doar experiența directă 
+    o face. Și experiența directă nu se transmite genetic.
+  </blockquote>
+
+  <p>
+    Fiecare generație primește istoria ca pe o poveste despre alții. Despre niște 
+    oameni de demult, dintr-o lume de demult, care au făcut greșeli de demult. 
+    Identificarea cu ei — înțelegerea că erau exact la fel cu noi, că aveau aceleași 
+    slăbiciuni, aceleași frici, aceleași mecanisme de autoamăgire — este un exercițiu 
+    intelectual pe care puțini îl fac cu adevărat. Weimar-ul era o democrație modernă, 
+    cultă, cu presă liberă și universități de elită. Și tot a produs ce a produs. 
+    Nu pentru că germanii de atunci erau diferiți de noi. Ci pentru că erau identici.
+  </p>
+
+  <h2>De ce puterea selectează pentru disfuncție</h2>
+
+  <p>
+    Privind simultan spre Washington, Moscova, Teheran, Budapesta, Ankara, 
+    Tel Aviv — spre aproape orice capitală a lumii în 2026 — se observă un pattern 
+    care depășește coincidența: puterea politică este deținută, aproape fără excepție, 
+    de personalități cu serioase probleme de construcție psihologică. Narcisism 
+    patologic, grandiozitate, incapacitate de empatie, impulsivitate, nevoia obsesivă 
+    de dominanță și validare.
+  </p>
+
+  <p>
+    Întrebarea nu e de ce există astfel de oameni. Ei au existat întotdeauna, 
+    în aceeași proporție statistică în orice populație. Întrebarea e de ce ajung 
+    sistematic la putere. Și răspunsul e structural, nu accidental.
+  </p>
+
+  <p>
+    Drumul spre vârful puterii politice necesită o combinație foarte specifică de 
+    trăsături: toleranță ridicată la conflict și ambiguitate morală, capacitatea de 
+    a manipula percepția publică, un ego suficient de hipertrofiat încât să susțină 
+    convingerea că ești îndreptățit să conduci milioane de oameni, și abilitatea 
+    de a elimina competitori fără remușcări. Aceasta este, punct cu punct, descrierea 
+    clinică a unui spectru de personalitate pe care psihiatria îl tratează ca 
+    patologie când apare în viața privată. În viața publică, același profil este 
+    recompensat cu putere maximă.
+  </p>
+
+  <p>
+    Mai mult — și acesta e mecanismul cu adevărat periculos — sistemele democratice 
+    moderne au amplificat acest fenomen prin introducerea spectacolului politic. 
+    Media contemporană nu recompensează competența administrativă sau gândirea 
+    strategică pe termen lung. Recompensează performanța. Și personalitățile cu 
+    structura descrisă mai sus sunt, prin natura lor, performeri excepționali. 
+    Știu instinctiv ce vrea mulțimea să audă. Știu cum să transforme frica în 
+    combustibil electoral. Știu cum să construiască inamici convingători.
+  </p>
+
+  <div class="ornament">· · ·</div>
+
+  <h2>Anticorpii instituționali și degradarea lor</h2>
+
+  <p>
+    După 1945, omenirea a construit, pentru prima dată în istorie, un sistem 
+    deliberat de anticorpi instituționali: ONU, NATO, instituțiile de la Bretton 
+    Woods — FMI și Banca Mondială, create în 1944 pentru a stabiliza economia 
+    mondială postbelică și a preveni colapsurile financiare care alimentaseră 
+    extremismul interbelic —, Uniunea Europeană, Curtea Penală Internațională. Toate proiectate explicit 
+    pentru a limita capacitatea unui singur actor — stat sau individ — de a declanșa 
+    un dezastru global.
+  </p>
+
+  <p>
+    Au funcționat. Timp de aproape opt decenii, nicio confruntare directă între 
+    marile puteri. Cel mai lung interval de pace relativă din istoria modernă. 
+    Un succes instituțional fără precedent.
+  </p>
+
+  <p>
+    Și tocmai acest succes conține germenele eșecului. Anticorpii instituționali 
+    au o vulnerabilitate fundamentală: sunt administrați de oameni. Iar oamenii, 
+    în absența amenințării directe și imediate, încep inevitabil să optimizeze 
+    instituția pentru propriile interese pe termen scurt, nu pentru funcția ei 
+    originală pe termen lung. Birocrația crește. Corupția se instalează. 
+    Legitimitatea se erodează. Instituția devine o cochilie care păstrează forma 
+    dar nu mai are conținut.
+  </p>
+
+  <p>
+    ONU nu mai poate opri niciun conflict major. NATO a pierdut coerența strategică. 
+    FMI și Banca Mondială sunt percepute drept instrumente ale hegemoniei occidentale. 
+    UE se fragmentează sub presiunea naționalismelor pe care era construită să le 
+    depășească. Nu din cauza unor conspirații sau a unor actori malefici — ci pur 
+    și simplu pentru că nicio instituție umană nu este imună la degradare în timp, 
+    mai ales când amenințarea care a justificat crearea ei nu mai este vizibilă 
+    și imediată pentru generațiile care au moștenit-o.
+  </p>
+
+  <h2>Rezonanța sistemică: de ce totul se întâmplă simultan</h2>
+
+  <p>
+    Există o întrebare suplimentară pe care actualul moment o impune: de ce acum? 
+    De ce, simultan, în toate colțurile lumii, asistăm la ascensiunea aceluiași 
+    tip de lider, la erodarea acelorași tipuri de instituții, la aceleași tipare 
+    de conflict? Nu e o coincidență. E o rezonanță sistemică.
+  </p>
+
+  <p>
+    Trăim primul moment din istoria omenirii în care mai multe crize majore 
+    se suprapun simultan la scară globală: o criză climatică care destabilizează 
+    resurse și populații, o criză demografică care creează presiuni migratorii 
+    fără precedent, o revoluție tehnologică care distruge categorii întregi de 
+    locuri de muncă mai rapid decât sistemele sociale pot absorbi, și o criză 
+    a inegalității care a produs în ultimele trei decenii o concentrare a avuției 
+    fără echivalent în istoria modernă.
+  </p>
+
+  <p>
+    Fiecare dintre aceste crize, luată separat, ar fi gestionabilă. Suprapuse, 
+    produc o nesiguranță difuză, profundă și globală. Iar nesiguranța — frica, 
+    mai exact — este combustibilul primar al politicii autoritare. Când oamenii 
+    se simt amenințați, caută protecție. Când instituțiile tradiționale nu o mai 
+    pot oferi credibil, apar „salvatorii". Același mecanism, aceeași secvență, 
+    în Washington și Moscova, în Budapesta și Ankara, în Tel Aviv și Teheran.
+  </p>
+
+  <p>
+    Nu e o conspirație globală. E o ecuație cu aceleași variabile rezolvată 
+    simultan în contexte diferite, producând aceleași soluții.
+  </p>
+
+  <h2>Iranul ca simptom, nu cauză</h2>
+
+  <p>
+    Ceea ce se întâmplă acum în Iran nu este o anomalie sau o criză izolată. 
+    Este simptomul vizibil al unui proces de dezintegrare a ordinii post-1945 
+    care era în desfășurare de cel puțin două decenii. Bombardamentele asupra 
+    Teheranului, portavionul retras, F-35-ul doborât, Hormuzul blocat — 
+    toate acestea sunt efecte. Cauza e mai veche și mai profundă.
+  </p>
+
+  <p>
+    O putere hegemonică în declin relativ, incapabilă să accepte reconfigurarea 
+    ordinii mondiale, condusă de un lider cu profilul psihologic descris anterior, 
+    într-un sistem instituțional intern care nu mai are capacitatea de a-l 
+    contrabalansa eficient — acesta este contextul structural. Iranul este 
+    contextul geografic. Combinația dintre ele produce ce vedem azi.
+  </p>
+
+  <p>
+    Și, exact ca acum un secol, nimeni nu poate spune cu certitudine unde se oprește. 
+    Nici atunci nu știau. Asasinatul de la Sarajevo părea, în iulie 1914, un incident 
+    regional. Patru ani mai târziu, muriseră 20 de milioane de oameni și dispăruseră 
+    patru imperii.
+  </p>
+
+  <h2>Trei profiluri, un singur mecanism</h2>
+
+  <p>
+    Privind simultan spre cei trei actori care domină scena mondială în 2026, 
+    se conturează trei profiluri distincte de disfuncție — dar cu un numitor comun.
+  </p>
+
+  <p>
+    Primul este narcisistul performativ. Are nevoie de validare constantă, 
+    de victorii vizibile și rapide. Când realitatea nu le livrează, devine 
+    imprevizibil. Strategia lui seamănă cu logica unui conflict de stradă: 
+    dau un pumn puternic și îl las lat. Problema apare când adversarul 
+    nu cade. În dimineața zilei 22 a războiului din Iran, după ce vineri 
+    vorbise despre „reducerea operațiunilor militare", același lider amenința 
+    că va „distruge complet" centralele electrice iraniene dacă Strâmtoarea 
+    Ormuz nu e redeschisă în 48 de ore. Același mecanism, aceeași secvență: 
+    un pumn mai mare pentru că primul n-a rezolvat nimic. Iranul nu e un 
+    promotor imobiliar din New Jersey. E un stat cu 2.500 de ani de experiență 
+    în supraviețuirea sub presiune imperială.
+  </p>
+
+  <p>
+    Al doilea profil e narcisistul strategic. Nu are nevoie de aplauze imediate. 
+    Are răbdare. Construiește o arhitectură a puterii pe decenii, pas cu pas, 
+    fiecare mișcare parte dintr-un plan pe care îl gândește în ani, nu în cicluri 
+    electorale. Nu mediază — optimizează. Când Rusia a propus, prin emisarii săi, 
+    să oprească furnizarea de informații Iranului în schimbul retragerii sprijinului 
+    american pentru Ucraina, nu oferea o soluție. Oferea un test — voia să vadă 
+    cât de departe poate merge, unde sunt limitele reale. A primit răspunsul. 
+    L-a notat. Thucydide formulase principiul în secolul V î.Hr.: „Cei puternici 
+    fac ce pot. Cei slabi suferă ce trebuie." Același argument, 2.500 de ani mai târziu, 
+    la o masă de negocieri din Miami.
+  </p>
+
+  <p>
+    Al treilea profil e ideologul imperial. Nu caută validare ca primul și nu 
+    construiește dominanță ca al doilea. Caută restaurare. Se vede pe sine 
+    ca agentul unui proces istoric inevitabil — revenirea la ordinea firească 
+    a lumii, în care civilizația sa ocupă locul central pe care l-a pierdut 
+    printr-o paranteză de două secole. Are răbdarea celui de-al doilea, fără 
+    impulsivitatea primului, și o narativă ideologică suficient de coerentă 
+    încât să mobilizeze o populație de 1,4 miliarde de oameni. Vulnerabilitatea 
+    sa e rigiditatea — un sistem construit pe infailibilitatea liderului 
+    nu poate procesa eșecul fără să crape.
+  </p>
+
+  <p>
+    Trei profiluri diferite. Trei moduri diferite de a destabiliza ordinea globală. 
+    Toți trei activi simultan, în același moment istoric.
+  </p>
+
+  <h2>Singura necunoscută rămasă</h2>
+
+  <p>
+    Există o observație care transcende analiza politică și intră în teritoriul 
+    filozofiei morale. Când acești trei oameni s-au întâlnit — și s-au întâlnit, 
+    direct sau prin intermediari, de-a lungul ultimilor ani — problema care 
+    îi preocupa cu adevărat nu era Ucraina, nu era Iranul, nu era Taiwan. 
+    Era propria mortalitate. Cum să-și prelungească viețile. Aceasta rămăsese 
+    singura lor necunoscută. Restul — totul era la picioarele lor.
+  </p>
+
+  <p>
+    Trei oameni care controlează împreună arsenale nucleare, economii de zeci 
+    de trilioane de dolari, miliarde de destine umane — și singura problemă 
+    pe care puterea absolută nu o poate rezolva e propria dispariție. 
+    Primul, la 78 de ani, construiește un monument — „marea" națiunii sale 
+    ca formă de nemurire simbolică. Al doilea, la 71 de ani, simte cum 
+    timpul se scurtează și grăbește arhitectura pe care vrea să o lase în urmă. 
+    Al treilea e obsedat de legatul istoric, vrea să apuce el însuși 
+    momentul restaurării despre care a vorbit toată viața.
+  </p>
+
+  <blockquote>
+    Toți trei construiesc o piramidă. Nu pentru popoarele lor. 
+    Pentru propria eternitate. Și între timp, oamenii mor.
+  </blockquote>
+
+  <p>
+    În Iran, 1.444 de morți civili, printre care cel puțin 204 copii. 
+    Dar dincolo de numărul civilian, a avut loc ceva fără precedent în 
+    istoria modernă a războiului: decapitarea sistematică a întregii 
+    structuri de comandă a unui stat în mai puțin de trei săptămâni. 
+    În prima zi, 28 februarie, au fost uciși simultan Liderul Suprem 
+    Ali Khamenei, ministrul apărării, șeful Statului Major, comandantul 
+    IRGC și consilierul-cheie pentru politica nucleară. Pe 17 martie, 
+    au urmat secretarul Consiliului de Securitate Națională Ali Larijani 
+    și comandantul Basij. Ulterior, șeful poliției și purtătorul de cuvânt 
+    al IRGC. Zeci de comandanți de rang înalt în intervalul dintre aceste date.
+    Nu a murit un lider. A fost eliminat un întreg strat de stat. 
+    Ce a rămas, potrivit analiștilor de la Brookings, este „un IRGC 
+    mai dur și mai naționalist, cu o structură de comandă descentralizată." 
+    Cu alte cuvinte: mai greu de oprit, nu mai ușor.
+    În Ucraina, un război în al cincilea an. În Golf, 3.000 de nave 
+    blocate într-o mare transformată în parcare. Fertilizantele nu mai 
+    ajung la fermieri în emisfera nordică, tocmai când începe sezonul 
+    de plantare. Recesiunea se conturează pe trei continente simultan.
+  </p>
+
+  <p>
+    Acesta e prețul piramidelor. L-au plătit întotdeauna alții.
+  </p>
+
+  <div class="ornament">· · ·</div>
+
+  <h2>22 martie 2026 — o actualizare în timp real</h2>
+
+  <p>
+    Textul de față a început să fie scris pe 21 martie. A doua zi dimineață, 
+    realitatea a oferit un exemplu atât de precis pentru tezele sale, 
+    încât ar fi nesincer să nu îl consemnăm.
+  </p>
+
+  <p>
+    Vineri, liderul de la Washington declarase că SUA „iau în considerare 
+    reducerea operațiunilor militare" și că sunt „foarte aproape de obiective". 
+    Sâmbătă dimineață, același lider amenința că va „distruge complet" 
+    centralele electrice iraniene dacă Strâmtoarea Ormuz nu e redeschisă 
+    în 48 de ore. Iranul a răspuns că va lovi infrastructura din Golf 
+    dacă amenințarea e pusă în practică.
+  </p>
+
+  <p>
+    Între timp: Iran a lansat al 70-lea val de atacuri. Bahrain a interceptat, 
+    de la 28 februarie, 143 de rachete și 242 de drone. Arabia Saudită 
+    a doborât 47 de drone în trei ore. Marea Britanie a intrat formal 
+    în conflict permițând folosirea bazelor sale. Iranul a lovit 
+    Diego Garcia — o bază în Oceanul Indian, la mii de kilometri 
+    de granițele sale. Prețul petrolului a depășit 112 dolari. 
+    Prețul îngrășămintelor a explodat. Sezonul agricol de primăvară 
+    din emisfera nordică este în pericol.
+  </p>
+
+  <p>
+    Totul va deveni cumva. Dar nu va rezolva nimic. Conflictele nu se termină 
+    cu soluții — se termină cu epuizare, cu îngheț, cu un armistițiu care 
+    lasă toate cauzele intacte și pregătește terenul pentru următorul ciclu. 
+    Iranul va deveni cumva. Ucraina va deveni cumva. Structurile care le-au 
+    produs rămân neatinse.
+  </p>
+
+  <div class="ornament">· · ·</div>
+
+  <h2>Diagnosticul, nu predicția</h2>
+
+  <p>
+    Acest text nu este o predicție. Predicțiile despre sisteme complexe sunt, 
+    în cel mai bun caz, scenarii plauzibile. Lumea nu urmează scenarii. 
+    Urmează logici pe care le înțelegem abia retrospectiv, când e prea târziu 
+    pentru a interveni.
+  </p>
+
+  <p>
+    Ceea ce se poate face este un diagnostic. Iar diagnosticul este acesta: 
+    omenirea nu suferă de amnezie istorică, cum se spune adesea. Cunoaște 
+    istoria — o predă în școli, o comemorează în muzee, o citează în discursuri. 
+    Suferă de ceva mai grav: incapacitatea structurală de a transforma cunoașterea 
+    istorică în imunitate colectivă.
+  </p>
+
+  <p>
+    Anticorpii nu se formează din lectură. Se formează din experiență. 
+    Iar experiența catastrofei — singura care produce cu adevărat imunitate — 
+    moare odată cu generația care a trăit-o. Lăsând în urmă doar reprezentări. 
+    Și reprezentările, oricât de fidele, nu imunizează.
+  </p>
+
+  <p>
+    Acesta este cazul patologic al omenirii: un organism care cunoaște boala, 
+    îi știe simptomele, îi înțelege mecanismele — și se îmbolnăvește din nou, 
+    la fiecare generație, cu aceeași fidelitate clinică. Nu din ignoranță. 
+    Din incapacitatea biologică și instituțională de a transforma știința 
+    în anticorp.
+  </p>
+
+  <p>
+    Întrebarea care rămâne deschisă — și care merită să rămână deschisă, 
+    pentru că orice răspuns prematur e o altă formă de autoamăgire — 
+    este dacă există o cale de ieșire din acest ciclu. Dacă pot fi construite 
+    instituții cu adevărat rezistente la capturare. Dacă o educație care 
+    formează recunoașterea manipulării, nu acumularea de fapte, poate schimba 
+    ceva la scară demografică relevantă. Dacă transparența radicală produsă 
+    de tehnologie poate, în timp, să modifice relația dintre putere și cei 
+    care o acordă.
+  </p>
+
+  <p>
+    Poate. Dar în martie 2026, cu Teheranul sub bombardamente și Hormuzul blocat, 
+    răspunsul nu e vizibil. E vizibil doar simptomul. Din nou.
+  </p>
+
+</article>
+
+<footer class="article-footer">
+  <p>Andrei Burdușa · <a href="https://www.aequus.news" style="color: var(--warm); text-decoration: none;">Aequus</a> · 22 martie 2026</p>
+  <p>Eseu · Analiză de fond · Global</p>
+</footer>
+
+</body>
+</html>

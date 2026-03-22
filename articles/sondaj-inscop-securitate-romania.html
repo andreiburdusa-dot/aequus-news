@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ce spun românii despre securitate națională în ziua 22 a războiului din Iran. Analiză pe sondajul INSCOP Research pentru Strategic Thinking Group.">
+  <meta property="og:title" content="Românii despre război și securitate: corupția bate racheta">
+  <meta property="og:description" content="Un sondaj realizat în plină escaladare internațională arată cum vede societatea românească amenințările reale — și cele percepute.">
+  <meta property="og:type" content="article">
+  <title>Românii despre război și securitate: corupția bate racheta | Aequus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1610;
+      --paper: #f8f4ed;
+      --warm: #c8a96e;
+      --muted: #7a7268;
+      --rule: rgba(26,22,16,0.12);
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'DM Sans', sans-serif;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 19px;
+      line-height: 1.8;
+    }
+
+    nav {
+      border-bottom: 1px solid var(--rule);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-brand {
+      font-family: var(--sans);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .nav-section {
+      font-family: var(--sans);
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .article-header {
+      max-width: 740px;
+      margin: 80px auto 60px;
+      padding: 0 40px;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 48px;
+    }
+
+    .article-label {
+      font-family: var(--sans);
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--warm);
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+    }
+
+    h1 em {
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .article-meta {
+      font-family: var(--sans);
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      margin-top: 28px;
+    }
+
+    .article-intro {
+      font-size: 21px;
+      font-style: italic;
+      color: #3a3530;
+      line-height: 1.7;
+      margin-top: 32px;
+      padding-left: 20px;
+      border-left: 2px solid var(--warm);
+    }
+
+    .article-body {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 40px 80px;
+    }
+
+    .article-body p {
+      margin-bottom: 1.6em;
+    }
+
+    .article-body h2 {
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin: 2.4em 0 0.8em;
+      color: var(--ink);
+    }
+
+    blockquote {
+      margin: 2.4em 0;
+      padding: 24px 32px;
+      border-left: 3px solid var(--warm);
+      background: rgba(200,169,110,0.06);
+      font-style: italic;
+      font-size: 20px;
+      line-height: 1.7;
+      color: #3a3530;
+    }
+
+    /* DATE BARS */
+    .data-block {
+      margin: 2em 0;
+      border: 1px solid var(--rule);
+      padding: 24px 28px;
+      background: rgba(26,22,16,0.02);
+    }
+
+    .data-block h3 {
+      font-family: var(--sans);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--warm);
+      margin-bottom: 16px;
+    }
+
+    .data-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+      font-family: var(--sans);
+      font-size: 14px;
+    }
+
+    .data-label {
+      min-width: 220px;
+      color: var(--ink);
+      font-weight: 400;
+    }
+
+    .data-bar-wrap {
+      flex: 1;
+      height: 6px;
+      background: var(--rule);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .data-bar {
+      height: 100%;
+      background: var(--warm);
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+
+    .data-bar.dark {
+      background: var(--ink);
+      opacity: 0.5;
+    }
+
+    .data-value {
+      min-width: 48px;
+      text-align: right;
+      font-weight: 500;
+      color: var(--ink);
+      font-size: 13px;
+    }
+
+    .ornament {
+      text-align: center;
+      margin: 2.4em 0;
+      color: var(--warm);
+      font-size: 20px;
+      letter-spacing: 0.4em;
+    }
+
+    .article-footer {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 32px 40px 60px;
+      border-top: 1px solid var(--rule);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .article-footer p {
+      font-family: var(--sans);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .sursa {
+      font-family: var(--sans);
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 2em;
+      padding-top: 1em;
+      border-top: 1px solid var(--rule);
+    }
+
+    @media (max-width: 600px) {
+      nav, .article-header, .article-body, .article-footer {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      .article-header { margin-top: 48px; }
+      .data-label { min-width: 140px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="https://www.aequus.news" class="nav-brand">Aequus</a>
+  <span class="nav-section">Analiză · România</span>
+</nav>
+
+<header class="article-header">
+  <p class="article-label">Sondaj · Securitate națională</p>
+  <h1>Românii despre război:<br><em>corupția bate racheta</em></h1>
+  <p class="article-intro">
+    Un sondaj INSCOP realizat în plină escaladare internațională arată 
+    cum vede societatea românească amenințările reale — și cele percepute. 
+    Cifrele sunt revelatoare, uneori îngrijorătoare, uneori surprinzător de lucide.
+  </p>
+  <p class="article-meta">Andrei Burdușa · Aequus · 22 martie 2026 · Sursă: INSCOP Research pentru Strategic Thinking Group</p>
+</header>
+
+<article class="article-body">
+
+  <p>
+    Sondajul INSCOP Research pentru Strategic Thinking Group a fost realizat 
+    în două valuri — 23–27 februarie și 3–13 martie 2026 — pe câte 1.100 de persoane, 
+    prin interviuri telefonice. Primul val a început cu o zi înainte de declanșarea 
+    războiului din Iran. Al doilea s-a desfășurat în primele două săptămâni ale 
+    conflictului. Contextul contează: românii au răspuns în timp ce lumea se schimba 
+    sub ei.
+  </p>
+
+  <h2>Principalul pericol vine din interior</h2>
+
+  <p>
+    Prima și poate cea mai importantă concluzie: românii percep corupția ca 
+    principal pericol la adresa securității naționale — cu 35,3%, depășind 
+    cu mult dezinformarea (19,4%), instabilitatea economică (18,7%) și, 
+    surprinzător, atacul militar extern, care apare abia pe locul patru, cu 5,8%.
+  </p>
+
+  <div class="data-block">
+    <h3>Principalul pericol la adresa securității naționale</h3>
+    <div class="data-row">
+      <span class="data-label">Corupția</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:35.3%"></div></div>
+      <span class="data-value">35,3%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Dezinformare / manipulare</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:19.4%"></div></div>
+      <span class="data-value">19,4%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Instabilitate economică</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:18.7%"></div></div>
+      <span class="data-value">18,7%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Atac militar extern</span>
+      <div class="data-bar-wrap"><div class="data-bar dark" style="width:5.8%"></div></div>
+      <span class="data-value">5,8%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Influență politică străină</span>
+      <div class="data-bar-wrap"><div class="data-bar dark" style="width:5.3%"></div></div>
+      <span class="data-value">5,3%</span>
+    </div>
+  </div>
+
+  <p>
+    Această ierarhie spune ceva profund despre starea societății românești. 
+    Nu e că românii nu înțeleg pericolele externe — le înțeleg, și datele 
+    despre NATO și orientarea spre Vest o demonstrează. E că propriul stat, 
+    propriile instituții, propria clasă politică sunt percepute ca o amenințare 
+    mai imediată și mai concretă decât o rachetă rusească sau iraniană. 
+    E un diagnostic sever la adresa calității guvernării din ultimele decenii.
+  </p>
+
+  <h2>Vest ferm, Est respins</h2>
+
+  <p>
+    Pe dimensiunea de politică externă, cifrele sunt clare și consistente. 
+    76,8% se orientează spre Vest. 84,4% vor să rămână în NATO. 
+    Iar încrederea în Rusia a ajuns la 12,6% — practic la nivelul zgomotului statistic, 
+    mai jos decât Bulgaria sau Turcia.
+  </p>
+
+  <div class="data-block">
+    <h3>Încredere în state — selecție</h3>
+    <div class="data-row">
+      <span class="data-label">SUA</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:55.8%"></div></div>
+      <span class="data-value">55,8%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Marea Britanie</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:46.8%"></div></div>
+      <span class="data-value">46,8%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Franța</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:41.9%"></div></div>
+      <span class="data-value">41,9%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Ucraina</span>
+      <div class="data-bar-wrap"><div class="data-bar dark" style="width:16.8%"></div></div>
+      <span class="data-value">16,8%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Rusia</span>
+      <div class="data-bar-wrap"><div class="data-bar dark" style="width:12.6%"></div></div>
+      <span class="data-value">12,6%</span>
+    </div>
+  </div>
+
+  <p>
+    Notabil: încrederea în Ucraina e și ea scăzută — 16,8%, cu puțin peste Rusia. 
+    E un paradox aparent: românii vor să rămână în NATO, dar nu au încredere 
+    în vecinul pentru care NATO luptă. Explicația e probabil mai pragmatică 
+    decât ideologică — vecinătatea imediată cu un stat în război generează 
+    anxietate, nu solidaritate reflexă.
+  </p>
+
+  <h2>Paradoxul nuclear</h2>
+
+  <p>
+    Una dintre cele mai interesante tensiuni din sondaj apare la întrebările 
+    despre umbrela nucleară franceză. 39,3% sunt de acord cu extinderea umbrelei 
+    nucleare a Franței asupra României. Dar când întrebarea devine mai concretă — 
+    găzduirea efectivă de arme nucleare pe teritoriul României — 68,9% se opun.
+  </p>
+
+  <blockquote>
+    Românii vor protecție nucleară, dar nu vor să vadă bomba. 
+    E o poziție umană și înțeleaptă în același timp — și o vulnerabilitate 
+    strategică reală pentru o țară cu granița la un război activ.
+  </blockquote>
+
+  <p>
+    Această tensiune reflectă un pattern mai larg: societatea românească 
+    vrea securitate occidentală, dar fără costurile și riscurile vizibile 
+    care vin cu ea. E de înțeles psihologic. E problematic strategic, 
+    mai ales în contextul în care Trump a numit aliații NATO „lași" 
+    și pune sub semnul întrebării angajamentele Articolului 5.
+  </p>
+
+  <h2>Îngrijorarea crește în timp real</h2>
+
+  <p>
+    Poate cel mai semnificativ indicator din sondaj e evoluția în timp. 
+    Între primul val (23–27 februarie, cu o zi înainte de declanșarea 
+    războiului din Iran) și al doilea val (3–13 martie, în prima jumătate 
+    a conflictului), procentul celor „foarte îngrijorați" de posibilitatea 
+    implicării României într-un război a crescut de la 31% la 36,9%.
+  </p>
+
+  <div class="data-block">
+    <h3>Îngrijorare față de implicarea României într-un război</h3>
+    <div class="data-row">
+      <span class="data-label">Foarte îngrijorați — feb.</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:31%"></div></div>
+      <span class="data-value">31,0%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Foarte îngrijorați — mart.</span>
+      <div class="data-bar-wrap"><div class="data-bar" style="width:36.9%"></div></div>
+      <span class="data-value">36,9%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Total îngrijorați — feb.</span>
+      <div class="data-bar-wrap"><div class="data-bar dark" style="width:64.1%"></div></div>
+      <span class="data-value">64,1%</span>
+    </div>
+    <div class="data-row">
+      <span class="data-label">Total îngrijorați — mart.</span>
+      <div class="data-bar-wrap"><div class="data-bar dark" style="width:68%"></div></div>
+      <span class="data-value">68,0%</span>
+    </div>
+  </div>
+
+  <p>
+    Creșterea e de aproape 4 puncte procentuale în mai puțin de trei săptămâni. 
+    Oamenii nu urmăresc pasiv știrile — le procesează și le integrează 
+    în percepția propriului risc. Societatea românească simte că lumea 
+    s-a schimbat. Și nu greșește.
+  </p>
+
+  <h2>Ce spun cifrele în ansamblu</h2>
+
+  <p>
+    Puse împreună, datele din acest sondaj conturează un portret complex 
+    al societății românești în fața unui moment istoric. Există o luciditate 
+    remarcabilă în unele privințe: înțelegerea că principala amenințare 
+    vine din interior, prin corupție și manipulare; ancorarea fermă 
+    în structurile occidentale; respingerea aproape totală a Rusiei.
+  </p>
+
+  <p>
+    Există și zone de vulnerabilitate: 22,2% vor ieșirea din UE 
+    — în contradicție cu cei 84,4% care vor să rămână în NATO, 
+    deși cele două structuri sunt, strategic, inseparabile pentru România. 
+    Această incoerență nu e stupiditate — e efectul dezinformării 
+    și al manipulării eurosceptice, documentat și în sondaj 
+    la 19,4% ca amenințare percepută.
+  </p>
+
+  <p>
+    Iar îngrijorarea crescândă față de război nu e panică — e realism. 
+    68% dintre români simt că riscul e real. În ziua 22 a unui război 
+    care a blocat Strâmtoarea Ormuz, a extins conflictul până în Oceanul Indian 
+    și amenință să destabilizeze aprovizionarea cu energie a întregii Europe, 
+    această îngrijorare nu e irațională. E, din nefericire, proporțională 
+    cu realitatea.
+  </p>
+
+  <p class="sursa">
+    Sursă date: INSCOP Research pentru Strategic Thinking Group, 
+    două valuri de cercetare, 23–27 februarie și 3–13 martie 2026, 
+    câte 1.100 de persoane per val, interviuri telefonice cu chestionar standardizat.
+  </p>
+
+</article>
+
+<footer class="article-footer">
+  <p>Andrei Burdușa · <a href="https://www.aequus.news" style="color: var(--warm); text-decoration: none;">Aequus</a> · 22 martie 2026</p>
+  <p>Analiză · România · Securitate națională</p>
+</footer>
+
+</body>
+</html>
