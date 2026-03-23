@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>„Negocierile". Sau cum trei dezaxați ne conduc viețile — Aequus</title>
+  <meta name="description" content="Trump a inventat negocieri, bursa a câștigat 2 trilioane, Iranul a negat, bursa a pierdut 1 trilion. Totul în câteva ore. Și undeva, în Golful Persic, navele așteaptă să afle dacă mai pot trece sau nu.">
+  <meta property="og:title" content="„Negocierile". Sau cum trei dezaxați ne conduc viețile.">
+  <meta property="og:description" content="Trump a inventat negocieri, bursa a câștigat 2 trilioane, Iranul a negat, bursa a pierdut 1 trilion. Totul în câteva ore.">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --rule: #e0e0e0;
+      --accent: #c41e3a;
+      --bg: #fafaf8;
+      --nav-bg: #1a1a1a;
+    }
+
+    body {
+      font-family: 'Source Serif 4', serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    nav {
+      background: var(--nav-bg);
+      padding: 0 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .nav-logo {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-logo span { color: var(--accent); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: #aaaaaa;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: #ffffff; }
+
+    .article-hero {
+      background: var(--nav-bg);
+      padding: 4rem 2rem 3rem;
+      border-bottom: 1px solid #333;
+    }
+
+    .article-hero-inner {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .article-category {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .article-category::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--accent);
+    }
+
+    .article-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+    }
+
+    .article-subtitle {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1.15rem;
+      color: #aaaaaa;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .article-author {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+    .article-date, .article-reading {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: #888888;
+    }
+
+    .article-body {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 5rem;
+    }
+
+    .context-box {
+      background: #fff8f0;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 4px 4px 0;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 3rem;
+    }
+
+    .context-box-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.8rem;
+    }
+
+    .context-box p {
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.65;
+      margin-bottom: 0.5rem;
+    }
+
+    .context-box p:last-child { margin-bottom: 0; }
+    .context-box strong { color: var(--ink); }
+
+    .article-body p {
+      font-size: 1.08rem;
+      line-height: 1.85;
+      color: var(--ink);
+      margin-bottom: 1.6rem;
+    }
+
+    .article-body h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 3rem 0 1.2rem;
+      line-height: 1.3;
+    }
+
+    .pull-quote {
+      border-top: 3px solid var(--accent);
+      border-bottom: 1px solid var(--rule);
+      padding: 1.8rem 0;
+      margin: 2.5rem 0;
+    }
+
+    .pull-quote p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem !important;
+      font-style: italic;
+      line-height: 1.5 !important;
+      color: var(--ink) !important;
+      margin-bottom: 0 !important;
+    }
+
+    .perspective-box {
+      background: #f5f5f5;
+      border-left: 4px solid #888;
+      border-radius: 0 4px 4px 0;
+      padding: 1.5rem 1.8rem;
+      margin: 2.5rem 0;
+    }
+
+    .perspective-box-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #666;
+      margin-bottom: 0.8rem;
+    }
+
+    .perspective-box p {
+      font-size: 0.98rem;
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
+    .perspective-box p:last-child { margin-bottom: 0; }
+
+    .section-rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    .article-signature {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .signature-name {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 0.2rem;
+    }
+
+    .signature-note {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    footer {
+      background: var(--nav-bg);
+      color: #888;
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      border-top: 2px solid var(--accent);
+    }
+
+    footer a { color: #aaa; text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .article-hero { padding: 2.5rem 1.2rem 2rem; }
+      .article-body { padding: 2rem 1.2rem 3rem; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">aequus<span>.</span>news</a>
+    <ul class="nav-links">
+      <li><a href="global.html">Global</a></li>
+      <li><a href="romania.html">România</a></li>
+      <li><a href="iran.html">Iran</a></li>
+      <li><a href="articles/index.html">Toate articolele</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="article-hero">
+  <div class="article-hero-inner">
+    <div class="article-category">Iran · Analiză</div>
+    <h1 class="article-title">„Negocierile". Sau cum trei dezaxați ne conduc viețile.</h1>
+    <p class="article-subtitle">Trump a inventat negocieri, bursa a câștigat 2 trilioane, Iranul a negat, bursa a pierdut 1 trilion. Totul în câteva ore. Și undeva, în Golful Persic, navele așteaptă să afle dacă mai pot trece sau nu.</p>
+    <div class="article-meta">
+      <span class="article-author">Andrei Constantin Burdușa</span>
+      <span class="article-date">23 martie 2026</span>
+      <span class="article-reading">8 min lectură</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <div class="context-box">
+    <div class="context-box-label">Situația la această oră — 23 martie 2026</div>
+    <p><strong>Negocierile:</strong> Trump a anunțat convorbiri „foarte, foarte puternice" cu Iranul. Iranul a negat orice contact direct. Singurele discuții confirmate — prin intermediari: Turcia, Egipt, Pakistan.</p>
+    <p><strong>Bursa:</strong> +2 trilioane de dolari după declarațiile lui Trump. -1 trilion după negarea iraniană. Totul în câteva ore.</p>
+    <p><strong>Ultimatumul:</strong> Termenul de 48 de ore în care Trump amenința că va bombarda centralele electrice iraniene a expirat. Fără nicio acțiune.</p>
+    <p><strong>Ormuz:</strong> Iranul anunță că orice navă care vrea să treacă trebuie să ceară permisiunea Teheranului. Se pregătesc mine marine moderne, inclusiv plutitoare.</p>
+    <p><strong>Prețul petrolului:</strong> Brent peste 113 dolari/baril.</p>
+  </div>
+
+  <p>Există zile în care știrile nu mai seamănă cu știri. Seamănă cu un scenariu scris prost, de cineva care a văzut prea multe filme despre război și prea puține despre consecințe. Luni, 23 martie 2026, a fost una dintre acele zile.</p>
+
+  <p>Dimineața, lumea s-a trezit cu o veste bună. Axios scria că SUA și Iranul pregătesc o întâlnire la Islamabad, chiar săptămâna asta. Delegația iraniană ar urma să fie condusă de președintele parlamentului, Mohammad-Bagher Ghalibaf. Americanii vor fi reprezentați de Witkoff și Kushner — aceiași care au negociat, cu rezultate discutabile, și în Ucraina. Trump a confirmat. A vorbit despre convorbiri telefonice „foarte, foarte puternice" care „au mers perfect". A spus că Iranul „vrea foarte mult să facă un acord". A lansat cel mai optimist mesaj din săptămâni: <em>„America și întreaga lume vor deveni în curând mult mai sigure."</em></p>
+
+  <p>Bursa americană a crescut cu 2 trilioane de dolari în câteva minute.</p>
+
+  <p>Două trilioane. În câteva minute. Pe baza unor declarații ale unui om care, după cum vom vedea imediat, tocmai mințea.</p>
+
+  <h2>Israelul a zis TACO.</h2>
+
+  <p>Înainte să ajungem la Iran, o paranteză israeliană. Publicația Ynet a parafrazat un acronim care circulă deja în presa internațională: TACO. Trump Always Chickens Out. Trump mereu dă bir cu fugiții. O sursă israeliană a dezvăluit că SUA ar fi stabilit 9 aprilie ca termen de încheiere a războiului. Motivul? <em>„Asta îi va permite lui Trump să ajungă în Israel de Ziua Independenței pentru a primi Premiul Israelului."</em></p>
+
+  <p>Nu e satiră. E o sursă israeliană care vorbește cu jurnaliști israelieni despre cum se decide soarta unui război.</p>
+
+  <h2>Iranul a spus: fake news.</h2>
+
+  <p>Ministerul iranian de Externe a negat categoric orice negocieri directe cu SUA. Președintele parlamentului iranian — același Ghalibaf pe care Trump îl numise ca participant la întâlnirea de la Islamabad — a declarat că informațiile sunt „fake news", menite să manipuleze piețele financiare.</p>
+
+  <p>Bursa a pierdut 1 trilion de dolari imediat după negare.</p>
+
+  <div class="pull-quote">
+    <p>Un trilion dus, un trilion întors. Pe baza unor declarații contradictorii ale unor oameni care nu se pot pune de acord nici măcar dacă au vorbit la telefon.</p>
+  </div>
+
+  <p>Iranul a mers mai departe. Agenția oficială de știri a anunțat că orice navă care vrea să traverseze Strâmtoarea Ormuz trebuie să obțină în prealabil permisiunea Teheranului. Și, pentru orice eventualitate, a precizat că se pregătesc mine marine moderne, inclusiv plutitoare, lansate de la țărm. <em>„Golful Persic va deveni o zonă închisă pentru o perioadă lungă de timp"</em>, spune Iranul.</p>
+
+  <h2>Trump la aeroport, cu scuze.</h2>
+
+  <p>Seara, Trump a stat în fața camerelor la aeroport și a încercat să explice. Iran l-a contrazis public. Jurnaliștii l-au întrebat. Răspunsul: <em>„Va trebui să-și ia niște oameni mai buni de relații publice."</em></p>
+
+  <p>Poate că Trump nu a înțeles că alte guverne, uneori, spun adevărul.</p>
+
+  <p>Ultimatumul de 48 de ore — în care amenința că va bombarda centralele electrice iraniene dacă Hormuzul nu se redeschide — a expirat fără nicio acțiune. TACO confirmat. Negocierile, dacă au existat, s-au purtat exclusiv prin intermediari — Turcia, Egipt, Pakistan. Niciun contact direct. Niciun acord. Nicio pace.</p>
+
+  <h2>Există și o altă perspectivă. Serioasă.</h2>
+
+  <p>Până aici, tabloul e clar — un război fără arhitect responsabil, condus prin comunicate de presă și conferințe la aeroport.</p>
+
+  <p>Dar există o voce care merită ascultată, chiar dacă vine dintr-o perspectivă declarat pro-israeliană. Analistul Petre M. Iancu avertizează că pericolul real nu e continuarea războiului, ci oprirea lui prematură.</p>
+
+  <div class="perspective-box">
+    <div class="perspective-box-label">Perspectiva lui Petre M. Iancu</div>
+    <p>Trump, prin instinctele lui de a ceda presiunilor interne și externe — sino-ruso-franco-europene — ar putea încheia un armistițiu care lasă în urmă un regim islamic neînfrânt, cu ambiții nucleare intacte și capacitate balistică păstrată. Un Iran care iese din acest război fără să fi pierdut esențialul ar fi mai periculos decât înainte — și ar trimite lumii islamice un mesaj clar: America și Israelul pot fi uzate până cedează. Ar fi, spune Iancu, reîntoarcerea la politica lașă a unor Obama și Biden, dar cu un preț mult mai mare.</p>
+  </div>
+
+  <p>E un argument care nu poate fi ignorat, chiar dacă vine cu o anumită încărcătură ideologică. Istoria confirmă că războaiele oprite la jumătate lasă răni mai adânci decât cele terminate. Întrebarea pe care Iancu o ridică implicit e una incomodă: există condiții în care prelungirea unui război e mai puțin rea decât o pace proastă?</p>
+
+  <h2>Dezaxații și noi.</h2>
+
+  <p>Răspunsul onest e că nu știm. Și asta e în sine o problemă.</p>
+
+  <p>Nu știm pentru că cei trei actori principali ai acestei piese nu comunică, nu negociază cu adevărat și nu au o strategie de ieșire credibilă.</p>
+
+  <p>Trump, care inventează negocieri ca să mute piețele și să-și salveze imaginea după ce ultimatumul i-a expirat nefolosit. Un om care gestionează un război prin comunicate de presă, care confundă relațiile internaționale cu un reality show și care oscilează între amenințări apocaliptice și retractări rușinoase în interval de ore.</p>
+
+  <p>Khamenei — cel rămas, fiul celui ucis — care conduce un stat epuizat, cu orașe bombardate și lideri decimați, dar care refuză orice negociere directă de teamă că imaginea de rezistență se va prăbuși. Un regim care preferă să ardă decât să negocieze față în față.</p>
+
+  <p>Netanyahu, care urmărește totul din Tel Aviv și calculează cum poate primi un premiu israelian pe 9 aprilie, în timp ce Libanul arde și sistemele de apărare sunt tot mai solicitate.</p>
+
+  <div class="pull-quote">
+    <p>Între ei — noi. Piețele care fluctuează cu trilioane pe baza unor minciuni. Navele care așteaptă la intrarea în Ormuz. Prețul benzinei care crește. Un război care nu are nici arhitect responsabil, nici plan de ieșire, nici negocieri reale.</p>
+  </div>
+
+  <p>Poate că Iancu are dreptate că o pace proastă e mai rea decât continuarea. Poate că noi avem dreptate că prelungirea nu folosește nimănui. Adevărul e că ambele poziții sunt valabile — și că tocmai de aceea situația e atât de periculoasă.</p>
+
+  <p>Trăim vremuri cel puțin interesante. Dar nu știu dacă vreau să știu rezultatul.</p>
+
+  <hr class="section-rule">
+
+  <div class="article-signature">
+    <div class="signature-name">Andrei Constantin Burdușa</div>
+    <div class="signature-note">Acest articol a fost gândit, structurat și asumat de autor. A fost redactat în colaborare cu Claude, asistentul AI dezvoltat de Anthropic.</div>
+  </div>
+
+</article>
+
+<footer>
+  <p><a href="index.html">aequus.news</a> · analiză și context · 23 martie 2026</p>
+</footer>
+
+</body>
+</html>
