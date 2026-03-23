@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Războiul pe care nimeni nu îl poate câștiga. Nici măcar cel care l-a început — Aequus</title>
+  <meta name="description" content="Putin a vrut să oprească extinderea NATO. A produs-o. A vrut să demonstreze puterea militară rusă. A expus-o. Trei ani mai târziu, Rusia pierde tot ce nu și-a permis să piardă.">
+  <meta property="og:title" content="Războiul pe care nimeni nu îl poate câștiga. Nici măcar cel care l-a început">
+  <meta property="og:description" content="Putin a vrut să oprească extinderea NATO. A produs-o. A vrut să demonstreze puterea militară rusă. A expus-o. Trei ani mai târziu, Rusia pierde tot ce nu și-a permis să piardă.">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --rule: #e0e0e0;
+      --accent: #c41e3a;
+      --bg: #fafaf8;
+      --card: #ffffff;
+      --nav-bg: #1a1a1a;
+    }
+
+    body {
+      font-family: 'Source Serif 4', serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    /* NAV */
+    nav {
+      background: var(--nav-bg);
+      padding: 0 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .nav-logo {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-logo span { color: var(--accent); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: #aaaaaa;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: #ffffff; }
+
+    /* HERO ARTICOL */
+    .article-hero {
+      background: var(--nav-bg);
+      padding: 4rem 2rem 3rem;
+      border-bottom: 1px solid #333;
+    }
+
+    .article-hero-inner {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .article-category {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .article-category::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--accent);
+    }
+
+    .article-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+    }
+
+    .article-subtitle {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1.15rem;
+      color: #aaaaaa;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .article-author {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+    .article-date {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: #888888;
+    }
+
+    .article-reading {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: #888888;
+    }
+
+    /* CONTENT */
+    .article-body {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 5rem;
+    }
+
+    /* CONTEXT BOX */
+    .context-box {
+      background: #fff8f0;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 4px 4px 0;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 3rem;
+    }
+
+    .context-box-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.8rem;
+    }
+
+    .context-box p {
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.65;
+      margin-bottom: 0.5rem;
+    }
+
+    .context-box p:last-child { margin-bottom: 0; }
+
+    .context-box strong { color: var(--ink); }
+
+    /* PARAGRAPHS */
+    .article-body p {
+      font-size: 1.08rem;
+      line-height: 1.85;
+      color: var(--ink);
+      margin-bottom: 1.6rem;
+    }
+
+    .article-body h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 3rem 0 1.2rem;
+      line-height: 1.3;
+    }
+
+    /* PULL QUOTE */
+    .pull-quote {
+      border-top: 3px solid var(--accent);
+      border-bottom: 1px solid var(--rule);
+      padding: 1.8rem 0;
+      margin: 2.5rem 0;
+    }
+
+    .pull-quote p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem !important;
+      font-style: italic;
+      line-height: 1.5 !important;
+      color: var(--ink) !important;
+      margin-bottom: 0 !important;
+    }
+
+    /* SEPARTOR */
+    .section-rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* SIGNATURE */
+    .article-signature {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .signature-name {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 0.2rem;
+    }
+
+    .signature-note {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--nav-bg);
+      color: #888;
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      border-top: 2px solid var(--accent);
+    }
+
+    footer a { color: #aaa; text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .article-hero { padding: 2.5rem 1.2rem 2rem; }
+      .article-body { padding: 2rem 1.2rem 3rem; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">aequus<span>.</span>news</a>
+    <ul class="nav-links">
+      <li><a href="global.html">Global</a></li>
+      <li><a href="romania.html">România</a></li>
+      <li><a href="iran.html">Iran</a></li>
+      <li><a href="articles/index.html">Toate articolele</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="article-hero">
+  <div class="article-hero-inner">
+    <div class="article-category">Global · Analiză</div>
+    <h1 class="article-title">Războiul pe care nimeni nu îl poate câștiga.<br>Nici măcar cel care l-a început.</h1>
+    <p class="article-subtitle">Putin a vrut să oprească extinderea NATO. A produs-o. A vrut să demonstreze puterea militară rusă. A expus-o. Trei ani mai târziu, Rusia pierde tot ce nu și-a permis să piardă.</p>
+    <div class="article-meta">
+      <span class="article-author">Andrei Constantin Burdușa</span>
+      <span class="article-date">23 martie 2026</span>
+      <span class="article-reading">7 min lectură</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <!-- CONTEXT BOX -->
+  <div class="context-box">
+    <div class="context-box-label">Situația la această oră — 23 martie 2026</div>
+    <p><strong>Frontul ucrainean:</strong> Rusia și-a declanșat ofensiva de primăvară în estul Ucrainei. Peste 200 de confruntări de luptă pe zi, pierderi rusești de peste 1.000 de soldați zilnic. Tancurile nu mai pot străpunge — trupele ruse au trecut la infiltrare în grupuri mici. ISW confirmă că ofensiva s-a împotmolit înainte să înceapă cu adevărat.</p>
+    <p><strong>Noaptea de 22-23 martie:</strong> Ucraina a lovit cu drone portul petrolier Primorsk din regiunea Leningrad — unul dintre cele mai mari terminale de export ale Rusiei la Marea Baltică, cu o capacitate de 75 de milioane de tone pe an. Incendii confirmate de guvernatorul rus al regiunii.</p>
+    <p><strong>Context energetic global:</strong> Criza din Orientul Mijlociu a scos din circuitul mondial 11 milioane de barili de petrol pe zi. Brent a depășit 110 dolari/baril. AIE avertizează că impactul este fără precedent — mai grav decât șocurile petroliere din anii '70 cumulate.</p>
+    <p><strong>Putin:</strong> Peste 160 de zile fără imagini verificabile din birourile sale. Internetul mobil tăiat prin lege în Moscova și Sankt Petersburg. Surse interne vorbesc despre frica Kremlinului de o lovitură de stat.</p>
+  </div>
+
+  <p>Există o întrebare pe care puțini și-o pun cu adevărat despre războiul din Ucraina: ce a vrut Putin să obțină? Nu în termeni morali — acolo răspunsul e simplu și condamnabil. Ci în termeni strategici. Care a fost logica?</p>
+
+  <p>Răspunsul e la fel de simplu și la fel de devastator: o operațiune de 72 de ore. Nu un război. Putin credea că Ucraina se prăbușește la prima lovitură, că Zelenski fuge, că un guvern pro-rus se instalează la Kiev și că Occidentul înghite faptul împlinit — așa cum înghițise Crimeea în 2014 fără consecințe majore. Voia să împiedice extinderea NATO spre est, să demonstreze că Rusia e puterea dominantă în spațiul post-sovietic și să rescrie ordinea de securitate europeană în termenii lui.</p>
+
+  <div class="pull-quote">
+    <p>A obținut exact inversul pe toate fronturile. Fără excepție.</p>
+  </div>
+
+  <h2>Ce a pierdut Putin strategic</h2>
+
+  <p>NATO s-a extins cu Finlanda și Suedia. Granița NATO cu Rusia s-a dublat — exact coșmarul pe care voia să îl prevină. Europa s-a reînarmat la un nivel nevăzut de la sfârșitul Războiului Rece. Ucraina a primit mai mult armament occidental decât orice altă țară din istorie într-un interval atât de scurt. Rusia a fost izolată economic, tehnologic și diplomatic — dependentă acum de China într-un mod care o transformă din partener în vasal.</p>
+
+  <p>Și pe câmpul de luptă, mitul armatei ruse a murit în noroi.</p>
+
+  <h2>Armata care părea invincibilă</h2>
+
+  <p>Înainte de 24 februarie 2022, Rusia era percepută ca a doua forță militară a lumii. Azi e o armată care și-a redus pregătirea soldaților de la o lună la o săptămână pentru că nu mai are oameni, care împinge trupe în asalturi frontale cu ofițeri în spate gata să împuște dezertorii, care a pierdut mii de tancuri și sute de mii de oameni pentru câțiva kilometri de teritoriu ucrainean.</p>
+
+  <p>Ofensiva de primăvară din 2026 confirmă tabloul. Peste 200 de confruntări de luptă pe zi pe frontul din Donețk, pierderi de peste 1.000 de soldați pe zi — și totuși nicio străpungere semnificativă. Forțele ruse au abandonat asalturile cu blindate după pierderile masive de tancuri și au trecut la infiltrare în grupuri mici, o tactică disperată care nu schimbă fundamental ecuația militară. ISW descrie unitățile ruse angajate în luptă drept epuizate, slab instruite și suprasolicitate. Prestigiul militar rus — construit în decenii — s-a evaporat în trei ani de război.</p>
+
+  <p>Iar Ucraina răspunde lovind acolo unde doare cel mai tare: infrastructura energetică. În noaptea de 22-23 martie, dronele ucrainene au lovit portul petrolier Primorsk din regiunea Leningrad, unul dintre cele mai mari terminale de export rusești la Marea Baltică. Incendii confirmate, rezervoare avariate. Rusia câștigă din petrolul scump generat de criza din Orientul Mijlociu — și pierde infrastructura prin care îl exportă.</p>
+
+  <h2>Un lider care nu se mai știe unde este</h2>
+
+  <p>Tabloul lui Putin personal e la fel de revelator. Peste 160 de zile fără nicio fotografie sau înregistrare video verificabilă din vreunul din cele trei birouri identice în care se ascunde — la Moscova, Soci sau Valdai. O lege promulgată în februarie 2026 dă FSB-ului puterea să taie internetul mobil fără nicio aprobare guvernamentală sau prezidențială. Moscova și Sankt Petersburg au trecut prin două săptămâni de întreruperi aproape totale ale comunicațiilor — locuitorii au recurs la pagere, stații radio și hărți pe hârtie. Vânzările de pagere au crescut cu 73%.</p>
+
+  <p>Surse din interiorul sistemului vorbesc deschis despre frica unui Kremlin care se teme de o lovitură de stat din interior. Uciderea sau capturarea lui Saddam Hussein, Gaddafi, Maduro și Khamenei în ultimii ani a transformat paranoia lui Putin dintr-o trăsătură de caracter într-o strategie de supraviețuire.</p>
+
+  <p>Acesta nu e tabloul unui om care câștigă. E tabloul unui om care a pierdut controlul asupra consecințelor propriilor decizii.</p>
+
+  <h2>Iluzia că timpul lucrează pentru Rusia</h2>
+
+  <p>Există o iluzie pe care o întreține propaganda rusă și pe care o acceptă, din comoditate intelectuală, și o parte a comentariului occidental: că Putin câștigă din prelungire. Că timpul lucrează pentru el. Că petrolul scump și oboseala occidentală îi avantajează calculele.</p>
+
+  <p>E o iluzie. Petrolul scump nu compensează izolarea tehnologică, emigrarea masivă a clasei educate și pierderile demografice ireversibile. Oboseala occidentală nu recuperează prestigiul militar distrus. Și niciun câștig teritorial în Donbas nu șterge faptul că NATO e acum la granița lui în moduri pe care nu le-ar fi acceptat niciodată dacă nu ar fi pornit acest război.</p>
+
+  <div class="pull-quote">
+    <p>Putin a vrut să oprească extinderea NATO. A produs-o. A vrut să demonstreze puterea militară rusă. A expus-o. A vrut să slăbească coeziunea occidentală. A consolidat-o. A vrut să mențină Ucraina în sfera de influență rusă. A transformat-o în cel mai motivat stat anti-rus din Europa.</p>
+  </div>
+
+  <h2>Concluzia pe care nimeni nu vrea să o spună</h2>
+
+  <p>Prelungirea războiului nu folosește nimănui. Nici Ucrainei, care plătește prețul cel mai greu în oameni și infrastructură. Nici Europei, care suportă costurile economice și de securitate. Nici Rusiei, care se sângerează demografic și economic în fiecare zi în care continuă. Și nici lui Putin — pentru că fiecare zi în plus adâncește pierderile fără să schimbe fundamental ecuația militară.</p>
+
+  <p>Nu există un scenariu în care Rusia iese din acest război cu mai mult decât a intrat. Există doar varianta în care iese mai devreme sau mai târziu — cu aceleași pierderi strategice, dar cu mai mulți sau mai puțini morți în urmă.</p>
+
+  <p>Războiul acesta nu are câștigători. Dar inițiatorul lui e cel care a pierdut cel mai mult — și cel care continuă să piardă cu fiecare zi în care alege să îl prelungească. Un război pornit să demonstreze puterea Rusiei a demonstrat exact contrariul. Și asta nu se mai poate întoarce.</p>
+
+  <hr class="section-rule">
+
+  <div class="article-signature">
+    <div class="signature-name">Andrei Constantin Burdușa</div>
+    <div class="signature-note">Acest articol a fost gândit, structurat și asumat de autor. A fost redactat în colaborare cu Claude, asistentul AI dezvoltat de Anthropic.</div>
+  </div>
+
+</article>
+
+<footer>
+  <p><a href="index.html">aequus.news</a> · analiză și context · 23 martie 2026</p>
+</footer>
+
+</body>
+</html>
