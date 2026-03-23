@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinul din coastele Europei. Și cine îl răsucește — Aequus</title>
+  <meta name="description" content="Orbán nu e un excentric cu nostalgie pentru Est. E un instrument conștient al Kremlinului, instalat în inima UE. Pe 12 aprilie, ungurii au șansa să îl scoată.">
+  <meta property="og:title" content="Spinul din coastele Europei. Și cine îl răsucește.">
+  <meta property="og:description" content="Orbán nu e un politician cu simpatii pro-ruse. E un instrument activ al Kremlinului. Diferența contează enorm — pentru că instrumentele nu se negociază. Se dezactivează.">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --rule: #e0e0e0;
+      --accent: #c41e3a;
+      --bg: #fafaf8;
+      --nav-bg: #1a1a1a;
+    }
+
+    body {
+      font-family: 'Source Serif 4', serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    nav {
+      background: var(--nav-bg);
+      padding: 0 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .nav-logo {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-logo span { color: var(--accent); }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: #aaaaaa;
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: #ffffff; }
+
+    .article-hero {
+      background: var(--nav-bg);
+      padding: 4rem 2rem 3rem;
+      border-bottom: 1px solid #333;
+    }
+
+    .article-hero-inner {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .article-category {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .article-category::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      background: var(--accent);
+    }
+
+    .article-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+    }
+
+    .article-subtitle {
+      font-family: 'Source Serif 4', serif;
+      font-size: 1.15rem;
+      color: #aaaaaa;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .article-author {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+    .article-date, .article-reading {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: #888888;
+    }
+
+    .article-body {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 5rem;
+    }
+
+    .context-box {
+      background: #fff8f0;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 4px 4px 0;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 3rem;
+    }
+
+    .context-box-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.8rem;
+    }
+
+    .context-box p {
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.65;
+      margin-bottom: 0.5rem;
+    }
+
+    .context-box p:last-child { margin-bottom: 0; }
+    .context-box strong { color: var(--ink); }
+
+    .article-body p {
+      font-size: 1.08rem;
+      line-height: 1.85;
+      color: var(--ink);
+      margin-bottom: 1.6rem;
+    }
+
+    .article-body h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 3rem 0 1.2rem;
+      line-height: 1.3;
+    }
+
+    .pull-quote {
+      border-top: 3px solid var(--accent);
+      border-bottom: 1px solid var(--rule);
+      padding: 1.8rem 0;
+      margin: 2.5rem 0;
+    }
+
+    .pull-quote p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem !important;
+      font-style: italic;
+      line-height: 1.5 !important;
+      color: var(--ink) !important;
+      margin-bottom: 0 !important;
+    }
+
+    .section-rule {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    .article-signature {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .signature-name {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 0.2rem;
+    }
+
+    .signature-note {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    footer {
+      background: var(--nav-bg);
+      color: #888;
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      border-top: 2px solid var(--accent);
+    }
+
+    footer a { color: #aaa; text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .article-hero { padding: 2.5rem 1.2rem 2rem; }
+      .article-body { padding: 2rem 1.2rem 3rem; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">aequus<span>.</span>news</a>
+    <ul class="nav-links">
+      <li><a href="global.html">Global</a></li>
+      <li><a href="romania.html">România</a></li>
+      <li><a href="ue.html">UE</a></li>
+      <li><a href="iran.html">Iran</a></li>
+      <li><a href="articles/index.html">Toate articolele</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="article-hero">
+  <div class="article-hero-inner">
+    <div class="article-category">UE · Analiză</div>
+    <h1 class="article-title">Spinul din coastele Europei.<br>Și cine îl răsucește.</h1>
+    <p class="article-subtitle">Orbán nu e un politician cu simpatii pro-ruse. E un instrument activ al Kremlinului, instalat în inima UE. Diferența contează enorm — pentru că instrumentele nu se negociază. Se dezactivează.</p>
+    <div class="article-meta">
+      <span class="article-author">Andrei Constantin Burdușa</span>
+      <span class="article-date">23 martie 2026</span>
+      <span class="article-reading">9 min lectură</span>
+    </div>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <div class="context-box">
+    <div class="context-box-label">Context — 23 martie 2026</div>
+    <p><strong>Washington Post</strong> a dezvăluit că ministrul ungar de externe Peter Szijjártó îl suna regulat pe Serghei Lavrov în pauzele reuniunilor UE pentru a-i oferi rapoarte directe despre cele discutate.</p>
+    <p><strong>Reacția UE:</strong> Comisia Europeană a cerut clarificări. Germania a numit acuzațiile „foarte grave". UE a migrat deja spre formate mai mici de discuție — E3, E4, E7 — tocmai pentru a exclude Ungaria din conversațiile sensibile.</p>
+    <p><strong>Ungaria blochează</strong> de luni de zile împrumutul de 90 de miliarde de euro pentru Ucraina, amenințând cu falimentul de stat al Kievului dacă ajutorul nu vine până pe 1 aprilie.</p>
+    <p><strong>12 aprilie:</strong> Alegeri în Ungaria. Prima dată în 15 ani când opoziția s-a unit serios. Orbán e în urmă în sondaje.</p>
+  </div>
+
+  <p>Există o diferență fundamentală între un politician cu simpatii pro-ruse și un instrument activ al Kremlinului. Europa a tratat multă vreme cazul Orbán ca pe primul. A negociat, a cedat, a plătit. A fost, din comoditate intelectuală sau din lașitate instituțională, o eroare cu consecințe uriașe.</p>
+
+  <p>Ceea ce Washington Post a confirmat public săptămâna aceasta nu e o revelație pentru serviciile de informații europene. E o confirmare publică a ce știa toată lumea în privat: ministrul ungar de externe Peter Szijjártó suna regulat pe Serghei Lavrov în pauzele reuniunilor UE pentru a-i oferi rapoarte directe despre cele discutate și pentru a sugera posibile acțiuni. Nu e o scurgere accidentală. E un sistem. Un sistem care a funcționat ani de zile în inima celui mai important organism decizional european.</p>
+
+  <div class="pull-quote">
+    <p>Orbán nu e un excentric cu nostalgie pentru Est. E un instrument conștient, remunerat politic și energetic, pe care Putin îl folosește pentru a bloca, diviza și scurge informații din Consiliul European.</p>
+  </div>
+
+  <h2>Cum a funcționat sistemul</h2>
+
+  <p>Mecanismul e elegant în simplitatea lui. Ungaria primește gaz ieftin, investiții rusești și acoperire diplomatică. În schimb, Orbán blochează sancțiuni, amână ajutoare pentru Ucraina, torpilează decizii comune și, prin Szijjártó, livrează Moscovei informații despre pozițiile private ale liderilor europeni înainte ca acestea să devină publice.</p>
+
+  <p>Efectele sunt cuantificabile. Împrumutul de 90 de miliarde de euro pentru Ucraina — blocat de luni de zile, cu Kievul în fața falimentului de stat dacă banii nu vin până pe 1 aprilie. Sancțiunile împotriva Rusiei — diluat sau întârziate repetat. Diplomația europeană — forțată să migreze spre formate mai mici tocmai pentru a exclude Budapesta din discuțiile sensibile. UE a ajuns să se protejeze de un stat membru ca de un adversar.</p>
+
+  <p>Și toată lumea a știut. Și nimeni nu a acționat. Articolul 7 din Tratatul UE — mecanismul de suspendare a drepturilor unui stat membru care încalcă valorile fundamentale — există pe hârtie de decenii. A fost invocat împotriva Ungariei. Și a rămas acolo, blocat, pentru că procedura cere unanimitate, iar Orbán s-a asigurat că are întotdeauna cel puțin un aliat care să voteze împotrivă.</p>
+
+  <p>E o arhitectură de impunitate construită metodic, cu răbdare, cu banii și sprijinul Moscovei.</p>
+
+  <h2>12 aprilie — miza reală</h2>
+
+  <p>Pe 12 aprilie, Ungaria votează. E prima dată în 15 ani când opoziția s-a unit serios în jurul unui singur candidat. Sondajele îl arată pe Orbán în urmă — și asta în condiții în care Fidesz controlează media, bugetul public și regulile jocului electoral. Când pierzi în sondaje chiar și cu terenul înclinat în favoarea ta, înseamnă că ceva s-a rupt în contractul cu electoratul.</p>
+
+  <p>Contractul lui Orbán era simplu: <em>„Eu vă aduc prosperitate și vă feresc de Bruxelles, voi îmi dați puterea."</em> Contractul s-a spart. Costul vieții a explodat. Corupția e vizibilă și documentată. Iar războiul din Iran a scumpit energia tocmai când Orbán promisese că relația cu Rusia aduce gaz ieftin. Promisiunea lui fundamentală nu mai ține.</p>
+
+  <p>Dar miza din 12 aprilie e mult mai mare decât alegerile dintr-o țară medie din UE. E despre dacă Rusia mai are sau nu un cal troian în Consiliul European. E despre dacă împrumutul de 90 de miliarde pentru Ucraina se deblochează. E despre dacă diplomația europeană mai are o gaură de scurgere la Kremlin. E, în fond, despre dacă Europa poate lua decizii coerente într-un moment în care lumea arde simultan pe trei fronturi.</p>
+
+  <h2>Ce se întâmplă dacă pierde</h2>
+
+  <p>Orbán știe că pierde. De aceea face ceea ce face întotdeauna când simte rece în spate — atacă și victimizează. Szijjártó spune că știrile sunt false. Orbán spune că e interceptat, că e un atac la adresa Ungariei, că va investiga. Întoarce acuzația în agresiune externă. E manualul lui de treizeci de ani și funcționează pe un segment al electoratului care îl va urma până la capăt.</p>
+
+  <p>Dar dacă pierde, Moscova nu pierde un aliat cu simpatii. Pierde un agent acoperit cu imunitate diplomatică, instalat în inima UE. Și Putin știe asta.</p>
+
+  <p>Scenariul cel mai probabil, dacă opoziția câștigă: Orbán pleacă la Moscova. Are acolo relații construite în ani, are protecție, are o narativă gata pregătită — <em>victima Occidentului globalist.</em> Ca alții înaintea lui, oamenii lui Putin ajung acolo unde Putin îi poate proteja.</p>
+
+  <p>Ceea ce ridică o întrebare incomodă pentru Europa: ce face cu informațiile pe care Orbán le-a acumulat în 15 ani de acces la cele mai sensibile discuții ale UE? Un om care știe tot ce s-a discutat în privat la Bruxelles în un deceniu și jumătate, instalat confortabil la Moscova, e o problemă de securitate fără precedent pentru Uniunea Europeană.</p>
+
+  <h2>Lecția pe care Europa trebuie să o învețe</h2>
+
+  <p>Dacă Ungaria votează schimbarea pe 12 aprilie, Europa câștigă ceva important. Nu doar un vot în plus pentru Ucraina. Câștigă dovada că mecanismele democratice pot funcționa chiar și când sistemul e viciat. Câștigă un semnal că electoratele din Europa Centrală nu sunt definitiv capturate de narativa putinistă.</p>
+
+  <p>Dar Europa ar trebui să învețe și lecția dureroasă a acestor ani: a tolerat un spin în coaste pentru că îl scotea dureros. A ales confortul negocierii în locul incomodului principiilor. A plătit prețul — în bani, în decizii blocate, în informații scurse, în credibilitate.</p>
+
+  <div class="pull-quote">
+    <p>Spinul nu dispare singur. Cineva trebuie să îl scoată. Și uneori, acest cineva sunt chiar cetățenii țării în care s-a înfipt.</p>
+  </div>
+
+  <p>Pe 12 aprilie, ungurii au această șansă. Rareori o șansă individuală a unui popor a contat atât de mult pentru atât de mulți.</p>
+
+  <hr class="section-rule">
+
+  <div class="article-signature">
+    <div class="signature-name">Andrei Constantin Burdușa</div>
+    <div class="signature-note">Acest articol a fost gândit, structurat și asumat de autor. A fost redactat în colaborare cu Claude, asistentul AI dezvoltat de Anthropic.</div>
+  </div>
+
+</article>
+
+<footer>
+  <p><a href="index.html">aequus.news</a> · analiză și context · 23 martie 2026</p>
+</footer>
+
+</body>
+</html>
