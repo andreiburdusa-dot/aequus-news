@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lentilele pe care nu le știm – Aequus</title>
+  <meta name="description" content="Ceva ne împinge înainte și nu știm ce. Poate că nu cunoaștem toate lentilele. O meditație despre progres, speranță lucidă și ferestrele de oportunitate care se închid.">
+
+  <meta property="og:title" content="Lentilele pe care nu le știm">
+  <meta property="og:description" content="Ceva ne împinge înainte și nu știm ce. Poate că nu cunoaștem toate lentilele. O meditație despre progres, speranță lucidă și ferestrele de oportunitate care se închid.">
+  <meta property="og:image" content="https://aequus.news/articles/card-lentilele-pe-care-nu-le-stim.png">
+  <meta property="og:url" content="https://aequus.news/articles/lentilele-pe-care-nu-le-stim.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Aequus">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lentilele pe care nu le știm">
+  <meta name="twitter:description" content="Ceva ne împinge înainte și nu știm ce. Poate că nu cunoaștem toate lentilele.">
+  <meta name="twitter:image" content="https://aequus.news/articles/card-lentilele-pe-care-nu-le-stim.png">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0a0f;
+      --bg2: #0f0f18;
+      --surface: #14141e;
+      --accent: #4a6fa5;
+      --accent2: #2d4a73;
+      --text: #e8e4dc;
+      --text-muted: #9a9590;
+      --text-dim: #5a5650;
+      --rule: rgba(74, 111, 165, 0.3);
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Source Serif 4', Georgia, serif;
+    }
+
+    html { background: var(--bg); }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .site-header {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-logo {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .site-logo span { color: var(--accent); }
+
+    .site-nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    .site-nav a:hover { color: var(--accent); }
+
+    .article-wrapper {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 4rem 2rem 7rem;
+    }
+
+    .article-meta-top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .category-tag {
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-family: var(--font-display);
+      font-weight: 700;
+      border: 1px solid var(--accent2);
+      padding: 0.25rem 0.7rem;
+    }
+
+    .article-date {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    h1 em {
+      color: var(--accent);
+      font-style: italic;
+    }
+
+    .article-deck {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      font-style: italic;
+      line-height: 1.65;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--rule);
+      font-weight: 300;
+    }
+
+    .article-body p {
+      margin-bottom: 1.7rem;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    .article-body p:first-of-type::first-letter {
+      font-family: var(--font-display);
+      font-size: 4.2rem;
+      font-weight: 900;
+      float: left;
+      line-height: 0.82;
+      margin-right: 0.1em;
+      margin-top: 0.1em;
+      color: var(--accent);
+    }
+
+    .article-body em {
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    .article-body strong {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .section-rule {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 2.5rem 0;
+    }
+
+    .section-rule::before,
+    .section-rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .section-rule-dot {
+      width: 5px;
+      height: 5px;
+      background: var(--accent);
+      transform: rotate(45deg);
+      flex-shrink: 0;
+    }
+
+    .pull-quote {
+      border-left: 3px solid var(--accent);
+      margin: 2.5rem 0;
+      padding: 1.2rem 1.8rem;
+      background: var(--surface);
+    }
+
+    .pull-quote p {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--text);
+      margin: 0 !important;
+      line-height: 1.55;
+    }
+
+    .pull-quote p::first-letter { all: unset; }
+
+    .article-footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .back-link {
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover { color: var(--accent); }
+
+    .article-tag {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 600px) {
+      .site-nav { display: none; }
+      .article-wrapper { padding: 2.5rem 1.2rem 4rem; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="https://aequus.news" class="site-logo">Ae<span>qu</span>us</a>
+    <nav class="site-nav">
+      <a href="https://aequus.news/romania.html">România</a>
+      <a href="https://aequus.news/global.html">Global</a>
+      <a href="https://aequus.news/iran.html">Iran</a>
+      <a href="https://aequus.news/ue.html">UE</a>
+    </nav>
+  </header>
+
+  <main class="article-wrapper">
+
+    <div class="article-meta-top">
+      <span class="category-tag">Eseu</span>
+      <span class="article-date">20 aprilie 2026</span>
+    </div>
+
+    <h1>Lentilele pe care <em>nu le știm</em></h1>
+
+    <p class="article-deck">Ceva ne împinge înainte și nu știm ce. Poate că nu cunoaștem toate lentilele. O meditație despre progres, speranță lucidă și ferestrele de oportunitate care se închid.</p>
+
+    <div class="article-body">
+
+      <p>Andrei Pleșu scria în 1997 — și republică textul în 2026, constatând că nimic esențial nu s-a schimbat — că marea întrebare a momentului e dacă populația va rezista austerității terapeutice. Dacă după decenii de supunere forțată vom fi capabili de consimțământ liber la sacrificiu. Dacă libertatea câștigată va fi folosită ca responsabilitate sau ca revanșă. Întrebarea era despre cetățeni atunci. Azi e despre altceva.</p>
+
+      <p>Azi cetățenii, în măsura în care mai există un reflex colectiv funcțional, par dispuși să înțeleagă că prețul reformei trebuie plătit. Problema e că elitele politice — cele care ar trebui să administreze fereastra de oportunitate — lucrează sistematic la închiderea ei. Nu din convingere ideologică. Ci pentru că un stat reformat, cu instituții funcționale și buget transparent, le desființează ecosistemul.</p>
+
+      <div class="section-rule"><div class="section-rule-dot"></div></div>
+
+      <p>Omenirea are o istorie mânjită cu sânge de la un capăt la celălalt. Nu e o metaforă. E un fapt brut, verificabil în orice secol, pe orice continent, sub orice ideologie. Războaie de cucerire, războaie de eliberare, revoluții care devorează exact oamenii pentru care au izbucnit, reforme care cer sânge înainte să producă ceva, pace care nu e decât pauza dintre două carnagii.</p>
+
+      <p>Și totuși ceva merge înainte.</p>
+
+      <p>Nu lin, nu garantat, nu conform unui plan pe care cineva să-l fi conceput conștient. Dar merge. Mortalitatea infantilă scade. Foametea se retrage. Pragul de toleranță morală se deplasează — chiar și regimurile brutale sunt forțate azi să mintă că nu torturează, ceea ce înseamnă că standardul există, chiar dacă e încălcat. Minciuna asta contează. E o formă de recunoaștere involuntară a unui progres pe care nimeni nu l-a decretat.</p>
+
+      <div class="pull-quote">
+        <p>Progresul nu e automat. Nu e garantat în niciun interval specific. E rezultatul unor alegeri făcute în întuneric, de oameni care nu știau dacă contează.</p>
+      </div>
+
+      <div class="section-rule"><div class="section-rule-dot"></div></div>
+
+      <p>Nu credem în revoluții. Nu din prudență — din logică. Aproape fără excepție istorică, revoluția reproduce ce distruge. Franceză, Rusă, Iraniană — toate au produs fie teroare, fie o nouă formă a vechii puteri, fie ambele. Revoluția folosește energia furiei și a negației — iar furia și negația nu construiesc instituții. Distrug și lasă un vid pe care îl umple primul care are disciplină și forță. De obicei cel mai rău dintre cei disponibili.</p>
+
+      <p>Și totuși schimbarea se întâmplă. Uneori lent, prin acumulare. Uneori prin colaps și reconstrucție forțată din exterior. Uneori prin epuizarea sistemului care se reformează din interior. Singura cale realistă e ceva mai îngust și mai puțin glorios: reforme instituționale incrementale, în momentele de criză când sistemul e suficient de speriat ca să accepte schimbarea. Nu revoluție. Nu utopie. Ci folosirea inteligentă a fiecărei ferestre de oportunitate.</p>
+
+      <p>Bolojan e, în micul lui, exact asta. O fereastră.</p>
+
+      <div class="section-rule"><div class="section-rule-dot"></div></div>
+
+      <p>Pericolul real al lumii de azi nu e un lider care decide să declanșeze apocalipsa. E un lider prins în colț, epuizat, fără altă carte de jucat, cu acces la buton. Un actor care nu mai poate câștiga convențional devine imprevizibil din slăbiciune, nu din forță. Nu știm unde e pragul lui interior. Poate nici cei din jur nu îl știu. Poate nici el.</p>
+
+      <p>Și deasupra acestui tablou — democrațiile pierd din viteză. Nu cucerite din exterior. Erodate din interior. Libertatea e costisitoare — cere atenție, participare, toleranță față de complexitate. Autoritatea e mai simplă. Oferă certitudine, dușmani clari, decizii rapide. Iar oamenii obosiți, frustrați, dezamăgiți de elite corupte aleg adesea simplitatea în locul libertății. Nu din răutate. Din epuizare.</p>
+
+      <div class="section-rule"><div class="section-rule-dot"></div></div>
+
+      <p>Leonard Cohen cânta în 2016, știind că moare: <em>I want it darker. Hineni, hineni — I'm ready, my Lord.</em> Prezentarea în fața a ceea ce vine. Fără negociere. Cu ochii deschiși. Nu e pesimism. E luciditate.</p>
+
+      <p>Și totuși — ceva ne împinge înainte. Ceva pe care nu îl înțelegem complet și nu îl putem numi cu precizie. Poate că nu cunoaștem toate lentilele prin care universul se privește pe sine. Poate că omenirea ca întreg e și ea o lentilă — un sistem complex cu mecanisme de autocorectare pe care conștiința individuală nu le poate cuprinde din interior.</p>
+
+      <p>Asta nu elimină responsabilitatea. O adâncește.</p>
+
+      <p>Fiecare om care alege luciditatea în locul confortului minciunii, fiecare instituție care rezistă cu un compromis mai puțin, fiecare fereastră de oportunitate folosită — toate intră într-un calcul mai mare, pe care nu îl vedem în totalitate.</p>
+
+      <div class="pull-quote">
+        <p>Poate că asta e singura definiție onestă a speranței: nu certitudinea că merge bine — ci încrederea că există lentile pe care nu le vedem încă. Și că ele lucrează.</p>
+      </div>
+
+    </div>
+
+    <footer class="article-footer">
+      <a href="https://aequus.news" class="back-link">← Aequus</a>
+      <span class="article-tag">#Speranță #Progres #Democrație #Filosofie</span>
+    </footer>
+
+  </main>
+
+</body>
+</html>
