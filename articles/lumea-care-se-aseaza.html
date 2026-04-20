@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumea care se reașază – Aequus</title>
+  <meta name="description" content="Hormuzul ca metronom. Acordul imposibil. Istanbul și lumea văzută din afara bulei europene. Modelul care s-a prăbușit. România — veriga următoare.">
+
+  <meta property="og:title" content="Lumea care se reașază">
+  <meta property="og:description" content="Hormuzul ca metronom. Acordul imposibil. Istanbul și lumea văzută din afara bulei europene. Modelul care s-a prăbușit. România — veriga următoare.">
+  <meta property="og:image" content="https://aequus.news/articles/card-lumea-care-se-aseaza.png">
+  <meta property="og:url" content="https://aequus.news/articles/lumea-care-se-aseaza.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Aequus">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lumea care se reașază">
+  <meta name="twitter:description" content="Hormuzul ca metronom. Acordul imposibil. Istanbul și lumea văzută din afara bulei europene. Modelul care s-a prăbușit. România — veriga următoare.">
+  <meta name="twitter:image" content="https://aequus.news/articles/card-lumea-care-se-aseaza.png">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0d12;
+      --bg2: #12121a;
+      --surface: #16161f;
+      --accent: #c41e3a;
+      --accent2: #8b1528;
+      --text: #e8e4dc;
+      --text-muted: #9a9590;
+      --text-dim: #5a5650;
+      --rule: rgba(196, 30, 58, 0.3);
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Source Serif 4', Georgia, serif;
+    }
+
+    html { background: var(--bg); }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 18px;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    .site-header {
+      border-bottom: 1px solid var(--rule);
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-logo {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .site-logo span { color: var(--accent); }
+
+    .site-nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    .site-nav a:hover { color: var(--accent); }
+
+    .article-wrapper {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 4rem 2rem 7rem;
+    }
+
+    .article-meta-top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .category-tag {
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-family: var(--font-display);
+      font-weight: 700;
+      border: 1px solid var(--accent2);
+      padding: 0.25rem 0.7rem;
+    }
+
+    .article-date {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .article-deck {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      font-style: italic;
+      line-height: 1.65;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--rule);
+      font-weight: 300;
+    }
+
+    .article-body p {
+      margin-bottom: 1.7rem;
+      color: var(--text);
+      font-weight: 300;
+    }
+
+    .article-body p:first-of-type::first-letter {
+      font-family: var(--font-display);
+      font-size: 4.2rem;
+      font-weight: 900;
+      float: left;
+      line-height: 0.82;
+      margin-right: 0.1em;
+      margin-top: 0.1em;
+      color: var(--accent);
+    }
+
+    .article-body em {
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    .article-body strong {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    /* Section headers */
+    .section-header {
+      margin: 3.5rem 0 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .section-number {
+      font-family: var(--font-display);
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      color: var(--accent);
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .section-line {
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* Section rule */
+    .section-rule {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 2.5rem 0;
+    }
+
+    .section-rule::before,
+    .section-rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .section-rule-dot {
+      width: 5px;
+      height: 5px;
+      background: var(--accent);
+      transform: rotate(45deg);
+      flex-shrink: 0;
+    }
+
+    /* Pull quote */
+    .pull-quote {
+      border-left: 3px solid var(--accent);
+      margin: 2.5rem 0;
+      padding: 1.2rem 1.8rem;
+      background: var(--surface);
+    }
+
+    .pull-quote p {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--text);
+      margin: 0 !important;
+      line-height: 1.55;
+    }
+
+    .pull-quote p::first-letter { all: unset; }
+
+    /* Data highlight */
+    .data-highlight {
+      background: var(--surface);
+      border-top: 2px solid var(--accent);
+      padding: 1.5rem 1.8rem;
+      margin: 2.5rem 0;
+    }
+
+    .data-highlight p {
+      margin-bottom: 0.8rem !important;
+      font-size: 0.95rem;
+    }
+
+    .data-highlight p:last-child { margin-bottom: 0 !important; }
+
+    .data-number {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--accent);
+      display: block;
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+
+    /* Footer */
+    .article-footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--rule);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .back-link {
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover { color: var(--accent); }
+
+    .article-tag {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 600px) {
+      .site-nav { display: none; }
+      .article-wrapper { padding: 2.5rem 1.2rem 4rem; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="https://aequus.news" class="site-logo">Ae<span>qu</span>us</a>
+    <nav class="site-nav">
+      <a href="https://aequus.news/romania.html">România</a>
+      <a href="https://aequus.news/global.html">Global</a>
+      <a href="https://aequus.news/iran.html">Iran</a>
+      <a href="https://aequus.news/ue.html">UE</a>
+    </nav>
+  </header>
+
+  <main class="article-wrapper">
+
+    <div class="article-meta-top">
+      <span class="category-tag">Analiză</span>
+      <span class="article-date">19 aprilie 2026</span>
+    </div>
+
+    <h1>Lumea care se reașază</h1>
+
+    <p class="article-deck">Hormuzul ca metronom. Acordul imposibil. Istanbul și lumea văzută din afara bulei europene. Modelul care s-a prăbușit. România — veriga următoare. Și totuși.</p>
+
+    <div class="article-body">
+
+      <p>Duminică, 19 aprilie 2026. Strâmtoarea Hormuz e închisă din nou. Nu pentru prima oară azi. Nu pentru prima oară săptămâna aceasta. Navele de tracking maritim arată acumulări de petroliere la intrarea în strâmtoare — incapabile să procedeze, incapabile să se întoarcă, suspendate într-un limb strategic care costă miliarde pe oră. Douăzeci la sută din petrolul mondial așteaptă permisiunea a doi actori care nu se pot înțelege asupra unui singur lucru fundamental: cine controlează această bucată de apă și în ce condiții. Răspunsul la această întrebare nu e tehnic. E existențial pentru ambele părți.</p>
+
+      <div class="section-header">
+        <span class="section-number">I</span>
+        <span class="section-title">Hormuzul ca metronom</span>
+        <div class="section-line"></div>
+      </div>
+
+      <p>Iranul nu operează haotic. Operează cu disciplină. Deschide strâmtoarea când vrea să semnaleze disponibilitate. O închide când vrea să semnaleze că disponibilitatea are un preț. Trage în petroliere când vrea să arate că semnalul e serios. E negociere prin forță — dusă cu o coerență pe care Washington nu pare pregătit s-o întâlnească la același nivel de sofisticare.</p>
+
+      <p>Logica iraniană e simplă și brutal de clară: dacă marina americană blochează porturile iraniene, nicio altă țară nu tranzitează zona. Tit-for-tat aplicat la cel mai sensibil punct al economiei mondiale. Teheranul nu mai numește blocada americană o sancțiune. O numește piraterie. Iar IRGC răspunde pirateriei cu propriile instrumente.</p>
+
+      <p>Problema nu e că Iranul escaladează irațional. Problema e că escaladează rațional — în cadrul unei logici pe care Donald Trump o perturbă sistematic prin incapacitatea de a menține o poziție coerentă mai mult de douăzeci și patru de ore.</p>
+
+      <p>Strâmtoarea a fost redeschisă după armistițiul cu Libanul. Trump a mulțumit Teheranului. Și a menținut blocada porturilor iraniene. Iranul a închis din nou. Trump a anunțat operațiunea „Economic Fury" — capturarea navelor legate de Iran în ape internaționale. IRGC a deschis focul asupra unui petrolier indian. Petrolierul și-a schimbat rapid numele în „navă indiană, echipaj indian" — panică instituțională în timp real. Un pas înainte, doi înapoi. Repetat până când cineva greșește iremediabil.</p>
+
+      <div class="section-header">
+        <span class="section-number">II</span>
+        <span class="section-title">Acordul imposibil</span>
+        <div class="section-line"></div>
+      </div>
+
+      <p>La Islamabad, JD Vance și Mohammad Bagher Ghalibaf negociază. Sau par să negocieze.</p>
+
+      <p>Obama a cerut limitare și a obținut un acord în douăzeci de luni de negocieri intense în formatul P5+1. Acord imperfect — dar funcțional, verificabil, acceptat de toate marile puteri. Trump a ieșit din el în 2018. Acum cere altceva. Diferența nu e de grad. E de natură.</p>
+
+      <p>JCPOA permitea Iranului să îmbogățească uraniu până la 3,67% — nivelul necesar pentru combustibil civil, pentru centrale nucleare proprii. Propunerea actuală americană cere zero îmbogățire timp de douăzeci de ani. Iranul a oferit cinci ani. Distanța dintre cinci și douăzeci nu se acoperă în câteva runde de negocieri când simultan marina americană blochează porturile iraniene și IRGC trage în petroliere.</p>
+
+      <div class="pull-quote">
+        <p>Zero îmbogățire nu e limitare. E renunțarea la suveranitatea nucleară completă. Niciun stat cu orgoliu național nu semnează asta din poziție de negociere.</p>
+      </div>
+
+      <p>Că Ghalibaf conduce delegația iraniană e un semnal că Teheranul vrea un acord. E un pragmatic față de standardele regimului. Dar decizia finală depinde de Liderul Suprem — și de starea lui de sănătate. O variabilă care poate anula orice progres diplomatic în douăzeci și patru de ore. Negociezi cu pistolul la tâmplă sau negociezi serios. Nu poți face ambele în același timp.</p>
+
+      <div class="section-header">
+        <span class="section-number">III</span>
+        <span class="section-title">Lumea văzută din Istanbul</span>
+        <div class="section-line"></div>
+      </div>
+
+      <p>În aceeași săptămână, la Istanbul, peste o sută douăzeci de delegații din toată lumea s-au întâlnit într-un forum parlamentar internațional. Tabloul e sobru.</p>
+
+      <p>Majoritatea țărilor lumii au devenit fie autoritare, fie au regimuri mixte cu executiv foarte puternic și legislativ loial. Democrațiile funcționale au rămas puține — câteva zeci de state într-o lume de aproape două sute. Sistemul multilateral construit după 1945 e perceput ca mort — și îngropat, spun statele mici, chiar de cei care l-au fondat. Nu de China sau Rusia. De Statele Unite și aliații lor occidentali care au ales să-l abandoneze.</p>
+
+      <p>Africa spune: avem litiu, avem metale rare, dar vrem să le prelucrăm acasă. Vreți baterii — veniți să le facem împreună. Nu mai acceptăm export de materii prime. Lumea în curs de dezvoltare a ieșit din logica dependenței și a intrat în logica negocierii. Târziu, poate. Dar ireversibil.</p>
+
+      <p>Turcia se ridică. Erdogan se oferă mediator pentru Ucraina. Vrea să deschidă culoarul energetic TRIPP din Asia spre Europa — prin Armenia, prin Caucaz. Un interes strategic european major, ignorat în zgomotul crizelor zilnice. Iar discursul președintei Senatului Rusiei, Valentina Matviyenko — plin de minciuni și insinuări despre al treilea război mondial — a fost aplaudat. De țări arabe. De state central-asiatice. Nu din convingere neapărat. Din calcul. Din absența unei alternative credibile. Când nu ai de unde alege, alegi ce e disponibil.</p>
+
+      <div class="section-header">
+        <span class="section-number">IV</span>
+        <span class="section-title">Modelul care s-a prăbușit</span>
+        <div class="section-line"></div>
+      </div>
+
+      <p>Viktor Orbán a condus Ungaria șaisprezece ani. A construit cel mai elaborat model de democrație iliberală din Europa — capturat instituțional, mediatic, economic. Lista proprietăților familiei sale și ale ginerelui Tiborcz acoperă o bună parte din patrimoniul național maghiar — hoteluri istorice, palate, poduri, podgorii, porturi, centre comerciale. A pierdut. Clar. Cu tot sprijinul lui Trump și Vance în campanie.</p>
+
+      <p>Péter Magyar și Tisza au demonstrat că modelul are un plafon electoral real — că după suficientă stagnare economică, corupție vizibilă și izolare externă, cetățenii aleg altceva. Că saturația față de un sistem închis în el însuși produce în cele din urmă o majoritate.</p>
+
+      <p>Căderea lui Orbán a schimbat psihologia întregii drepte radicale europene. Bardella se distanțează de Trump pe teme sensibile. Meloni intră în coliziune cu el după atacurile la adresa Papei. Liderii naționaliști evită pozele, declarațiile comune, asocierea directă. Contradicția a devenit imposibil de ascuns: cum te prezinți apărător al suveranității naționale și te afișezi lângă un politician american care amenință suveranitatea Danemarcei asupra Groenlandei? Cum predici suveranismul și tai un tort cu Groenlanda în culorile americane la Washington? Modelul s-a fisurat. Nu s-a prăbușit complet — dar a pierdut aura de inevitabilitate. Și asta contează.</p>
+
+      <div class="section-header">
+        <span class="section-number">V</span>
+        <span class="section-title">România — veriga următoare</span>
+        <div class="section-line"></div>
+      </div>
+
+      <p>Vineri, 17 aprilie. George Simion și Călin Georgescu s-au întâlnit o oră la Biblioteca Națională din București. Foaia de parcurs a fost transmisă. Sâmbătă, 18 aprilie. Liderii PSD s-au întâlnit la Timișoara pentru a decide cum ies de la guvernare. Decizia pare luată. Asaltul împotriva guvernului Bolojan se pregătește pentru zilele următoare. Timing-ul nu e accidental. Criza din Iran oferă alibi perfect.</p>
+
+      <p>Oana Gheorghiu a arătat că spaima PSD nu e listarea companiilor de stat la bursă. E transparența consiliilor de administrație, a contractelor de mandat, a indicatorilor de performanță. Acolo sunt banii. Acolo e rețeaua. Oana Buzoianu a arătat că în Delta Dunării un guvernator și-a creat o direcție ca să se numească singur director și a refuzat să acceseze douăzeci și opt de milioane de lei europeni pentru digitalizare — pentru că digitalizarea ar fi eliminat corupția din avize.</p>
+
+      <div class="data-highlight">
+        <span class="data-number">×1000</span>
+        <p>Hidroelectrica: profit de 6 milioane de lei în 2011 sub management politic. Profit de 6 miliarde de lei după listarea minoritară din 2023 — cu statul rămas acționar majoritar la 80%. Același stat. Aceeași companie. Management diferit.</p>
+        <p>Cele 22 de companii din lotul pilot analizat de guvern acumulează datorii bugetare de 4,2 miliarde lei și pierderi nete de 1,12 miliarde doar în ultimul an raportat. România are peste 1.500 de companii de stat.</p>
+      </div>
+
+      <p>PSD nu se opune listării din convingere economică. Se opune pentru că listarea impune raportări trimestriale, consilii de administrație profesioniste și management ales pe criterii de competență — nu pe telefon de la partid. Dispare ecosistemul. De aceea reacția nu e patriotică. E defensivă. Românul care muncește la privat plătește azi pentru ca un director numit politic la o companie falimentară să-și păstreze privilegiile. Aceea e adevărata trădare de țară. Nu listarea.</p>
+
+      <p>Gabriel Liiceanu a numit structura corect: o mafie camuflată în partid, a cărei singură ideologie e lăcomia, a cărei pragmatică e furtul și a cărei grijă, pentru dobândirea impunității, e acapararea justiției.</p>
+
+      <p>Și deasupra acestui tablou — SRI fără șef de peste o mie de zile, cu buget de un miliard de euro, dublu față de Germania sau Franța raportat la populație, cu Academia proprie care a instruit jumătate din clasa politică a ultimilor douăzeci de ani. Zero cazuri de corupție sistemică identificate. Zero rețele de influență externă demantelate. Un serviciu cu buget de un miliard de euro, fără șef și fără vinovați, nu e un serviciu slab. E un serviciu care servește altceva decât securitatea națională.</p>
+
+      <p>La Cotroceni, matematicianul trist mai așteaptă. Numirile întârzie. Logica nu se leagă. Există un jucător la masă pe care nu îl vedem — poate mai mulți. Și orice om care ajunge la Cotroceni află în prima săptămână lucruri pe care nu le-a văzut din afară. Poate de aceea îmbătrânești repede.</p>
+
+      <div class="section-header">
+        <span class="section-number">VI</span>
+        <span class="section-title">Și totuși</span>
+        <div class="section-line"></div>
+      </div>
+
+      <p>Andrei Pleșu republică în aprilie 2026 un text din 1997 și constată că nimic esențial nu s-a schimbat. Marea întrebare rămâne aceeași: vom rezista? Vom fi capabili de consimțământ liber la sacrificiu după decenii de supunere forțată?</p>
+
+      <p>Nicușor Ștefănuță spune din Istanbul: speranță — doar dacă ne pregătim temeinic de ce e mai rău. Numai dacă ne facem partea noastră de muncă. Numai dacă ne unim și construim alianțe solide. Speranță extrem de condiționată.</p>
+
+      <p>Omenirea are o istorie mânjită cu sânge de la un capăt la celălalt. Și totuși ceva merge înainte. Nu lin, nu garantat, nu conform unui plan pe care cineva să-l fi conceput conștient. Dar merge. Poate că nu cunoaștem toate lentilele prin care universul se privește pe sine. Poate că omenirea ca întreg e și ea o lentilă — un sistem complex cu mecanisme de autocorectare pe care conștiința individuală nu le poate cuprinde din interior.</p>
+
+      <div class="pull-quote">
+        <p>Leonard Cohen cânta în 2016, știind că moare: <em>I want it darker.</em> Prezentarea în fața a ceea ce vine — fără negociere, cu ochii deschiși. Nu e pesimism. E luciditate.</p>
+      </div>
+
+      <p>Și luciditatea, în momentele în care ferestrele de oportunitate se deschid și se închid simultan pe trei continente, e singurul instrument cu adevărat util.</p>
+
+      <p>Folosiți-o.</p>
+
+    </div>
+
+    <footer class="article-footer">
+      <a href="https://aequus.news" class="back-link">← Aequus</a>
+      <span class="article-tag">#Iran #Hormuz #România #Geopolitică #Bolojan</span>
+    </footer>
+
+  </main>
+
+</body>
+</html>
