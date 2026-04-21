@@ -450,5 +450,19 @@
     </div>
   </footer>
 
+
+<script>
+  document.querySelectorAll('.featured-article').forEach(function(card) {
+    var link = card.querySelector('.article-title a');
+    if (!link) link = card.querySelector('.card-link');
+    if (!link) return;
+    var href = link.getAttribute('href');
+    card.addEventListener('click', function(e) {
+      if (e.target.tagName === 'A') return;
+      window.location.href = href;
+    });
+  });
+</script>
+
 </body>
 </html>
