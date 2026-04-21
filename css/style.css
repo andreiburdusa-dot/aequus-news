@@ -166,7 +166,6 @@ body {
   padding-bottom: var(--space-xl);
   margin-bottom: var(--space-xl);
   max-width: var(--content-width);
-  position: relative;
   cursor: pointer;
 }
 
@@ -175,16 +174,7 @@ body {
 }
 
 .featured-article .card-link {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  text-decoration: none;
-}
-
-.featured-article .article-title a,
-.featured-article .read-more {
-  position: relative;
-  z-index: 2;
+  display: none;
 }
 
 .article-meta {
