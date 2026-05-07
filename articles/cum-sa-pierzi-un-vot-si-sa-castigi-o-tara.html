@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cum să pierzi un vot și să câștigi o țară | Aequus</title>
+  <meta name="description" content="Ilie Bolojan a fost demis cu cel mai mare număr de voturi din istoria parlamentarismului românesc. Și a ieșit din acea sală mai puternic decât a intrat. O analiză a paradoxului politic al momentului." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cum să pierzi un vot și să câștigi o țară" />
+  <meta property="og:description" content="Ilie Bolojan a fost demis cu 281 de voturi — record absolut. Și a ieșit din acea sală mai puternic decât a intrat. O analiză a paradoxului politic al momentului." />
+  <meta property="og:image" content="https://aequus.news/articles/card-cum-sa-pierzi-un-vot.png" />
+  <meta property="og:url" content="https://aequus.news/articles/cum-sa-pierzi-un-vot-si-sa-castigi-o-tara.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Aequus" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Cum să pierzi un vot și să câștigi o țară" />
+  <meta name="twitter:description" content="Ilie Bolojan a fost demis cu 281 de voturi — record absolut. Și a ieșit din acea sală mai puternic decât a intrat." />
+  <meta name="twitter:image" content="https://aequus.news/articles/card-cum-sa-pierzi-un-vot.png" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0a0f;
+      --surface: #111118;
+      --border: #1e1e2e;
+      --accent: #4a6fa5;
+      --accent-light: #6a8fc5;
+      --text: #e0e0e8;
+      --text-muted: #888899;
+      --text-dim: #555566;
+      --quote-bg: #13131f;
+      --quote-border: #4a6fa5;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 18px;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 18px 0;
+    }
+
+    header .inner {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--accent-light);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--accent-light); }
+
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    .category-tag {
+      display: inline-block;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent-light);
+      border: 1px solid var(--accent);
+      padding: 4px 12px;
+      border-radius: 2px;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 700;
+      line-height: 1.2;
+      color: #fff;
+      margin-bottom: 20px;
+      letter-spacing: -0.01em;
+    }
+
+    .subtitle {
+      font-size: 19px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 36px;
+      font-style: italic;
+      border-left: 3px solid var(--accent);
+      padding-left: 18px;
+    }
+
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 44px;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    .meta .date { color: var(--text-muted); }
+    .meta .dot { color: var(--border); }
+
+    .article-body p {
+      margin-bottom: 26px;
+      color: var(--text);
+    }
+
+    .article-body h2 {
+      font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      margin: 48px 0 20px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      letter-spacing: -0.01em;
+    }
+
+    blockquote {
+      background: var(--quote-bg);
+      border-left: 4px solid var(--quote-border);
+      padding: 20px 24px;
+      margin: 36px 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    blockquote p {
+      color: var(--accent-light) !important;
+      font-style: italic;
+      font-size: 17px;
+      margin-bottom: 0 !important;
+    }
+
+    .stat-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--accent);
+      padding: 24px 28px;
+      margin: 36px 0;
+      border-radius: 0 0 4px 4px;
+    }
+
+    .stat-box .number {
+      font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: var(--accent-light);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-box .label {
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 13px;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    .nota-redactie {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 20px 24px;
+      margin-top: 56px;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+
+    .nota-redactie strong {
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 6px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    footer a { color: var(--accent-light); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      main { padding: 36px 18px 72px; }
+      .stat-box .number { font-size: 36px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <a href="https://aequus.news" class="logo">Aequus</a>
+    <ul class="nav-links">
+      <li><a href="https://aequus.news/romania.html">România</a></li>
+      <li><a href="https://aequus.news/global.html">Global</a></li>
+      <li><a href="https://aequus.news/ue.html">UE</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="category-tag">Analiză · România</div>
+
+  <h1>Cum să pierzi un vot și să câștigi o țară</h1>
+
+  <p class="subtitle">Ilie Bolojan a fost demis cu 281 de voturi — record absolut în istoria parlamentarismului românesc. Și a ieșit din acea sală mai puternic decât a intrat. Paradoxul momentului nu este accidental.</p>
+
+  <div class="meta">
+    <span class="date">7 mai 2026</span>
+    <span class="dot">·</span>
+    <span>Andrei Burdușa</span>
+    <span class="dot">·</span>
+    <span>Aequus News</span>
+  </div>
+
+  <div class="article-body">
+
+    <p>Există în istorie o regulă nescrisă, cu valoare aproape matematică: dacă îl ataci pe Rege, trebuie să fii sigur că va muri. Altfel, nu faci decât să-l întărești. Marți, 5 mai 2026, parlamentarii PSD, AUR și sateliții lor au ignorat această regulă. Au votat cu 281 de bile împotriva Guvernului Bolojan — cel mai mare număr de voturi împotriva unui cabinet în istoria României. Și au obținut exact inversul a ceea ce urmăreau.</p>
+
+    <p>Ilie Bolojan a plecat din Parlament înainte de anunțarea oficială a rezultatului. A ieșit zâmbind. Nu era gestul unui om înfrânt. Era gestul unui om care știe că tocmai s-a scris ceva în favoarea lui.</p>
+
+    <h2>Numerele care contrazic narațiunea</h2>
+
+    <p>Înainte de a intra în geometria politică a momentului, câteva fapte brute. Bolojan a preluat guvernarea în iulie 2025, cu România ieșind dintr-un an 2024 în care deficitul bugetar atinsese 9,3% din PIB — cel mai mare din Uniunea Europeană. În zece luni, deficitul a coborât la 7,9%. Veniturile statului au crescut cu peste 15%. Piețele financiare și-au recâștigat încrederea. Șefii ANAF și ai Vămii au fost numiți pe criterii de competență, pentru prima oară în memoria recentă a instituțiilor. Acestea nu sunt opinii. Sunt date verificabile.</p>
+
+    <div class="stat-box">
+      <div class="number">+8</div>
+      <div class="label">puncte câștigate de Bolojan în sondajele de încredere în cele trei săptămâni de criză politică (INSCOP)</div>
+    </div>
+
+    <p>Institutul INSCOP a documentat, în timp real, un fenomen neobișnuit: în cele trei săptămâni de asediu politic, în loc să scadă, Bolojan a câștigat opt puncte în clasamentul încrederii populației. PNL depășise PSD cu patru puncte în intenția de vot. Cei care au declanșat moțiunea au obținut astfel, pe lângă căderea guvernului, și o redistribuire a capitalului politic — în defavoarea lor.</p>
+
+    <h2>Discursul care a redefinit miza</h2>
+
+    <p>Bolojan ar fi putut alege să tacă sau să vorbească diplomatic. A ales să atace. Discursul pe care l-a susținut în plenul reunit al Parlamentului, marți dimineață, a fost caracterizat de Cristian Tudor Popescu drept cel mai adevărat și patriotic discurs din ultimii 36 de ani ai României — o apreciere notabilă, venind de la un comentator care nu are obiceiul de a distribui laude.</p>
+
+    <p>Logica discursului a fost construită pe un paradox devastator adresat PSD: dacă moțiunea spune adevărul despre cum s-a guvernat, unde erați voi, care ați făcut parte din același guvern? Iar dacă nu spune adevărul, cum puteți semna un document mincinos? Grindeanu a simțit nevoia să urce la microfon — deși nu era planificat — tocmai pentru că lovitura a aterizat. Replica despre Bihor și Oradea nu a schimbat nimic din substanța argumentului.</p>
+
+    <blockquote>
+      <p>„Unii care își fac treaba par fraierii de serviciu ai celor care s-au obișnuit să folosească bugetul de stat ca pușculiță."</p>
+    </blockquote>
+
+    <p>Bolojan a introdus în vocabularul politic românesc un termen nou: <em>pesedismul</em>. Nu ca insultă, ci ca diagnostic. Infiltrarea sistematică a aparatului de stat — companii, instituții, agenții — cu oameni de partid plasați nu pe criterii de competență, ci de loialitate. Este prima oară când această practică, larg cunoscută și practic necontestată, capătă un nume propriu rostit de un premier în exercițiu, dintr-o tribună parlamentară. Termenul va rămâne. Conceptele bune supraviețuiesc contextului care le-a generat.</p>
+
+    <h2>Tăcerea prezidențială și ce spune ea</h2>
+
+    <p>La nivelul funcției de președinte al României, fiecare gest este calculat. Absența unui gest este, prin urmare, tot un gest — uneori mai elocvent decât prezența lui.</p>
+
+    <p>Nicușor Dan nu l-a menționat pe Bolojan în declarația susținută după căderea guvernului. Nu i-a mulțumit public pentru cele zece luni de guvernare dificilă. Nu l-a sunat. Nu a emis niciun semnal de recunoaștere instituțională față de un premier care preluase o situație bugetară dezastruoasă și o adusese pe o traiectorie corectă.</p>
+
+    <p>Există și un alt element documentat: cu ore înainte de vot, în timp ce PNL și USR mai căutau o soluție matematică pentru supraviețuirea guvernului, președintele chemase la Cotroceni lideri liberali din teritoriu pentru a-i întreba cum văd viitorul partidului. Nu viitorul guvernului — viitorul partidului. Agenda era, deja, post-Bolojan.</p>
+
+    <p>La aceste fapte se adaugă un calcul transparent: în sondajele de opinie din această perioadă, Bolojan ajunsese la aproximativ 30% încredere populară — o cifră comparabilă cu cea a președintelui. Un premier cu 30% de încredere, ieșit victorios moral dintr-o moțiune de cenzură, cu PNL în opoziție și cu un concept politic puternic în buzunar, devine în mod obiectiv un competitor electoral serios pentru 2030. Nicușor Dan știe aritmetica.</p>
+
+    <h2>Ce urmează</h2>
+
+    <p>România intră acum într-o perioadă de negocieri pentru formarea unui nou guvern. Leul s-a depreciat. BNR a cheltuit peste două miliarde de euro pentru a limita daunele valutare ale crizei politice. Presa internațională a consemnat evenimentul cu titluri care vorbesc despre destrămarea coaliției pro-UE din România — un semnal de îngrijorare în context european.</p>
+
+    <p>PSD vrea să guverneze, posibil din nou cu PNL, dar fără Bolojan premier. Este o poziție care revelează toată natura jocului: nu a existat o problemă cu politicile guvernamentale — a existat o problemă cu omul care le aplica, pentru că acel om deranja interese concrete, măsurabile, localizate în companii de stat și bugete județene.</p>
+
+    <p>Bolojan, între timp, a anunțat că PNL merge în opoziție. A vorbit despre construirea unui pol de modernizare. A transmis că nu va ceda din valorile pentru care a luptat. Sunt cuvinte pe care le-am mai auzit în politica românească. Diferența este că, de această dată, vine dinspre un om care tocmai a demonstrat că poate să le susțină cu fapte — și că prețul politic al acestei demonstrații l-a plătit în avans.</p>
+
+    <p>Există un principiu în politică: reputația se construiește în înfrângeri, nu în victorii. Victoriile sunt așteptate. Înfrângerile demne sunt rare și memorabile. Marți, 5 mai 2026, Ilie Bolojan a obținut ceva ce nu se cumpără și nu se falsifică: credibilitate câștigată sub presiune maximă, în fața întregii țări.</p>
+
+    <p>Cei 281 de voturi care l-au demis sunt, paradoxal, cel mai solid argument electoral pe care îl va folosi în anii următori.</p>
+
+    <hr class="divider" />
+
+    <div class="nota-redactie">
+      <strong>Notă editorială</strong>
+      Acest articol se bazează exclusiv pe date publice verificabile: cifre bugetare oficiale, date de sondaj INSCOP și CURS, declarații publice înregistrate ale actorilor politici menționați. Inferențele privind intențiile politice ale președintelui Nicușor Dan sunt formulate pe baza faptelor documentate, nu a surselor anonime sau a speculației. Aequus separă datele de interpretare și marchează explicit granița dintre ele.
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>© 2026 <a href="https://aequus.news">Aequus News</a> · Analiză geopolitică și politică internă · <a href="https://aequus.news/global.html">Global</a> · <a href="https://aequus.news/romania.html">România</a></p>
+</footer>
+
+</body>
+</html>
