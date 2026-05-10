@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cât costă o moțiune de cenzură | Aequus</title>
+  <meta name="description" content="Nota de plată pe care PSD o lasă în buzunarele a 19 milioane de români. 2 miliarde de euro din rezerva BNR, leu la nivel record, dobânzi mai mari, pensii diminuate. Calculul complet.">
+
+  <meta property="og:title" content="Cât costă o moțiune de cenzură">
+  <meta property="og:description" content="Nota de plată pe care PSD o lasă în buzunarele a 19 milioane de români. 2 miliarde de euro din rezerva BNR, leu la nivel record, dobânzi mai mari, pensii diminuate.">
+  <meta property="og:image" content="https://aequus.news/articles/card-cat-costa-o-motiune.png">
+  <meta property="og:url" content="https://aequus.news/articles/cat-costa-o-motiune.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Aequus">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cât costă o moțiune de cenzură">
+  <meta name="twitter:description" content="Nota de plată pe care PSD o lasă în buzunarele a 19 milioane de români.">
+  <meta name="twitter:image" content="https://aequus.news/articles/card-cat-costa-o-motiune.png">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0a0a0f;
+      --bg-2: #111118;
+      --text: #e8e6e0;
+      --text-muted: #8a8880;
+      --accent: #c41e3a;
+      --accent-light: #e04060;
+      --border: rgba(255,255,255,0.07);
+      --serif: Georgia, 'Times New Roman', serif;
+      --sans: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    html { font-size: 18px; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--serif);
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: var(--sans);
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .logo span { color: var(--accent); }
+
+    nav a {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 1.8rem;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--text); }
+
+    .article-wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 6rem;
+    }
+
+    .meta-top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .category {
+      font-family: var(--sans);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent-light);
+      border: 1px solid var(--accent);
+      padding: 0.25rem 0.7rem;
+      border-radius: 2px;
+    }
+
+    .date {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: 2.8rem;
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--text);
+      margin-bottom: 1.2rem;
+    }
+
+    .subtitle {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .lead {
+      font-size: 1.1rem;
+      color: #c8c6c0;
+      margin-bottom: 2rem;
+      line-height: 1.8;
+    }
+
+    p { margin-bottom: 1.5rem; }
+
+    h2 {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent-light);
+      margin: 3rem 0 1.2rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* COST TABLE */
+    .cost-table {
+      margin: 2.5rem 0;
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--accent);
+      background: var(--bg-2);
+    }
+
+    .cost-table-header {
+      padding: 1.2rem 2rem;
+      font-family: var(--sans);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent-light);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .cost-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      padding: 1.2rem 2rem;
+      border-bottom: 1px solid var(--border);
+      align-items: baseline;
+    }
+
+    .cost-row:last-child { border-bottom: none; }
+
+    .cost-label {
+      font-family: var(--sans);
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .cost-label strong {
+      display: block;
+      color: var(--text);
+      font-size: 0.88rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .cost-value {
+      font-family: var(--sans);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--accent-light);
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .cost-total {
+      background: rgba(196, 30, 58, 0.1);
+      border-top: 2px solid var(--accent);
+    }
+
+    .cost-total .cost-label strong {
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+
+    .cost-total .cost-value {
+      font-size: 1.3rem;
+      color: var(--accent-light);
+    }
+
+    blockquote {
+      margin: 2.5rem 0;
+      padding: 1.5rem 2rem;
+      border-left: 3px solid var(--accent);
+      background: var(--bg-2);
+      font-size: 1.1rem;
+      font-style: italic;
+      color: #c8c6c0;
+      line-height: 1.6;
+    }
+
+    blockquote cite {
+      display: block;
+      margin-top: 0.8rem;
+      font-family: var(--sans);
+      font-size: 0.68rem;
+      font-style: normal;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .sep {
+      width: 3rem;
+      height: 1px;
+      background: var(--accent);
+      margin: 3rem 0;
+    }
+
+    .article-footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .author-line {
+      font-family: var(--sans);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+    }
+
+    .author-line strong { color: var(--text); }
+
+    .sources-title {
+      font-family: var(--sans);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.8rem;
+    }
+
+    .sources-list { list-style: none; }
+
+    .sources-list li {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      padding: 0.3rem 0;
+      padding-left: 1rem;
+      position: relative;
+    }
+
+    .sources-list li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      font-family: var(--sans);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.9rem; }
+      .article-wrap { padding: 2rem 1.2rem 4rem; }
+      header { padding: 1rem 1.2rem; }
+      nav { display: none; }
+      .cost-row { grid-template-columns: 1fr; gap: 0.3rem; }
+      .cost-value { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="https://aequus.news" class="logo">Ae<span>qu</span>us</a>
+  <nav>
+    <a href="https://aequus.news/global.html">Global</a>
+    <a href="https://aequus.news/romania.html">România</a>
+    <a href="https://aequus.news/ucraina.html">Ucraina</a>
+    <a href="https://aequus.news/ue.html">UE</a>
+  </nav>
+</header>
+
+<main class="article-wrap">
+
+  <div class="meta-top">
+    <span class="category">România · Economie</span>
+    <span class="date">10 mai 2026</span>
+  </div>
+
+  <h1>Cât costă o moțiune de cenzură</h1>
+
+  <p class="subtitle">Nota de plată pe care PSD o lasă în buzunarele a 19 milioane de români. Nu e o metaforă — e un calcul. Cu cifre reale, din surse publice, verificabile de oricine.</p>
+
+  <p class="lead">O moțiune de cenzură pare un act democratic normal. Parlamentul votează, guvernul cade, urmează altul. Procedura e prevăzută în Constituție. Costul ei nu e prevăzut nicăieri — pentru că nimeni nu a calculat vreodată, cu date concrete, cât plătesc românii pentru fiecare criză politică provocată artificial.</p>
+
+  <p class="lead">Pe 5 mai 2026, PSD și AUR au votat demiterea Guvernului Bolojan cu 281 la 4. Acum calculăm nota.</p>
+
+  <div class="cost-table">
+    <div class="cost-table-header">Nota de plată — date verificabile, 5—10 mai 2026</div>
+
+    <div class="cost-row">
+      <div class="cost-label">
+        <strong>Cursul euro — depreciere directă</strong>
+        28 aprilie 2026 (ziua depunerii moțiunii): 5,093 lei · 8 mai 2026: 5,2364 lei
+      </div>
+      <div class="cost-value">+14,3 bani/€</div>
+    </div>
+
+    <div class="cost-row">
+      <div class="cost-label">
+        <strong>Rezerva BNR — sterilizată pentru frânarea căderii leului</strong>
+        Bani cheltuiți să limiteze paguba, nu să producă ceva
+      </div>
+      <div class="cost-value">&gt;2 mld. €</div>
+    </div>
+
+    <div class="cost-row">
+      <div class="cost-label">
+        <strong>Dobânzi la împrumuturile statului — mai 2026</strong>
+        Diferența față de luna anterioară — plătită de contribuabili pentru totdeauna
+      </div>
+      <div class="cost-value">7,3%</div>
+    </div>
+
+    <div class="cost-row">
+      <div class="cost-label">
+        <strong>Participanți la fondurile de pensii private afectați</strong>
+        Active diminuate — câștigurile din lunile anterioare, șterse
+      </div>
+      <div class="cost-value">9,4 mil. români</div>
+    </div>
+
+    <div class="cost-row">
+      <div class="cost-label">
+        <strong>Bursa de Valori București</strong>
+        Pierderi înregistrate în perioada crizei, recuperare parțială și lentă
+      </div>
+      <div class="cost-value">mld. lei</div>
+    </div>
+
+    <div class="cost-row">
+      <div class="cost-label">
+        <strong>Facturi mai scumpe pentru toți românii</strong>
+        Produse din import calculate la cursul de 5,26 lei, nu la 5,09
+      </div>
+      <div class="cost-value">permanent</div>
+    </div>
+
+    <div class="cost-row">
+      <div class="cost-label">
+        <strong>Rate bancare mai mari</strong>
+        Credite în euro — dobânzi majorate automat prin deprecierea leului
+      </div>
+      <div class="cost-value">permanent</div>
+    </div>
+
+    <div class="cost-row cost-total">
+      <div class="cost-label">
+        <strong>Cine plătește toate acestea</strong>
+        Nu PSD. Nu parlamentarii care au votat. Nu Grindeanu.
+      </div>
+      <div class="cost-value">Tu.</div>
+    </div>
+  </div>
+
+  <h2>Contextul pe care Grindeanu îl ignoră</h2>
+
+  <p>Sorin Grindeanu a declarat că nu au existat consecințe economice negative ale crizei guvernamentale. A invocat corecțiile temporare de piață ca dovadă că totul e bine.</p>
+
+  <p>Senatoarea Gabriela Horga, președinta Comisiei de Buget-Finanțe din Senat, a răspuns cu date: cursul a crescut de la 5,093 la 5,2364 în zece zile, peste două miliarde de euro din rezerva BNR au fost sterilizate pentru a frâna căderea leului, dobânzile la obligațiunile de stat au ajuns la 7,3% în mai. Corecțiile temporare de piață nu recuperează niciodată integral pierderile inițiale. Deprecierea unui leu nu revine complet — ea se sedimentează în prețuri, în rate, în facturi.</p>
+
+  <blockquote>
+    Pierderile financiare produse de moțiunea PSD+AUR nu le vom recupera niciodată, iar revenirea nu va fi niciodată totală.
+    <cite>Gabriela Horga, senator, Președinta Comisiei de Buget-Finanțe, Senat</cite>
+  </blockquote>
+
+  <p>Întrebările pe care Horga le adresează lui Grindeanu sunt simple și fără răspuns: cine plătește majorările facturilor calculate la cursul de peste 5,26 lei? Cine plătește ratele bancare mai mari ale românilor cu credite în euro? Cine acoperă pierderile celor 9,4 milioane de participanți la fondurile de pensii private? Cine plătește dobânzile mai mari pentru datoria publică?</p>
+
+  <p>Răspunsul e același la toate întrebările. Românii. Nu Grindeanu. Nu PSD. Nu cei 281 de parlamentari care au votat moțiunea.</p>
+
+  <h2>Minciuna din moțiune</h2>
+
+  <p>Moțiunea de cenzură a invocat, printre argumente, opoziția față de listarea la bursă a companiilor de stat — prezentată ca un act de apărare a patrimoniului național.</p>
+
+  <p>Există un document care contrazice această narațiune. Sorin Grindeanu, Marcel Ciolacu și Marian Neacșu au semnat, în calitate de lideri PSD, memorandumul privind listarea la bursă a 20 de companii de stat — exact măsura pe care au combătut-o public în moțiune.</p>
+
+  <p>Au semnat că sunt de acord. Au votat că sunt împotrivă. Au explicat că apără România.</p>
+
+  <p>Nu există o formulă mai precisă pentru ipocrizie instituțională.</p>
+
+  <h2>Ce nu apare în nicio notă de plată</h2>
+
+  <p>Cifrele de mai sus sunt calculabile. Există însă costuri ale acestei crize care nu apar în niciun tabel și nu pot fi cuantificate cu precizie — dar sunt reale.</p>
+
+  <p>România are un deadline european pe 31 august 2026 — aproximativ zece miliarde de euro de colectat din fondurile de redresare post-pandemică. Fiecare zi de criză politică fără guvern stabil înseamnă capacitate administrativă consumată în altă parte decât în implementarea reformelor necesare accesării acestor fonduri. Am pierdut deja 458 de milioane de euro din cauza deficiențelor de guvernanță în exact companiile pe care Bolojan încerca să le reformeze.</p>
+
+  <p>Credibilitatea externă a României — în fața Bruxelles-ului, a piețelor financiare, a agențiilor de rating — se erodează la fiecare criză politică provocată artificial. Această eroziune nu apare în niciun buletin de curs valutar. Apare în dobânzile la care România se împrumută în următorii ani. Apare în investițiile care nu vin. Apare în locurile de muncă care nu se creează.</p>
+
+  <p>Acestea sunt costurile pe care Grindeanu nu le calculează. Probabil pentru că nu el le plătește.</p>
+
+  <div class="sep"></div>
+
+  <p>O moțiune de cenzură costă mult. Cel care o depune nu plătește nimic. Cel care o votează primește indemnizație. Cel care o suportă — românul cu factură, cu rată, cu pensie privată diminuată — nu a fost întrebat.</p>
+
+  <p>Aceasta este nota de plată a unei moțiuni depuse de un partid al cărui lider a semnat memorandumul pe care l-a combătut în moțiune.</p>
+
+  <p>Și aceasta e democrația românească în mai 2026.</p>
+
+  <div class="sep"></div>
+
+  <div class="article-footer">
+    <p class="author-line">Analiză realizată de <strong>Andrei Constantin Burdușa</strong> — Aequus, 10 mai 2026</p>
+    <p class="sources-title">Surse și referințe</p>
+    <ul class="sources-list">
+      <li>Gabriela Horga, senator, Președinta Comisiei de Buget-Finanțe din Senat — declarație publică, mai 2026</li>
+      <li>Banca Națională a României — date privind cursul de schimb leu/euro, aprilie-mai 2026</li>
+      <li>Ministerul Finanțelor — randamente obligațiuni de stat, mai 2026</li>
+      <li>Autoritatea de Supraveghere Financiară — date privind fondurile de pensii private Pilonul II</li>
+      <li>Stuart Dowell, TVP World — „How Romania's patronage machine just ate the government trying to reform it", 6 mai 2026</li>
+      <li>Eurostat — deficit bugetar România 2024: 9,3% din PIB</li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  © 2026 Aequus — Analiză geopolitică și politică internațională · <a href="https://aequus.news" style="color: inherit;">aequus.news</a>
+</footer>
+
+</body>
+</html>
