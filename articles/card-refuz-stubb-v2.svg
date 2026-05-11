@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+  <rect width="680" height="680" fill="#0a0a0f"/>
+  
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="680" height="4" fill="#4a6fa5"/>
+  
+  <!-- Zone 1: Site name + category -->
+  <text x="40" y="58" font-family="Georgia, serif" font-size="12" letter-spacing="5" fill="#4a6fa5">AEQUUS.NEWS</text>
+  <text x="460" y="58" font-family="Georgia, serif" font-size="11" letter-spacing="2" fill="#404055">GEOPOLITICĂ · 13 MAI 2026</text>
+  <rect x="0" y="72" width="680" height="0.5" fill="#1e1e2e"/>
+  
+  <!-- Zone 2: Title - mare și clar -->
+  <text x="40" y="140" font-family="Georgia, serif" font-size="42" fill="#f0f0f5" font-weight="normal">Refuzul Stubb</text>
+  <rect x="40" y="158" width="420" height="2" fill="#4a6fa5"/>
+
+  <!-- Zone 3: Subtitlu explicativ -->
+  <text x="40" y="202" font-family="Georgia, serif" font-size="19" fill="#c0c0d0">România co-prezidează summitul B9.</text>
+  <text x="40" y="230" font-family="Georgia, serif" font-size="19" fill="#c0c0d0">Stubb cere bilaterală cu Nicușor Dan.</text>
+  <text x="40" y="258" font-family="Georgia, serif" font-size="19" fill="#9090a8">Răspunsul din Cotroceni: „nu este timp".</text>
+
+  <rect x="0" y="288" width="680" height="0.5" fill="#1e1e2e"/>
+
+  <!-- Zone 4: Cine e Stubb -->
+  <text x="40" y="322" font-family="Georgia, serif" font-size="13" letter-spacing="2" fill="#4a6fa5">CONTEXT</text>
+  <text x="40" y="352" font-family="Georgia, serif" font-size="16" fill="#a0a0b8">Stubb a băgat Finlanda în NATO.</text>
+  <text x="40" y="376" font-family="Georgia, serif" font-size="16" fill="#a0a0b8">E cel mai apropiat lider european de Trump.</text>
+  <text x="40" y="400" font-family="Georgia, serif" font-size="16" fill="#a0a0b8">Vine la București cu o agendă strategică:</text>
+  <text x="40" y="424" font-family="Georgia, serif" font-size="16" fill="#707088" font-style="italic">Europa trebuie să vorbească singură cu Moscova.</text>
+
+  <rect x="0" y="450" width="680" height="0.5" fill="#1e1e2e"/>
+
+  <!-- Zone 5: Concluzie -->
+  <text x="40" y="484" font-family="Georgia, serif" font-size="13" letter-spacing="2" fill="#4a6fa5">CONCLUZIE</text>
+  <text x="40" y="514" font-family="Georgia, serif" font-size="17" fill="#d0d0e0">Nu e o gafă de protocol.</text>
+  <text x="40" y="540" font-family="Georgia, serif" font-size="17" fill="#d0d0e0">E absența unei poziții strategice</text>
+  <text x="40" y="566" font-family="Georgia, serif" font-size="17" fill="#d0d0e0">formulate — exact când România</text>
+  <text x="40" y="592" font-family="Georgia, serif" font-size="17" fill="#d0d0e0">ar putea conta cel mai mult.</text>
+
+  <rect x="0" y="618" width="680" height="0.5" fill="#1e1e2e"/>
+  <text x="40" y="652" font-family="Georgia, serif" font-size="11" fill="#303050" letter-spacing="2">ANALIZĂ GEOPOLITICĂ · AEQUUS.NEWS</text>
+</svg>
