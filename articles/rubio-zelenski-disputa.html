@@ -44,6 +44,18 @@
     footer { background: var(--nav-bg); color: #888; text-align: center; padding: 2.5rem 2rem; margin-top: 4rem; }
     footer a { color: #aaa; text-decoration: none; }
   </style>
+
+  <!-- OneSignal Web Push -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "8b7edb98-bb6d-403d-8be4-597cf95bbfe8",
+        serviceWorkerPath: "/OneSignalSDKWorker.js",
+      });
+    });
+  </script>
 </head>
 <body>
 
