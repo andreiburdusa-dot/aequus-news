@@ -17,6 +17,18 @@
     blockquote { border-left: 3px solid #c0392b; margin: 32px 0; padding: 16px 24px; background: #fafafa; font-style: italic; font-size: 19px; color: #333; }
     .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; font-family: Arial, sans-serif; font-size: 13px; color: #999; text-align: right; font-style: italic; }
   </style>
+
+  <!-- OneSignal Web Push -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "8b7edb98-bb6d-403d-8be4-597cf95bbfe8",
+        serviceWorkerPath: "/OneSignalSDKWorker.js",
+      });
+    });
+  </script>
 </head>
 <body>
   <a href="../index.html" class="back-link">← aequus.news</a>
