@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fum peste forum – Aequus</title>
+  <meta name="description" content="Drone ucrainene au lovit Sankt Petersburg în ziua deschiderii forumului economic al lui Putin. Ținta reală n-a fost terminalul petrolier — a fost reprezentația normalității." />
+
+  <meta property="og:title" content="Fum peste forum" />
+  <meta property="og:description" content="Drone ucrainene au lovit Sankt Petersburg în ziua deschiderii forumului economic al lui Putin. Ținta reală n-a fost terminalul petrolier — a fost reprezentația normalității." />
+  <meta property="og:image" content="https://aequus.news/articles/card-fum-peste-forum.png" />
+  <meta property="og:url" content="https://aequus.news/articles/fum-peste-forum.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Aequus" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fum peste forum" />
+  <meta name="twitter:description" content="Drone ucrainene au lovit Sankt Petersburg în ziua deschiderii forumului economic al lui Putin. Ținta reală n-a fost terminalul petrolier — a fost reprezentația normalității." />
+  <meta name="twitter:image" content="https://aequus.news/articles/card-fum-peste-forum.png" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0d0a0a; --surface: #160f0f; --border: #2a1a1a;
+      --accent: #c41e3a; --accent-dim: #7a1220;
+      --text: #e8ddd5; --text-dim: #9a8880; --text-muted: #5a4540; --gold: #c8a96e;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.75; min-height: 100vh; }
+    header { border-bottom: 1px solid var(--border); padding: 18px 0; }
+    .header-inner { max-width: 860px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+    .site-name { font-family: 'Georgia', serif; font-size: 1.35rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text); text-decoration: none; }
+    .site-name span { color: var(--accent); }
+    nav a { color: var(--text-dim); text-decoration: none; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; margin-left: 22px; transition: color 0.2s; }
+    nav a:hover { color: var(--accent); }
+    .article-wrap { max-width: 860px; margin: 0 auto; padding: 56px 24px 80px; }
+    .category-tag { display: inline-block; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); border: 1px solid var(--accent-dim); padding: 3px 10px; margin-bottom: 28px; }
+    h1 { font-family: 'Georgia', serif; font-size: clamp(1.9rem, 4vw, 2.8rem); font-weight: 700; line-height: 1.2; color: var(--text); margin-bottom: 20px; letter-spacing: -0.01em; }
+    .deck { font-size: 1.15rem; color: var(--text-dim); line-height: 1.6; margin-bottom: 32px; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
+    .meta { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 44px; }
+    .meta strong { color: var(--text-dim); }
+    .article-body p { margin-bottom: 1.5em; font-size: 1.05rem; }
+    .article-body p:first-of-type::first-letter { float: left; font-size: 3.8rem; line-height: 0.78; margin: 6px 10px 0 0; color: var(--accent); font-family: 'Georgia', serif; font-weight: 700; }
+    .key-quote { border-left: 3px solid var(--accent); margin: 36px 0; padding: 18px 24px; background: var(--surface); }
+    .key-quote p { font-size: 1.05rem; font-style: italic; color: var(--gold); margin: 0; }
+    .key-quote cite { display: block; margin-top: 10px; font-size: 0.78rem; color: var(--text-muted); font-style: normal; letter-spacing: 0.06em; text-transform: uppercase; }
+    .analysis-box { background: var(--surface); border: 1px solid var(--border); border-top: 2px solid var(--accent); padding: 24px 28px; margin: 36px 0; }
+    .analysis-box h3 { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+    .analysis-box p { font-size: 0.97rem; color: var(--text-dim); margin-bottom: 0.9em; }
+    .analysis-box p:last-child { margin-bottom: 0; }
+    h2 { font-size: 1.2rem; font-weight: 700; color: var(--text); margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); letter-spacing: 0.01em; }
+    .data-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); margin: 32px 0; }
+    .data-item { background: var(--surface); padding: 18px 20px; }
+    .data-item .label { font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; }
+    .data-item .value { font-size: 1.4rem; font-weight: 700; color: var(--gold); font-family: 'Georgia', serif; }
+    .data-item .note { font-size: 0.75rem; color: var(--text-muted); margin-top: 3px; }
+    .sources { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; }
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; }
+    footer p { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.06em; }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="https://aequus.news" class="site-name">Ae<span>qu</span>us</a>
+    <nav>
+      <a href="https://aequus.news/iran.html">Iran</a>
+      <a href="https://aequus.news/ucraina.html">Ucraina</a>
+      <a href="https://aequus.news/romania.html">România</a>
+      <a href="https://aequus.news/ue.html">UE</a>
+    </nav>
+  </div>
+</header>
+
+<main class="article-wrap">
+
+  <span class="category-tag">Ucraina · Război · Lovituri în adâncime</span>
+
+  <h1>Fum peste forum</h1>
+
+  <p class="deck">Drone ucrainene au lovit Sankt Petersburg exact în ziua în care orașul lui Putin își deschidea forumul economic. Ținta reală n-a fost terminalul petrolier — a fost reprezentația normalității.</p>
+
+  <p class="meta"><strong>Aequus</strong> &nbsp;·&nbsp; 4 iunie 2026 &nbsp;·&nbsp; Analiză</p>
+
+  <div class="article-body">
+
+    <p>Fum negru s-a ridicat peste Sankt Petersburg miercuri dimineața, exact în ziua în care orașul natal al lui Vladimir Putin își deschidea Forumul Economic Internațional — vitrina prin care Rusia spune lumii „totul e normal, veniți să investiți". Drone ucrainene de lungă distanță loviseră peste noapte unul dintre cele mai mari terminale petroliere ale țării și îl aprinseseră. Distanța parcursă: peste o mie de kilometri. Dar ținta reală n-a fost terminalul. A fost reprezentația.</p>
+
+    <div class="data-strip">
+      <div class="data-item">
+        <div class="label">Distanța</div>
+        <div class="value">1.000+ km</div>
+        <div class="note">drone de lungă distanță, din Ucraina</div>
+      </div>
+      <div class="data-item">
+        <div class="label">Ținta</div>
+        <div class="value">Petrol</div>
+        <div class="note">Petersburg Oil Terminal, în flăcări</div>
+      </div>
+      <div class="data-item">
+        <div class="label">În plus</div>
+        <div class="value">Kronstadt</div>
+        <div class="note">corveta Boikiy + uzină în Tambov</div>
+      </div>
+      <div class="data-item">
+        <div class="label">Ziua</div>
+        <div class="value">PMEF</div>
+        <div class="note">deschiderea forumului lui Putin</div>
+      </div>
+    </div>
+
+    <p>Bilanțul fizic e, în sine, modest. Guvernatorul Alexandr Beglov a anunțat mai mulți răniți, fără morți, și pagube la câteva facilități din districtele Kronstadt, Kirovski și Krasnoselski. Aeroportul Pulkovo și-a suspendat operațiunile. Guvernatorul a revendicat 59 de drone doborâte deasupra orașului, iar Ministerul rus al Apărării a vorbit despre 354 la nivel național peste noapte. Cifrele contează mai puțin decât locul și momentul.</p>
+
+    <h2>Ținta era scena</h2>
+
+    <p>Forumul de la Sankt Petersburg — „Davosul lui Putin" — nu e o conferință economică oarecare. E spectacolul anual prin care Kremlinul performează stabilitatea: investitori adunați, contracte semnate, mesajul că sancțiunile n-au schimbat nimic și că Rusia rămâne un loc în care se fac afaceri. Putin vorbește acolo în fiecare an. E scena lui personală.</p>
+
+    <p>Fum negru peste scena aceea, în ziua deschiderii, cu toate camerele deja prezente, e o lovitură dată reprezentației, nu rezervorului. Terminalul a fost pretextul; optica a fost încărcătura utilă. Pentru un lider care își construiește autoritatea pe imaginea de control absolut, umilința e mai costisitoare decât petrolul ars: orașul lui, vitrina lui, în singura zi în care lumea se uită. Asta nu se repară cu pompierii.</p>
+
+    <h2>Sancțiuni de lungă distanță</h2>
+
+    <p>Kievul își numește singur aceste lovituri „sancțiuni de lungă distanță", și nu întâmplător. Scopul declarat e să taie sursa de finanțare a războiului — exportul de petrol — și să perturbe producția de armament. E ceea ce Occidentul a promis prin embargo și a livrat doar pe jumătate, fiindcă petrolul rusesc a continuat să curgă pe rute ocolite. Ucraina face acum cu drona ce aliații n-au făcut cu hârtia.</p>
+
+    <div class="key-quote">
+      <p>Când aliatul tău nu strânge șurubul economic, îl strângi tu cu ce ai. Iar Ucraina are drone care zboară o mie de kilometri.</p>
+      <cite>Logica loviturilor în adâncime, 2026</cite>
+    </div>
+
+    <p>Și nu a fost un gest izolat, ci o demonstrație de capacitate. În aceeași noapte, dronele au incendiat corveta purtătoare de rachete Boikiy, aflată în doc uscat la baza navală Kronstadt a Flotei Baltice, și au lovit o uzină de armament din regiunea Tambov, la 600 de kilometri de graniță. Trei ținte — energetică, navală, industrială — simultan, la mii de kilometri în adâncime. Nu o cascadorie, ci o rutină care obligă Rusia să-și întindă apărarea antiaeriană pe un interior imens și să nu mai poată garanta nimic nicăieri.</p>
+
+    <h2>Război mutat în spate</h2>
+
+    <p>Lovitura a venit la o zi după atacul masiv rusesc cu drone și rachete asupra Kievului și a altor orașe, soldat cu cel puțin 22 de civili morți și 138 de răniți. Asta e simetria momentului: două tabere care fac schimb de lovituri în adâncime în timp ce frontul aproape nu se mișcă. Roiurile de drone au blocat manevra pe linia de contact, așa că războiul s-a mutat în spate — la rafinării, șantiere navale, fabrici și forumuri.</p>
+
+    <div class="analysis-box">
+      <h3>Ce numim, fără eufemism</h3>
+      <p>În logica GO pe care o folosim: tabla e înghețată, nimeni nu mai cucerește teritoriu. Pietrele se pun acum pe economia și pe prestigiul adversarului. Nu mai e un război de cucerire, ci unul de anduranță — cine rezistă mai mult la sângerarea propriei capacități de a finanța și de a produce.</p>
+      <p>Distincția pe care n-o ascundem: țintele Ucrainei de azi au fost industriale și militare — terminal, corvetă, uzină. Atacul rusesc de ieri asupra Kievului a ucis civili în locuințe. Aceeași clasă de armă, două gramatici diferite ale folosirii ei. Faptul rămâne fapt, fără să fie nevoie de adjective.</p>
+      <p>Pentru Putin, calculul e și mai incomod decât pentru bugetul rus. O umilință filmată în orașul propriu, în ziua propriei vitrine, spune aliaților și investitorilor exact ce nu voia să audă: că invulnerabilitatea pe care o vinde nu există. Iar asta, spre deosebire de un terminal, nu poate fi stins.</p>
+    </div>
+
+    <p>Mutarea din titlurile de azi nu e despre cât petrol a ars. E despre cine mai poate proteja ce și unde. Un stat care nu-și mai poate apăra nici măcar scena pe care performează normalitatea a pierdut deja jumătate din mesajul pe care voia să-l transmită — chiar dacă forumul s-a deschis, totuși, în fum.</p>
+
+    <p class="sources">Surse: Associated Press (preluat de ABC News, CBC, NPR); NBC News; Radio Free Europe / Current Time (Настоящее Время). Declarații: președintele Volodimir Zelenski; guvernatorul Sankt Petersburgului, Alexandr Beglov; comandantul Forțelor de Sisteme fără Pilot ale Ucrainei, Robert Brovdi; Ministerul rus al Apărării.</p>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="https://aequus.news">Aequus</a> &nbsp;·&nbsp; Analiză geopolitică</p>
+</footer>
+
+</body>
+</html>
