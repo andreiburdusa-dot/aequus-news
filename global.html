@@ -30,11 +30,16 @@
       position: relative;
       top: -1px;
     }
-    .flux-iran { background: #c0392b; color: #fff; }
-    .flux-ucraina { background: #1a5fa8; color: #fff; }
-    .flux-romania { background: #2c7a3a; color: #fff; }
-    .flux-ue { background: #003399; color: #fff; }
-    .flux-global { background: #555; color: #fff; }
+    .flux-iran{}
+    .flux-ucraina{}
+    .flux-romania{}
+    .flux-ue { background: transparent; }
+    .flux-global { background: transparent; }
+    .flux-global .article-title a { color: #1a2e5a; }
+    .flux-global .article-title a:hover { color: #4a6fa5; }
+    .flux-global .article-excerpt { color: #3a3a3a; }
+    .flux-global .cat-chip { background: #1a2e5a; color: #ffffff; border-color: #4a6fa5; }
+    .flux-global .read-more { color: #4a6fa5; }
     .section-divider {
       display: flex;
       align-items: center;
@@ -136,53 +141,92 @@
     </div>
 
     <!-- FEATURED — cel mai recent articol -->
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/belarus-pragul.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global · Securitate</span>
+      <h2 class="article-title"><a href="/articles/belarus-pragul.html">Belarus — de la platformă logistică la actor militar. Cât de aproape e pragul?</a></h2>
+      <p class="article-excerpt">Lukașenko se pregătește de război. Coridorul Suwalki și logica apocalipsei — dacă Belarus intră în conflict, Articolul 5 se activează.</p>
+      <div class="article-footer"><time datetime="2026-06-22">22 iunie 2026</time><a href="/articles/belarus-pragul.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/brexit-zece-ani-minciuna.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global · Analiză</span>
+      <h2 class="article-title"><a href="/articles/brexit-zece-ani-minciuna.html">Zece ani de la Brexit — și minciuna tot câștigă</a></h2>
+      <p class="article-excerpt">Starmer a demisionat. Zece ani de la Brexit. Europa nu are încă antidotul pentru minciuna informațională.</p>
+      <div class="article-footer"><time datetime="2026-06-22">22 iunie 2026</time><a href="/articles/brexit-zece-ani-minciuna.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/evian.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title"><a href="/articles/evian.html">Évian</a></h2>
+      <p class="article-excerpt">G7, 16 iunie. Trump singur la masă; toți liderii îl înconjurau pe Zelenski. Ușile s-au închis — 30 de minute, Trump, Macron, Zelenski. Prima întâlnire în patru luni. „Russia should make a deal."</p>
+      <div class="article-footer"><time datetime="2026-06-16">16 iunie 2026</time><a href="/articles/evian.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/directiva.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title"><a href="/articles/directiva.html">Directiva</a></h2>
+      <p class="article-excerpt">Trump blochează accesul global la cele mai avansate modele AI. Anthropic execută ordinul și îl contestă public. Ce înseamnă pentru Europa și pentru viitorul AI ca resursă globală.</p>
+      <div class="article-footer"><time datetime="2026-06-13">13 iunie 2026</time><a href="/articles/directiva.html" class="read-more">Citește →</a></div>
+    </article>
+
     <!-- Featured Article -->
-            <article class="featured-article">
+            <article class="featured-article  flux-global">
       <a class="card-link" href="/articles/go-world.html" aria-hidden="true" tabindex="-1"></a>
-      <img src="/articles/card-go-world.png" alt="GO World" class="article-card-img" loading="lazy">
+      <span class="cat-chip">Global</span>
       <h2 class="article-title"><a href="/articles/go-world.html">GO World. Ordinea mondială s-a schimbat — și aproape nimeni nu știe să joace noul joc.</a></h2>
+      <p class="article-excerpt">Lumea nu mai funcționează după regulile șahului geopolitic postbelic. Funcționează după GO. Xi joacă GO. Putin joacă șah pe o tablă de GO…</p>
       <div class="article-footer"><time datetime="2026-05-24">24 mai 2026</time><a href="/articles/go-world.html" class="read-more">Citește →</a></div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/europa-go-aliantza-taciuta.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Geopolitică</span>
+      <h2 class="article-title"><a href="/articles/europa-go-aliantza-taciuta.html">Europa joacă GO: Alianța Tăcută</a></h2>
+      <p class="article-excerpt">Washington a tras covorul. Europa se ridică. Fără umbrelă americană. 800 miliarde euro reînarmare. Macron, Starmer, Merz, Zelenski.</p>
+      <div class="article-footer"><time datetime="2026-06-08">2026-06-08</time><a href="/articles/europa-go-aliantza-taciuta.html" class="read-more">Citește →</a></div>
+    </article>
+
+
+
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/romania-kosovo-moscova-beijing.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Balcani · Politică externă</span>
-        <span class="category">Analiză · 23 Mai 2026</span><span class="reading-time">6 min</span></div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title"><a href="/articles/romania-kosovo-moscova-beijing.html">România și Kosovo. 18 ani pe baricada greșită.</a></h2>
       <p class="article-excerpt">Soldații români păzesc un stat pe care Bucureștiul refuză să-l recunoască. România împarte poziția cu Moscova și Beijing — nu din convingere, ci din inerție diplomatică de 18 ani.</p>
       <div class="article-footer"><time datetime="2026-05-23">23 mai 2026</time><a href="/articles/romania-kosovo-moscova-beijing.html" class="read-more">Citește →</a></div>
     </article>
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/guvernul-care-reformeaza-bolojan-gheorghiu.html"
       <a class="card-link" href="/articles/china-a-antrenat-soldati-rusi-ucraina.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · China · Ucraina</span><span class="category">Breaking · 19 Mai 2026</span></div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title"><a href="/articles/china-a-antrenat-soldati-rusi-ucraina.html">China a antrenat soldați ruși pentru frontul din Ucraina. Neutralitatea e o minciună.</a></h2>
       <p class="article-excerpt">200 de militari ruși instruiți secret în China în 2025. O parte pe front acum. Trei servicii europene confirmă.</p>
       <div class="article-footer"><time datetime="2026-05-19">19 mai 2026</time><a href="/articles/china-a-antrenat-soldati-rusi-ucraina.html" class="read-more">Citește →</a></div>
     </article>
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
     <article class="featured-article">
       <a class="card-link" href="/articles/trump-an-preelectoral-orice-pentru-midterm.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · SUA</span><span class="category">Analiză · 19 Mai 2026</span></div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title"><a href="/articles/trump-an-preelectoral-orice-pentru-midterm.html">Trump în an pre-electoral. Orice, oricum, pentru midterm.</a></h2>
       <p class="article-excerpt">Iran, Cuba, 1,776 miliarde pentru aliați. Nu e politică externă — e campanie electorală cu instrumente de stat.</p>
       <div class="article-footer"><time datetime="2026-05-19">19 mai 2026</time><a href="/articles/trump-an-preelectoral-orice-pentru-midterm.html" class="read-more">Citește →</a></div>
     </article>
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
     <article class="featured-article">
       <a class="card-link" href="/articles/leo-xiv-lampedusa-demnitatea.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Vatican</span><span class="category">Eseu · 19 Mai 2026</span></div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title"><a href="/articles/leo-xiv-lampedusa-demnitatea.html">Leo XIV la Lampedusa. Demnitatea nu se negociază.</a></h2>
       <p class="article-excerpt">Pe 4 iulie 2026, primul papă american va fi la Lampedusa. O lecție despre ce înseamnă să rămâi tu însuți.</p>
       <div class="article-footer"><time datetime="2026-05-19">19 mai 2026</time><a href="/articles/leo-xiv-lampedusa-demnitatea.html" class="read-more">Citește →</a></div>
     </article>
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
 <article class="featured-article">
       <a class="card-link" href="/articles/g2-trump-xi-iluzia-ordinii.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Geopolitică</span>
-        <span class="category">Analiză · 17 Mai 2026</span>
-        <span class="reading-time">7 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/g2-trump-xi-iluzia-ordinii.html">G2 sau iluzia ordinii. Trump și Xi nu construiesc o lume — negociază una.</a>
       </h2>
@@ -193,13 +237,10 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
 <article class="featured-article">
       <a class="card-link" href="/articles/fereastra-de-est.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Europa · Securitate</span>
-        <span class="category">Analiză urgentă · 17 Mai 2026</span>
-        <span class="reading-time">11 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/fereastra-de-est.html">
           Fereastra de Est a Europei în pericol
@@ -214,12 +255,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/trump-beijing-xi.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Analiză</span>
-        <span class="category">Analiză · 17 Mai 2026</span>
-        <span class="reading-time">9 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/trump-beijing-xi.html">
           Domnia lui Trump sau aritmetica unui dezastru
@@ -234,12 +272,9 @@
       </div>
     </article>
 
-        <article class="featured-article">
+        <article class="featured-article flux-global">
       <a class="card-link" href="/articles/trump-beijing-xi.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Analiză</span>
-        <span class="category">Analiză · 17 Mai 2026</span>
-        <span class="reading-time">9 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/trump-beijing-xi.html">
           Domnia lui Trump sau aritmetica unui dezastru
@@ -254,12 +289,9 @@
       </div>
     </article>
 
-        <article class="featured-article">
+        <article class="featured-article flux-global">
       <a class="card-link" href="/articles/9-mai-2026-kafka.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Analiză</span>
-        <span class="category">Analiză · 9 Mai 2026</span>
-        <span class="reading-time">9 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/9-mai-2026-kafka.html">
           9 mai 2026 — cum realitatea secolului XXI îl umilește pe Kafka
@@ -274,12 +306,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/cuba-moneda-de-schimb.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Geopolitică</span>
-        <span class="category">Analiză · 8 Mai 2026</span>
-        <span class="reading-time">8 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/cuba-moneda-de-schimb.html">
           Cuba nu este o glumă. Este o monedă de schimb.
@@ -294,12 +323,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/trupe-germania-nato.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · NATO · Securitate</span>
-        <span class="category">Analiză</span>
-        <span class="reading-time">10 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/trupe-germania-nato.html">
           5.000 de soldați — începutul sfârșitului prezenței militare americane în Europa
@@ -314,12 +340,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/criza-epistemica.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Analiză civilizațională</span>
-        <span class="category">Analiză · Editorial</span>
-        <span class="reading-time">12 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/criza-epistemica.html">
           Criza epistemică — omenirea a pierdut realitatea comună
@@ -334,12 +357,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/casa-alba-srl.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Iran</span>
-        <span class="category">Analiză geopolitică</span>
-        <span class="reading-time">11 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/casa-alba-srl.html">
           Casa Albă SRL — Războiul ca instrument de afaceri
@@ -354,12 +374,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/tim-cook-apple-succesiune.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Tech</span>
-        <span class="category">Analiză · Succesiune</span>
-        <span class="reading-time">7 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/tim-cook-apple-succesiune.html">
           15 ani și 4 trilioane — ce lasă Tim Cook în urmă
@@ -374,12 +391,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/lumea-care-se-aseaza.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global · Analiză</span>
-        <span class="category">Analiză · Geopolitică</span>
-        <span class="reading-time">12 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/lumea-care-se-aseaza.html">
           Lumea care se reașază
@@ -394,12 +408,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/cum-sa-cari-universul-cu-galeata.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Filosofie · Eseu</span>
-        <span class="category">Eseu · Civilizație</span>
-        <span class="reading-time">9 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/cum-sa-cari-universul-cu-galeata.html">
           Cum să cari universul cu găleată
@@ -414,12 +425,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/lentilele-pe-care-nu-le-stim.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Filosofie · Eseu</span>
-        <span class="category">Eseu · Speranță lucidă</span>
-        <span class="reading-time">6 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/lentilele-pe-care-nu-le-stim.html">
           Lentilele pe care nu le știm
@@ -434,12 +442,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/selectia-inversa.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Guvernare · Analiză</span>
-        <span class="category">Editorial · Filosofie politică</span>
-        <span class="reading-time">8 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/selectia-inversa.html">
           Selecția inversă
@@ -454,12 +459,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/moldova-vizor.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Moldova · Securitate</span>
-        <span class="category">Analiză · Geopolitică</span>
-        <span class="reading-time">7 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/moldova-vizor.html">
           Moldova în vizor. Rusia construiește pretextul legal pentru intervenție militară
@@ -474,12 +476,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/falimentul-american.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Geopolitică · Analiză</span>
-        <span class="category">Analiză · Contextualizare</span>
-        <span class="reading-time">10 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/falimentul-american.html">
           Falimentul american are acum un nume amar: Trump
@@ -494,12 +493,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/mythos-ce-este-real.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Tehnologie · Securitate</span>
-        <span class="category">Analiză · Contextualizare</span>
-        <span class="reading-time">5 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/mythos-ce-este-real.html">
           Mythos: ce este real, ce este zgomot
@@ -514,12 +510,9 @@
       </div>
     </article>
 
-    <article class="featured-article" style="margin-top: 24px; border-top: 2px solid #f0f0f0; padding-top: 32px;">
+    <article class="featured-article flux-global">
       <a class="card-link" href="/articles/razboiul-pe-care-nimeni-nu-il-poate-castiga.html" aria-hidden="true" tabindex="-1"></a>
-      <div class="article-meta"><span class="flux-tag flux-global">Global</span>
-        <span class="category">Analiză · Editorial</span>
-        <span class="reading-time">7 min</span>
-      </div>
+      <span class="cat-chip">Global</span>
       <h2 class="article-title">
         <a href="/articles/razboiul-pe-care-nimeni-nu-il-poate-castiga.html">
           Războiul pe care nimeni nu îl poate câștiga. Nici măcar cel care l-a început.
@@ -534,6 +527,48 @@
       </div>
     </article>
 
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/fundul-sacului.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title"><a href="/articles/fundul-sacului.html">Fundul sacului. Semnele că Rusia se apropie de limită</a></h2>
+      <p class="article-excerpt">Analiza resurselor și sustenabilității campaniei ruse.</p>
+      <div class="article-footer"><time datetime="2026-01-01">Articol arhivă</time><a href="/articles/fundul-sacului.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/hormuz-esec-vance.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title"><a href="/articles/hormuz-esec-vance.html">Hormuzul și mâna goală. De ce nu funcționează diplomația americană</a></h2>
+      <p class="article-excerpt">Când negozierea se-nfrânge pe realitatea geopolitică.</p>
+      <div class="article-footer"><time datetime="2026-01-01">Articol arhivă</time><a href="/articles/hormuz-esec-vance.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/orientul-mijlociu-europa-plateste-nota.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title"><a href="/articles/orientul-mijlociu-europa-plateste-nota.html">Orientul Mijlociu în flăcări. Europa plătește nota</a></h2>
+      <p class="article-excerpt">Impactul regional asupra securității europene.</p>
+      <div class="article-footer"><time datetime="2026-01-01">Articol arhivă</time><a href="/articles/orientul-mijlociu-europa-plateste-nota.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/pe-buza-prapastiei-civilizatiei.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title"><a href="/articles/pe-buza-prapastiei-civilizatiei.html">Pe buza prăpastiei civilizației umane</a></h2>
+      <p class="article-excerpt">Perspective asupra viitorului geopolitic.</p>
+      <div class="article-footer"><time datetime="2026-01-01">Articol arhivă</time><a href="/articles/pe-buza-prapastiei-civilizatiei.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/razboi-fara-gloante.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title"><a href="/articles/razboi-fara-gloante.html">Războiul fără gloanțe. Cum a weaponizat Rusia suveranismul</a></h2>
+      <p class="article-excerpt">Strategie hibridă și warfare informațional.</p>
+      <div class="article-footer"><time datetime="2026-01-01">Articol arhivă</time><a href="/articles/razboi-fara-gloante.html" class="read-more">Citește →</a></div>
+    </article>
+
+
+
     <div class="section-divider">
       <div class="sdline"></div>
       <div class="sdlabel">● Global — Toate articolele</div>
@@ -543,12 +578,9 @@
     <!-- GRID ARTICOLE -->
     <div class="articles-grid">
 
-      <article class="article-card">
-        <div class="article-meta"><span class="flux-tag flux-global">Global · Democrație</span>
-          <span class="category">Analiză · Filosofie politică</span>
-          <span class="reading-time">14 min</span>
-        </div>
-        <h3 class="article-title">
+      <article class="article-card flux-global">
+        <span class="cat-chip">Global</span>
+      <h3 class="article-title">
           <a href="/articles/democratia-sub-asediu.html">
             Democrația sub asediu: diagnostic și arhitectură pentru un sistem care trebuie reinventat
           </a>
@@ -562,12 +594,9 @@
         </div>
       </article>
 
-      <article class="article-card">
-        <div class="article-meta"><span class="flux-tag flux-global">Tehnologie · Securitate</span>
-          <span class="category">Analiză · Contextualizare</span>
-          <span class="reading-time">5 min</span>
-        </div>
-        <h3 class="article-title">
+      <article class="article-card flux-global">
+        <span class="cat-chip">Global</span>
+      <h3 class="article-title">
           <a href="/articles/mythos-ce-este-real.html">
             Mythos: ce este real, ce este zgomot
           </a>
@@ -581,12 +610,9 @@
         </div>
       </article>
 
-      <article class="article-card">
-        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
-          <span class="category">Analiză · Editorial</span>
-          <span class="reading-time">7 min</span>
-        </div>
-        <h3 class="article-title">
+      <article class="article-card flux-global">
+        <span class="cat-chip">Global</span>
+      <h3 class="article-title">
           <a href="/articles/razboiul-pe-care-nimeni-nu-il-poate-castiga.html">
             Războiul pe care nimeni nu îl poate câștiga. Nici măcar cel care l-a început.
           </a>
@@ -600,12 +626,9 @@
         </div>
       </article>
 
-      <article class="article-card">
-        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
-          <span class="category">Eseu · Analiză de fond</span>
-          <span class="reading-time">18 min</span>
-        </div>
-        <h3 class="article-title">
+      <article class="article-card flux-global">
+        <span class="cat-chip">Global</span>
+      <h3 class="article-title">
           <a href="/articles/omenirea-caz-patologic.html">
             Omenirea — un caz patologic de istorie inutilă
           </a>
@@ -619,12 +642,9 @@
         </div>
       </article>
 
-      <article class="article-card">
-        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
-          <span class="category">Eseu</span>
-          <span class="reading-time">22 min</span>
-        </div>
-        <h3 class="article-title">
+      <article class="article-card flux-global">
+        <span class="cat-chip">Global</span>
+      <h3 class="article-title">
           <a href="/articles/lumea-care-se-distruge-singura.html">
             Lumea care se distruge singură
           </a>
@@ -638,12 +658,9 @@
         </div>
       </article>
 
-      <article class="article-card">
-        <div class="article-meta"><span class="flux-tag flux-global">Global</span>
-          <span class="category">Editorial</span>
-          <span class="reading-time">11 min</span>
-        </div>
-        <h3 class="article-title">
+      <article class="article-card flux-global">
+        <span class="cat-chip">Global</span>
+      <h3 class="article-title">
           <a href="/articles/acelasi-drum-acelasi-capat.html">
             Același drum, același capăt
           </a>
