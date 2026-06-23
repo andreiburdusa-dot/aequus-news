@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Consensul negativ — Aequus</title>
+
+<rect width="680" height="680" fill="#0a0a0f"/>
+
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/>
+  </pattern>
+</defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="600" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c41e3a" letter-spacing="0.14em" text-anchor="end">ROMÂNIA</text>
+
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+
+<rect x="40" y="108" width="80" height="22" rx="2" fill="rgba(196,30,58,0.15)"/>
+<rect x="40" y="108" width="3" height="22" fill="#c41e3a"/>
+<text x="52" y="123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#c41e3a" letter-spacing="0.16em">ANALIZĂ</text>
+
+<text x="40" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" fill="#e8e8f0" letter-spacing="-0.01em">Consensul</text>
+<text x="40" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" font-style="italic" fill="#c41e3a" letter-spacing="-0.01em">negativ</text>
+
+<text x="40" y="312" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8888a0">Reacțiile la desemnarea lui Veștea,</text>
+<text x="40" y="336" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8888a0">citite de doi AI diferiți</text>
+
+<line x1="40" y1="372" x2="640" y2="372" stroke="#1e1e2e" stroke-width="0.8"/>
+
+<text x="40" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="800" fill="#e8e8f0">88,7%</text>
+<text x="40" y="540" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#c41e3a" letter-spacing="0.18em">COMENTARII NEGATIVE (GEMINI)</text>
+
+<text x="40" y="586" font-family="Georgia, serif" font-size="14.5" fill="#9090a8">din ~1.900 comentarii analizate prin AI,</text>
+<text x="40" y="610" font-family="Georgia, serif" font-size="14.5" fill="#9090a8">la postarea președintelui Nicușor Dan</text>
+
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#606060" letter-spacing="0.08em">15 IUNIE 2026</text>
+<text x="640" y="650" font-family="Georgia, serif" font-size="15" fill="#c41e3a" text-anchor="end" font-style="italic">aequus</text>
+
+</svg>

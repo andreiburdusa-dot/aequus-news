@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UE — Aequus</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2EEJD3269T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2EEJD3269T');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .flux-tag {
+      display: inline-block;
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 2px;
+      margin-right: 8px;
+      vertical-align: middle;
+      position: relative;
+      top: -1px;
+    }
+    .flux-iran{}
+    .flux-ucraina{}
+    .flux-romania{}
+    .flux-ue { background: #003399; color: #fff; }
+    .flux-ue { background: #003399; color: #fff; }
+    .flux-global{}
+    .section-divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 40px 0 24px;
+    }
+    .section-divider .sdline {
+      height: 1px;
+      background: var(--c-gold, #c8b89a);
+      flex: 1;
+    }
+    .section-divider .sdlabel {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--c-gold-text, #9a7f5a);
+      white-space: nowrap;
+    }
+    .section-header {
+      border-left: 4px solid #003399;
+      padding-left: 16px;
+      margin: 32px 0 40px 0;
+    }
+    .section-header h1 {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin: 0 0 6px 0;
+    }
+    .section-header p {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 14px;
+      color: #888;
+      margin: 0;
+    }
+    .active-nav {
+      color: #003399 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+
+  <!-- OneSignal Web Push -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "8b7edb98-bb6d-403d-8be4-597cf95bbfe8",
+        serviceWorkerPath: "/OneSignalSDKWorker.js",
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-content">
+      <div class="masthead">
+        <a href="/" class="logo-link">
+          <svg class="logo-sigla" width="52" height="52" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="80" cy="80" r="74" fill="none" stroke="#1a2e5a" stroke-width="0.8" opacity="0.15"/>
+            <circle cx="80" cy="80" r="66" fill="none" stroke="#1a2e5a" stroke-width="1.4" opacity="0.65"/>
+            <circle cx="80" cy="80" r="65" fill="transparent"/>
+            <g stroke="#1a2e5a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+              <line x1="80" y1="28" x2="50" y2="112" stroke-width="2.4"/>
+              <line x1="80" y1="28" x2="110" y2="112" stroke-width="2.4"/>
+              <line x1="63" y1="83" x2="97" y2="83" stroke-width="1.8"/>
+              <line x1="42" y1="112" x2="58" y2="112" stroke-width="2.1"/>
+              <line x1="102" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+            </g>
+            <polygon points="80,19 83.5,28 80,37 76.5,28" fill="#1a2e5a" opacity="0.8"/>
+          </svg>
+          <div class="logo-text">
+            <span class="logo-titlu">AEQUUS</span>
+            <span class="logo-tagline">echilibru · luciditate · atitudine civică</span>
+          </div>
+        </a>
+      </div>
+      <nav class="main-nav">
+        <a href="/">Toate</a>
+        <a href="/iran.html">Iran</a>
+        <a href="/ucraina.html">Ucraina</a>
+        <a href="/romania.html">România</a>
+        <a href="/ue.html">UE</a>
+        <a href="/despre.html">Despre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content-wrapper">
+
+    <div class="section-header">
+      <h1><span class="flux-tag flux-ue">UE</span> Analize și reportaje</h1>
+      <p>Uniunea Europeană: federalizare, apărare comună, politici și viitorul proiectului european.</p>
+    </div>
+
+    <!-- FEATURED — cel mai recent articol -->
+    <article class="featured-article flux-ue">
+      <a class="card-link" href="/articles/doua-umbrele-peste-polonia.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">UE</span>
+      <h2 class="article-title"><a href="/articles/doua-umbrele-peste-polonia.html">Două umbrele peste Polonia</a></h2>
+      <p class="article-excerpt">SUA discută extinderea umbrelei nucleare spre flancul estic, iar Polonia cere în paralel și garanția franceză. Nu e forță — e frica unui continent care nu mai are încredere într-un singur garant.</p>
+      <div class="article-footer"><time datetime="2026-06-02">2 iunie 2026</time><a href="/articles/doua-umbrele-peste-polonia.html" class="read-more">Citește →</a></div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/europa-trebuie-sa-miste-acum.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title">
+        <a href="/articles/europa-trebuie-sa-miste-acum.html">
+          Europa trebuie să miște acum. Nu mâine.
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        Moscova bombardată, America retrasă, Belarus activat. Fereastra în care Europa poate schimba traiectoria războiului e deschisă acum. Nu mâine. Trei pași concreți care nu mai pot aștepta.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-05-17">17 mai 2026</time>
+        <a href="/articles/europa-trebuie-sa-miste-acum.html" class="read-more">Citește →</a>
+      </div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/fereastra-de-est.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title">
+        <a href="/articles/fereastra-de-est.html">
+          Fereastra de Est a Europei în pericol
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        2029. Breuer, Knighton, Funke — toți converg. Moscova lovită cu drone. Transnistria passportizată. Propunere concretă: acordul de securitate România-Moldova-Ucraina ca nucleu al apărării flancului estic.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-05-17">17 mai 2026</time>
+        <a href="/articles/fereastra-de-est.html" class="read-more">Citește →</a>
+      </div>
+    </article>
+
+    <article class="featured-article flux-global">
+      <a class="card-link" href="/articles/trump-beijing-xi.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">Global</span>
+      <h2 class="article-title">
+        <a href="/articles/trump-beijing-xi.html">
+          Domnia lui Trump sau aritmetica unui dezastru
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        Trump a spus că vizita la Beijing a fost „incredibilă". Cifrele spun altceva. Taiwan lăsat în ambiguitate deliberată. CEO americani aduși să „omagieze" China. Xi a obținut tot ce voia fără să cedeze nimic.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-05-17">17 mai 2026</time>
+        <a href="/articles/trump-beijing-xi.html" class="read-more">Citește →</a>
+      </div>
+    </article>
+
+        <article class="featured-article flux-ue">
+      <a class="card-link" href="/articles/magyar-ce-urmeaza.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">UE</span>
+      <h2 class="article-title">
+        <a href="/articles/magyar-ce-urmeaza.html">
+          Magyar a câștigat. Acum vine partea grea
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        Cu aproape 70% din voturi și 138 de mandate, Péter Magyar deține o super-majoritate constituțională. Poate demonta tot ce a construit Orbán în 16 ani. Întrebarea nu e dacă are puterea — e ce face cu ea.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-04-13">13 aprilie 2026</time>
+        <a href="/articles/magyar-ce-urmeaza.html" class="read-more">Citește →</a>
+      </div>
+    </article>
+
+    <article class="featured-article flux-ue">
+      <a class="card-link" href="/articles/sfarsitul-orban.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">UE</span>
+      <h2 class="article-title">
+        <a href="/articles/sfarsitul-orban.html">
+          Sfârşitul lui Orbán. Ce înseamnă pentru Europa
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        Tisza 55%, Fidesz 38%. După 15 ani, Viktor Orbán a pierdut alegerile parlamentare din Ungaria. Rusia pierde cel mai valoros instrument din interiorul UE și NATO. România urcă pe lista priorităților Moscovei.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-04-12">12 aprilie 2026</time>
+        <a href="/articles/sfarsitul-orban.html" class="read-more">Citește →</a>
+      </div>
+    </article>
+
+    <article class="featured-article flux-ue">
+      <a class="card-link" href="/articles/spinul-din-coastele-europei.html" aria-hidden="true" tabindex="-1"></a>
+      <span class="cat-chip">UE</span>
+      <h2 class="article-title">
+        <a href="/articles/spinul-din-coastele-europei.html">
+          Spinul din coastele Europei. Și cine îl răsucește.
+        </a>
+      </h2>
+      <p class="article-excerpt">
+        Orbán nu e un politician cu simpatii pro-ruse. E un instrument activ al Kremlinului, instalat în inima UE. Pe 12 aprilie, ungurii au șansa să îl scoată — și miza depășește cu mult granițele Ungariei.
+      </p>
+      <div class="article-footer">
+        <time datetime="2026-03-23">23 martie 2026</time>
+        <a href="/articles/spinul-din-coastele-europei.html" class="read-more">Citește →</a>
+      </div>
+    </article>
+
+    <div class="section-divider">
+      <div class="sdline"></div>
+      <div class="sdlabel">● UE — Toate articolele</div>
+      <div class="sdline"></div>
+    </div>
+
+    <!-- GRID ARTICOLE -->
+    <div class="articles-grid">
+
+      <article class="article-card flux-ue">
+        <span class="cat-chip">UE</span>
+      <h3 class="article-title">
+          <a href="/articles/spinul-din-coastele-europei.html">
+            Spinul din coastele Europei. Și cine îl răsucește.
+          </a>
+        </h3>
+        <p class="article-excerpt">
+          Orbán nu e un politician cu simpatii pro-ruse. E un instrument activ al Kremlinului. Diferența contează enorm — pentru că instrumentele nu se negociază. Se dezactivează.
+        </p>
+        <div class="article-footer">
+          <time datetime="2026-03-23">23 martie 2026</time>
+          <a href="/articles/spinul-din-coastele-europei.html" class="read-more">Citește →</a>
+        </div>
+      </article>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <svg width="36" height="36" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="80" cy="80" r="66" fill="none" stroke="#b8954a" stroke-width="1.4" opacity="0.5"/>
+          <g stroke="#b8954a" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <line x1="80" y1="28" x2="50" y2="112" stroke-width="2.4"/>
+            <line x1="80" y1="28" x2="110" y2="112" stroke-width="2.4"/>
+            <line x1="63" y1="83" x2="97" y2="83" stroke-width="1.8"/>
+            <line x1="42" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+            <line x1="102" y1="112" x2="118" y2="112" stroke-width="2.1"/>
+          </g>
+          <polygon points="80,19 83.5,28 80,37 76.5,28" fill="#b8954a" opacity="0.7"/>
+        </svg>
+      </div>
+      <p class="footer-text">Aequus — O voce pentru cei care gândesc și nu tac</p>
+      <p class="copyright">© 2026 Aequus. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+
+
+<script>
+  document.querySelectorAll('.featured-article').forEach(function(card) {
+    var link = card.querySelector('.article-title a');
+    if (!link) link = card.querySelector('.card-link');
+    if (!link) return;
+    var href = link.getAttribute('href');
+    card.addEventListener('click', function(e) {
+      if (e.target.tagName === 'A') return;
+      window.location.href = href;
+    });
+  });
+</script>
+
+</body>
+</html>

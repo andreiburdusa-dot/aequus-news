@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>România convoacă lumea – Aequus</title>
+  <meta name="description" content="Pentru prima dată în 70 de ani, România a cerut o reuniune a Consiliului de Securitate ONU — și a adus 56 de state de partea sa. Un punct internațional real, cu o singură fisură." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="România convoacă lumea" />
+  <meta property="og:description" content="Pentru prima dată în 70 de ani, România a cerut o reuniune a Consiliului de Securitate ONU — și a adus 56 de state de partea sa. Un punct internațional real, cu o singură fisură." />
+  <meta property="og:image" content="https://aequus.news/articles/card-romania-convoaca-lumea.png" />
+  <meta property="og:url" content="https://aequus.news/articles/romania-convoaca-lumea.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Aequus" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="România convoacă lumea" />
+  <meta name="twitter:description" content="Pentru prima dată în 70 de ani, România a cerut o reuniune a Consiliului de Securitate ONU — și a adus 56 de state de partea sa. Un punct internațional real, cu o singură fisură." />
+  <meta name="twitter:image" content="https://aequus.news/articles/card-romania-convoaca-lumea.png" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0a0a;
+      --surface: #160f0f;
+      --border: #2a1a1a;
+      --accent: #c41e3a;
+      --accent-dim: #7a1220;
+      --text: #e8ddd5;
+      --text-dim: #9a8880;
+      --text-muted: #5a4540;
+      --gold: #c8a96e;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Georgia', serif;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    header { border-bottom: 1px solid var(--border); padding: 18px 0; }
+
+    .header-inner {
+      max-width: 860px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .site-name {
+      font-family: 'Georgia', serif; font-size: 1.35rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--text); text-decoration: none;
+    }
+    .site-name span { color: var(--accent); }
+
+    nav a {
+      color: var(--text-dim); text-decoration: none; font-size: 0.78rem;
+      letter-spacing: 0.08em; text-transform: uppercase; margin-left: 22px; transition: color 0.2s;
+    }
+    nav a:hover { color: var(--accent); }
+
+    .article-wrap { max-width: 860px; margin: 0 auto; padding: 56px 24px 80px; }
+
+    .category-tag {
+      display: inline-block; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--accent); border: 1px solid var(--accent-dim); padding: 3px 10px; margin-bottom: 28px;
+    }
+
+    h1 {
+      font-family: 'Georgia', serif; font-size: clamp(1.9rem, 4vw, 2.8rem); font-weight: 700;
+      line-height: 1.2; color: var(--text); margin-bottom: 20px; letter-spacing: -0.01em;
+    }
+
+    .deck {
+      font-size: 1.15rem; color: var(--text-dim); line-height: 1.6;
+      margin-bottom: 32px; padding-bottom: 32px; border-bottom: 1px solid var(--border);
+    }
+
+    .meta { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 44px; }
+    .meta strong { color: var(--text-dim); }
+
+    .article-body p { margin-bottom: 1.5em; font-size: 1.05rem; }
+
+    .article-body p:first-of-type::first-letter {
+      float: left; font-size: 3.8rem; line-height: 0.78; margin: 6px 10px 0 0;
+      color: var(--accent); font-family: 'Georgia', serif; font-weight: 700;
+    }
+
+    .key-quote { border-left: 3px solid var(--accent); margin: 36px 0; padding: 18px 24px; background: var(--surface); }
+    .key-quote p { font-size: 1.05rem; font-style: italic; color: var(--gold); margin: 0; }
+    .key-quote cite {
+      display: block; margin-top: 10px; font-size: 0.78rem; color: var(--text-muted);
+      font-style: normal; letter-spacing: 0.06em; text-transform: uppercase;
+    }
+
+    .analysis-box {
+      background: var(--surface); border: 1px solid var(--border); border-top: 2px solid var(--accent);
+      padding: 24px 28px; margin: 36px 0;
+    }
+    .analysis-box h3 { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+    .analysis-box p { font-size: 0.97rem; color: var(--text-dim); margin-bottom: 0.9em; }
+    .analysis-box p:last-child { margin-bottom: 0; }
+
+    h2 {
+      font-size: 1.2rem; font-weight: 700; color: var(--text); margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid var(--border); letter-spacing: 0.01em;
+    }
+
+    .data-strip {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1px; background: var(--border); border: 1px solid var(--border); margin: 32px 0;
+    }
+    .data-item { background: var(--surface); padding: 18px 20px; }
+    .data-item .label { font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; }
+    .data-item .value { font-size: 1.4rem; font-weight: 700; color: var(--gold); font-family: 'Georgia', serif; }
+    .data-item .note { font-size: 0.75rem; color: var(--text-muted); margin-top: 3px; }
+
+    .sources { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; }
+
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; }
+    footer p { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.06em; }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="https://aequus.news" class="site-name">Ae<span>qu</span>us</a>
+    <nav>
+      <a href="https://aequus.news/iran.html">Iran</a>
+      <a href="https://aequus.news/ucraina.html">Ucraina</a>
+      <a href="https://aequus.news/romania.html">România</a>
+      <a href="https://aequus.news/global.html">Global</a>
+    </nav>
+  </div>
+</header>
+
+<main class="article-wrap">
+
+  <span class="category-tag">România · ONU · Securitate</span>
+
+  <h1>România convoacă lumea</h1>
+
+  <p class="deck">Pentru prima dată în 70 de ani, Bucureștiul a chemat Consiliul de Securitate al ONU — și a adus 56 de state de partea sa. Un punct internațional real, cu o singură fisură: vocea propriului stat.</p>
+
+  <p class="meta"><strong>Aequus</strong> &nbsp;·&nbsp; 2 iunie 2026 &nbsp;·&nbsp; Analiză</p>
+
+  <div class="article-body">
+
+    <p>În noaptea de 28 spre 29 mai, o dronă rusească Geran-2, purtând aproximativ 30 de kilograme de exploziv, a intrat în spațiul aerian al României și a zburat în jur de patru minute peste teritoriul național, înainte să se prăbușească și să explodeze la etajul al zecelea al unui bloc din Galați. Doi locatari au fost răniți. Trei zile mai târziu, statul român a făcut un lucru pe care nu-l mai făcuse niciodată în cele șapte decenii de când e membru al Națiunilor Unite: a cerut, în nume propriu, o reuniune de urgență a Consiliului de Securitate. Iar la acea masă nu a venit singur.</p>
+
+    <div class="data-strip">
+      <div class="data-item">
+        <div class="label">State alături de România</div>
+        <div class="value">56</div>
+        <div class="note">aliați UE, NATO și parteneri</div>
+      </div>
+      <div class="data-item">
+        <div class="label">Prima convocare</div>
+        <div class="value">în 70 de ani</div>
+        <div class="note">de la aderarea la ONU</div>
+      </div>
+      <div class="data-item">
+        <div class="label">Incursiuni drone rusești</div>
+        <div class="value">30+</div>
+        <div class="note">spațiul aerian RO, în 2026</div>
+      </div>
+      <div class="data-item">
+        <div class="label">Drona de la Galați</div>
+        <div class="value">Geran-2</div>
+        <div class="note">~30 kg exploziv, etajul 10</div>
+      </div>
+    </div>
+
+    <p>Reuniunea a fost convocată în baza articolelor 34 și 35 din Carta ONU, care reglementează rolul Consiliului în situații ce pot pune în pericol pacea și securitatea internațională. Cifra care contează nu e România, ci numărul din spatele ei: 56 de guverne — aliați din Uniunea Europeană și NATO, plus parteneri din afara spațiului euroatlantic — au denunțat la unison comportamentul „inacceptabil" al Federației Ruse. Ministrul de Externe, Oana Țoiu, a vorbit în numele tuturor.</p>
+
+    <h2>Ce a făcut România bine</h2>
+
+    <p>Prestația diplomatică a fost, tehnic, fără cusur. Țoiu nu a venit cu indignare, ci cu dovezi: a afirmat că analiza militară și raportul tehnic al anchetatorilor români arată „fără îndoială" că drona era un Geran-2 de fabricație rusească, concluzie sprijinită pe fragmentele recuperate de la fața locului. A așezat incidentul într-un tipar, nu într-un accident — peste 30 de incursiuni ale dronelor rusești în spațiul aerian românesc doar în acest an, cu incidente similare în Polonia, Estonia, Lituania și Letonia. Și a refuzat din start cadrul pe care îl propunea Moscova: ideea că asemenea încălcări ar putea deveni o rutină tolerabilă.</p>
+
+    <p>Aceasta este replica exactă la linia de apărare rusă — sugestia că o dronă „rătăcită" nu mai angajează responsabilitatea celui care a lansat-o. Statul român a obținut și reafirmarea pe care o căuta: reprezentantul Statelor Unite a declarat la tribună că Washingtonul e alături de România și că va apăra fiecare centimetru de teritoriu NATO. Pentru o țară obișnuită să-și înghită incidentele în tăcere, e o schimbare de postură: pentru prima oară, România s-a comportat ca un stat care cheamă lumea la masă, nu ca unul care îndură.</p>
+
+    <div class="key-quote">
+      <p>Războiul modern cu vehicule autonome nu creează o distanță față de responsabilitate.</p>
+      <cite>Oana Țoiu, Consiliul de Securitate ONU</cite>
+    </div>
+
+    <h2>Singura fisură</h2>
+
+    <p>Și totuși, punctul câștigat a venit cu o crăpătură — una internă, și de aceea cu atât mai costisitoare. Cu câteva zile înainte de ședință, la Galați, președintele Nicușor Dan a oferit o explicație tehnică despre cum ajunsese drona deasupra orașului: ar fi făcut parte dintr-un roi, ar fi fost lovită „kinetic" deasupra orașului ucrainean Reni și, în urma loviturii, și-ar fi schimbat traiectoria spre România. Întrebat dacă devierea fusese întâmplătoare sau provocată, a răspuns că aparatul „a fost lovit kinetic".</p>
+
+    <p>Problema nu e dacă afirmația e adevărată. Problema e că ea depășea propriul raport tehnic al statului. Expertiza oficială stabilise un singur lucru — originea: dronă rusească. Cauza schimbării de traiectorie nu făcea parte din concluziile ei. Iar ministrul Apărării, Radu Miruță, a refuzat să confirme explicația președintelui, numind dezbaterea despre felul în care a ajuns drona în România „o fentă în spațiul public" și subliniind că nu deține date că traiectoria ar fi fost modificată de apărarea ucraineană. Poziția lui a fost cea sobră: deviată sau nu, responsabilitatea aparține Rusiei, fiindcă cine lansează o dronă cu exploziv răspunde de unde ajunge ea.</p>
+
+    <p>Rezultatul era previzibil. La aceeași masă a Consiliului de Securitate, reprezentantul Federației Ruse a folosit chiar declarația președintelui României: a invocat „incoerența" oficialilor români — întâi o încălcare a spațiului aerian, apoi un președinte care spune că drona a fost lovită și deviată de Ucraina. Bucureștiul a venit cu 56 de state și un raport tehnic; Moscova a venit cu un citat din președintele României.</p>
+
+    <div class="analysis-box">
+      <h3>Ce numim, fără eufemism</h3>
+      <p>Un stat care punctează la ONU și apoi îi întinde adversarului, pe gratis, exact fraza de care acesta avea nevoie. Nu pentru că cineva a mințit — ci pentru că un adevăr tehnic parțial a fost rostit la nivelul greșit, în momentul greșit. Asta e mecanica războiului hibrid în forma lui cea mai eficientă: nu trebuie să-ți planteze o minciună în gură, e suficient să te lase să-i oferi singur un fragment real, spus de la altitudinea nepotrivită.</p>
+      <p>Întrebarea pe care o lasă deschisă nu e despre persoană, ci despre comandă: de ce a ieșit din gura președintelui o evaluare pe care propriul Minister al Apărării n-a confirmat-o? Ori șeful statului improvizează peste serviciile lui, ori serviciile din jurul lui improvizează peste el. Ambele sunt o problemă — și niciuna nu se rezolvă cu un comunicat.</p>
+      <p>Dar bilanțul, numit drept, rămâne pozitiv. Câștigul e real, fisura e o lecție, nu o înfrângere. România a ieșit din acest episod cu mai mult decât a intrat: o coaliție de 56 de state, o reafirmare americană și dovada că poate convoca forul suprem al lumii. Restul e ceea ce un stat matur învață o singură dată.</p>
+    </div>
+
+    <p>Punctul rămâne al României. Pentru prima oară în istoria ei la ONU, s-a comportat ca o țară care cheamă lumea la masă, nu ca una care înghite în tăcere. Vocea care n-a fost una singură e prețul uceniciei — și exact lecția pe care adversarul speră că Bucureștiul n-o învață niciodată.</p>
+
+    <p class="sources">Surse: discursul Oanei Țoiu la Consiliul de Securitate al ONU (1 iunie 2026); Digi24, HotNews, Euronews (declarațiile ministrului Apărării, Radu Miruță); ziare.com și Biziday (folosirea declarației prezidențiale de către Rusia la ONU); Antena 3 CNN, TVR, G4Media, Realitatea, Adevărul.</p>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 <a href="https://aequus.news">Aequus</a> &nbsp;·&nbsp; Analiză geopolitică</p>
+</footer>
+
+</body>
+</html>
