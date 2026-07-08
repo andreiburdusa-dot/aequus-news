@@ -1,0 +1,69 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="680" fill="#0a0a0f"/>
+
+  <!-- Subtle grid texture -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#14141f" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="680" height="680" fill="url(#grid)"/>
+
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="680" height="3" fill="#4a6fa5"/>
+
+  <!-- Zone 1: Site name -->
+  <text x="48" y="58" font-family="Georgia, serif" font-size="13" fill="#4a6fa5" letter-spacing="3">AEQUUS.NEWS</text>
+
+  <!-- Divider 1 -->
+  <line x1="0" y1="72" x2="680" y2="72" stroke="#1e1e2e" stroke-width="0.5"/>
+
+  <!-- Zone 2: Category -->
+  <text x="48" y="106" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#555568" letter-spacing="2">ANALIZĂ · SUA · ARHITECTURĂ INSTITUȚIONALĂ</text>
+
+  <!-- Divider 2 -->
+  <line x1="0" y1="122" x2="680" y2="122" stroke="#1e1e2e" stroke-width="0.5"/>
+
+  <!-- Zone 3: Title -->
+  <text x="48" y="172" font-family="Georgia, serif" font-size="34" fill="#e8e8f0" font-weight="normal">Secolul nebunilor</text>
+  <text x="48" y="214" font-family="Georgia, serif" font-size="19" fill="#8888a0" font-style="italic">cum se dezmembrează, simultan,</text>
+  <text x="48" y="242" font-family="Georgia, serif" font-size="19" fill="#8888a0" font-style="italic">echilibrul de putere pe două continente</text>
+
+  <!-- Divider 3 -->
+  <line x1="0" y1="272" x2="680" y2="272" stroke="#1e1e2e" stroke-width="0.5"/>
+
+  <!-- Zone 4: Lead facts -->
+  <text x="48" y="308" font-family="Georgia, serif" font-size="14.5" fill="#9090a8">Curtea Supremă răstoarnă precedentul de 90 de ani</text>
+  <text x="48" y="330" font-family="Georgia, serif" font-size="14.5" fill="#9090a8">Humphrey's Executor (6-3, 29 iunie 2026).</text>
+  <text x="48" y="358" font-family="Georgia, serif" font-size="14.5" fill="#9090a8">SAVE America Act ține ostatică o lege populară.</text>
+  <text x="48" y="386" font-family="Georgia, serif" font-size="14.5" fill="#9090a8">La Ankara, NATO se clatină din interior.</text>
+
+  <!-- Accent quote line -->
+  <rect x="48" y="416" width="2" height="76" fill="#4a6fa5"/>
+  <text x="64" y="444" font-family="Georgia, serif" font-size="13" fill="#a0a0bc" font-style="italic">„O putere necunoscută nici Coroanei engleze"</text>
+  <text x="64" y="466" font-family="Georgia, serif" font-size="13" fill="#a0a0bc" font-style="italic">— J. Sotomayor, disidență</text>
+
+  <!-- Divider 4 -->
+  <line x1="0" y1="518" x2="680" y2="518" stroke="#1e1e2e" stroke-width="0.5"/>
+
+  <!-- Zone 5: Pillars -->
+  <text x="48" y="554" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#4a6fa5" letter-spacing="1.5">TREI FRONTURI · ACEEAȘI LOGICĂ</text>
+
+  <rect x="48" y="574" width="192" height="60" fill="#0e0e1a" rx="2"/>
+  <text x="144" y="597" font-family="Georgia, serif" font-size="10.5" fill="#7878a0" text-anchor="middle">Agenții federale</text>
+  <text x="144" y="614" font-family="Georgia, serif" font-size="10.5" fill="#7878a0" text-anchor="middle">independente</text>
+  <text x="144" y="631" font-family="Georgia, serif" font-size="10" fill="#4a6fa5" text-anchor="middle">subordonate</text>
+
+  <rect x="252" y="574" width="192" height="60" fill="#0e0e1a" rx="2"/>
+  <text x="348" y="597" font-family="Georgia, serif" font-size="10.5" fill="#7878a0" text-anchor="middle">Lege electorală</text>
+  <text x="348" y="614" font-family="Georgia, serif" font-size="10.5" fill="#7878a0" text-anchor="middle">ca pârghie</text>
+  <text x="348" y="631" font-family="Georgia, serif" font-size="10" fill="#4a6fa5" text-anchor="middle">de negociere</text>
+
+  <rect x="456" y="574" width="176" height="60" fill="#0e0e1a" rx="2"/>
+  <text x="544" y="597" font-family="Georgia, serif" font-size="10.5" fill="#7878a0" text-anchor="middle">Alianță militară</text>
+  <text x="544" y="614" font-family="Georgia, serif" font-size="10.5" fill="#7878a0" text-anchor="middle">bazată pe</text>
+  <text x="544" y="631" font-family="Georgia, serif" font-size="10" fill="#4a6fa5" text-anchor="middle">consens erodat</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="677" width="680" height="3" fill="#4a6fa5" opacity="0.4"/>
+</svg>
