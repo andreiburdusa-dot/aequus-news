@@ -1,0 +1,32 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="680" fill="#1a0a0a"/>
+
+  <text x="40" y="80" font-family="Georgia, serif" font-size="15" letter-spacing="2" fill="#c41e3a" font-weight="bold">NATO — SUA — ALIANȚĂ TRANSATLANTICĂ</text>
+
+  <line x1="40" y1="104" x2="640" y2="104" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="170" font-family="Georgia, serif" font-size="42" fill="#e8e4d8" font-weight="bold">NATO, o organizație</text>
+  <text x="40" y="222" font-family="Georgia, serif" font-size="42" fill="#e8e4d8" font-weight="bold">sub perfuzii</text>
+
+  <line x1="40" y1="260" x2="640" y2="260" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="300" font-family="Georgia, serif" font-size="17" fill="#d4cfc0">Ankara a produs cifre impresionante și o</text>
+  <text x="40" y="328" font-family="Georgia, serif" font-size="17" fill="#d4cfc0">declarație de unitate "de neclintit".</text>
+
+  <text x="40" y="378" font-family="Georgia, serif" font-size="16" fill="#a09880" font-style="italic">Sub suprafață: Trump rupe relații comerciale</text>
+  <text x="40" y="404" font-family="Georgia, serif" font-size="16" fill="#a09880" font-style="italic">cu Spania, reaprinde disputa cu Meloni,</text>
+  <text x="40" y="430" font-family="Georgia, serif" font-size="16" fill="#a09880" font-style="italic">amenință din nou cu Groenlanda.</text>
+
+  <line x1="40" y1="470" x2="640" y2="470" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="510" font-family="Georgia, serif" font-size="15" fill="#9a8a7a">70 mld € pentru Ucraina · 50 mld $ achiziții noi</text>
+  <text x="40" y="536" font-family="Georgia, serif" font-size="15" fill="#9a8a7a">200+ reținuți la protestele anti-NATO din Ankara</text>
+
+  <text x="40" y="580" font-family="Georgia, serif" font-size="17" fill="#e8e4d8" font-style="italic">Coeziunea alianței, condiționată zi de zi</text>
+  <text x="40" y="606" font-family="Georgia, serif" font-size="17" fill="#e8e4d8" font-style="italic">de starea de spirit a unui singur om.</text>
+
+  <line x1="40" y1="630" x2="640" y2="630" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="662" font-family="Georgia, serif" font-size="14" fill="#c41e3a" letter-spacing="1">AEQUUS.NEWS</text>
+  <text x="640" y="662" text-anchor="end" font-family="Georgia, serif" font-size="14" fill="#a09880">9 iulie 2026</text>
+</svg>
