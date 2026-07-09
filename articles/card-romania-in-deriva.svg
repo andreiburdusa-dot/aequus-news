@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="680" fill="#1a0a0a"/>
+
+  <text x="40" y="80" font-family="Georgia, serif" font-size="15" letter-spacing="2" fill="#c41e3a" font-weight="bold">ROMÂNIA — SERIA CAPTURAREA</text>
+
+  <line x1="40" y1="104" x2="640" y2="104" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="170" font-family="Georgia, serif" font-size="38" fill="#e8e4d8" font-weight="bold">Nicușor Dan, într-o</text>
+  <text x="40" y="222" font-family="Georgia, serif" font-size="38" fill="#e8e4d8" font-weight="bold">Românie în derivă</text>
+
+  <line x1="40" y1="260" x2="640" y2="260" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="300" font-family="Georgia, serif" font-size="17" fill="#d4cfc0">Un premier demisionar crește în încredere.</text>
+  <text x="40" y="328" font-family="Georgia, serif" font-size="17" fill="#d4cfc0">Președintele în funcție stagnează.</text>
+
+  <text x="40" y="378" font-family="Georgia, serif" font-size="15" fill="#9a8a7a">PNL: 14,2% → 22,4%   ·   Bolojan: 21,8% → 29,5%</text>
+  <text x="40" y="404" font-family="Georgia, serif" font-size="15" fill="#9a8a7a">Nicușor Dan: stagnant la 24,2%</text>
+
+  <line x1="40" y1="444" x2="640" y2="444" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="490" font-family="Georgia, serif" font-size="19" fill="#e8e4d8" font-style="italic">Costul nepotrivirii:</text>
+  <text x="40" y="522" font-family="Georgia, serif" font-size="17" fill="#d4cfc0">rigoarea analitică ce devine,</text>
+  <text x="40" y="548" font-family="Georgia, serif" font-size="17" fill="#d4cfc0">în funcția supremă, paralizie.</text>
+
+  <line x1="40" y1="600" x2="640" y2="600" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="640" font-family="Georgia, serif" font-size="14" fill="#c41e3a" letter-spacing="1">AEQUUS.NEWS</text>
+  <text x="640" y="640" text-anchor="end" font-family="Georgia, serif" font-size="14" fill="#a09880">9 iulie 2026</text>
+</svg>
