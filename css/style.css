@@ -170,11 +170,12 @@ body {
 /* Chip de categorie: crem pe negru, chenar = culoarea secțiunii */
 .cat-chip {
   display: inline-block;
-  font-family: var(--font-display);
-  font-size: 0.72rem;
-  letter-spacing: 0.18em;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.13em;
   text-transform: uppercase;
-  color: #e8ddd5;
+  color: #f5f0e8;
   background: #1a0a0a;
   border: 1px solid #c41e3a;
   border-radius: 3px;
@@ -533,3 +534,15 @@ body {
 .article-card:nth-child(1) { animation-delay: 0.1s; }
 .article-card:nth-child(2) { animation-delay: 0.2s; }
 .article-card:nth-child(3) { animation-delay: 0.3s; }
+
+
+/* ==========================================
+   WORDMARK ÆQVVS (inline SVG în masthead)
+   ========================================== */
+.logo-wordmark {
+  height: 1.9rem;
+  width: auto;
+  display: block;
+}
+.logo-wordmark .ae { fill: var(--gold); }
+.logo-wordmark .rest { fill: var(--navy); }
