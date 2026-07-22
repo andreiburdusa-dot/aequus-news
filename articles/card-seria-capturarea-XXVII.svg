@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="680" fill="#1a0a0a"/>
+
+  <text x="40" y="80" font-family="Georgia, serif" font-size="15" letter-spacing="2" fill="#c41e3a" font-weight="bold">SERIA CAPTURAREA · EPISODUL XXVII</text>
+
+  <line x1="40" y1="104" x2="640" y2="104" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="180" font-family="Georgia, serif" font-size="42" fill="#e8e4d8" font-weight="bold">Radiografia</text>
+  <text x="40" y="232" font-family="Georgia, serif" font-size="42" fill="#e8e4d8" font-weight="bold">degringoladei</text>
+
+  <text x="40" y="278" font-family="Georgia, serif" font-size="18" fill="#c8c4b8" font-style="italic">Sinteză: cinci piese ale statului,</text>
+  <text x="40" y="304" font-family="Georgia, serif" font-size="18" fill="#c8c4b8" font-style="italic">puse alături pentru prima dată.</text>
+
+  <line x1="40" y1="342" x2="640" y2="342" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="378" font-family="Georgia, serif" font-size="15" fill="#a09880">Justiție · Executiv · Legislativ ·</text>
+  <text x="40" y="402" font-family="Georgia, serif" font-size="15" fill="#a09880">Infrastructură critică · Poliție locală</text>
+
+  <text x="40" y="446" font-family="Georgia, serif" font-size="15" fill="#a09880">Degradare sistemică demonstrabilă,</text>
+  <text x="40" y="470" font-family="Georgia, serif" font-size="15" fill="#a09880">sau implozie a statului?</text>
+
+  <line x1="40" y1="510" x2="640" y2="510" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="548" font-family="Georgia, serif" font-size="19" fill="#e8e4d8" font-style="italic">Verdictul se construiește piesă cu piesă —</text>
+  <text x="40" y="576" font-family="Georgia, serif" font-size="19" fill="#e8e4d8" font-style="italic">nu se afirmă din titlu.</text>
+
+  <line x1="40" y1="614" x2="640" y2="614" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="650" font-family="Georgia, serif" font-size="14" fill="#c41e3a" letter-spacing="1">AEQUUS.NEWS</text>
+  <text x="640" y="650" text-anchor="end" font-family="Georgia, serif" font-size="14" fill="#a09880">22 iulie 2026</text>
+</svg>
