@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="680" fill="#1a0a0a"/>
+
+  <text x="40" y="80" font-family="Georgia, serif" font-size="15" letter-spacing="2" fill="#c41e3a" font-weight="bold">SERIA CAPTURAREA · EPISODUL XXVI</text>
+
+  <line x1="40" y1="104" x2="640" y2="104" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="180" font-family="Georgia, serif" font-size="44" fill="#e8e4d8" font-weight="bold">Balanța ruptă</text>
+
+  <text x="40" y="234" font-family="Georgia, serif" font-size="19" fill="#c8c4b8" font-style="italic">Justiție, executiv, legislativ —</text>
+  <text x="40" y="262" font-family="Georgia, serif" font-size="19" fill="#c8c4b8" font-style="italic">toate trei ies din matcă în aceeași săptămână.</text>
+
+  <line x1="40" y1="300" x2="640" y2="300" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="336" font-family="Georgia, serif" font-size="15" fill="#a09880">O instanță suspendă, în aceeași zi, un congres</text>
+  <text x="40" y="360" font-family="Georgia, serif" font-size="15" fill="#a09880">de partid și o reformă guvernamentală.</text>
+
+  <text x="40" y="404" font-family="Georgia, serif" font-size="15" fill="#a09880">Un lider de partid încearcă să guverneze</text>
+  <text x="40" y="428" font-family="Georgia, serif" font-size="15" fill="#a09880">prin comitet parlamentar, ocolind procedura</text>
+  <text x="40" y="452" font-family="Georgia, serif" font-size="15" fill="#a09880">constituțională de numire a unui premier.</text>
+
+  <line x1="40" y1="492" x2="640" y2="492" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="530" font-family="Georgia, serif" font-size="19" fill="#e8e4d8" font-style="italic">Peștele de aur nu iese din baltă.</text>
+  <text x="40" y="562" font-family="Georgia, serif" font-size="16" fill="#c8c4b8">Anatomia unui stat capturat, piesă cu piesă.</text>
+
+  <line x1="40" y1="602" x2="640" y2="602" stroke="#3a2020" stroke-width="0.5"/>
+
+  <text x="40" y="640" font-family="Georgia, serif" font-size="14" fill="#c41e3a" letter-spacing="1">AEQUUS.NEWS</text>
+  <text x="640" y="640" text-anchor="end" font-family="Georgia, serif" font-size="14" fill="#a09880">22 iulie 2026</text>
+</svg>
