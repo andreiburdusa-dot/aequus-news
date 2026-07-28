@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barometrul Digital: statul român, 7,09 din 10 la igienă cibernetică | Aequus</title>
+<meta name="description" content="Un agent AI a evaluat 2.487 de instituții publice din România. Rezultatul: media generală 7,09, jumătate din stat poate fi impersonată prin e-mail, iar 158 de site-uri rulează pe vulnerabilități cunoscute — exact tiparul care a dus la atacul ANCPI.">
+
+<meta property="og:title" content="Barometrul Digital: statul român, 7,09 din 10 la igienă cibernetică">
+<meta property="og:description" content="Un agent AI a evaluat 2.487 de instituții publice din România. Media: 7,09. Jumătate din stat poate fi impersonată prin e-mail.">
+<meta property="og:image" content="https://aequus.news/articles/card-barometrul-digital.png">
+<meta property="og:url" content="https://aequus.news/articles/barometrul-digital.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Aequus">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Barometrul Digital: statul român, 7,09 din 10 la igienă cibernetică">
+<meta name="twitter:description" content="Un agent AI a evaluat 2.487 de instituții publice din România. Media: 7,09.">
+<meta name="twitter:image" content="https://aequus.news/articles/card-barometrul-digital.png">
+
+<style>
+  body {
+    background-color: #1a0a0a;
+    color: #d4cfc0;
+    font-family: Georgia, 'Times New Roman', serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+    line-height: 1.7;
+  }
+  .kicker {
+    color: #c41e3a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  h1 {
+    color: #e8e4d8;
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 0 0 20px;
+  }
+  .meta {
+    color: #a09880;
+    font-size: 14px;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #35222a;
+    padding-bottom: 20px;
+  }
+  p { font-size: 18px; margin: 0 0 22px; }
+  h2 {
+    color: #e8e4d8;
+    font-size: 21px;
+    margin: 38px 0 14px;
+    border-left: 3px solid #c41e3a;
+    padding-left: 14px;
+  }
+  .note {
+    background: #170a0d;
+    border: 1px solid #35222a;
+    border-radius: 4px;
+    padding: 18px 22px;
+    font-size: 16px;
+    color: #c8c4b8;
+    margin: 30px 0;
+  }
+  .note strong { color: #e8e4d8; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #35222a;
+  }
+  th { color: #e8e4d8; }
+  td { color: #c8c4b8; }
+  a { color: #c41e3a; }
+  .source-tag {
+    color: #a09880;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 50px;
+    border-top: 1px solid #35222a;
+    padding-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="kicker">România · Securitate cibernetică</div>
+<h1>Barometrul Digital: statul român, 7,09 din 10 la igienă cibernetică</h1>
+<div class="meta">Aequus · sine ira et studio</div>
+
+<p>Un proiect civic condus de Mircea Șerdin a evaluat, cu un agent AI botezat Tyche, igiena de securitate digitală a 2.487 de instituții publice din România — primării, consilii județene, spitale, instituții centrale, operatori de utilități. Am verificat direct raportul publicat: cifrele se confirmă integral.</p>
+
+<h2>Metoda: doar ce e deja public</h2>
+<p>Evaluarea e strict pasivă — ce vede orice browser sau client de e-mail, plus registrele publice ale internetului. Fără scanări neautorizate, fără testare de parole, fără acces la sisteme protejate. Rezultatul e o notă de la 1 la 10, calculată din 13 factori tehnici grupați în cinci dimensiuni: securitatea e-mailului, criptare și certificate, configurare de securitate, suprafață expusă, igienă generală.</p>
+
+<h2>Media țării: 7,09 — trece clasa, cam atât</h2>
+<p>Din cele 2.487 de instituții evaluate, doar 7 (0,3%) ating pragul de "premiant" (nota 9 sau peste). Marea majoritate — 94,2% — se încadrează la "mediocru", între 5 și 9. La coadă, 124 de instituții sunt corigente și 13 repetente, sub nota 3.</p>
+
+<h2>Unde se pierde nota</h2>
+<p>Două dimensiuni trag media în jos la nivel național. Configurarea de securitate web — protecțiile elementare împotriva scripturilor injectate și a clonării site-ului — e critică la 61,4% dintre instituții. Securitatea e-mailului nu stă mult mai bine: 49,3% dintre instituții nu au deloc protecție DMARC, ceea ce înseamnă că oricine poate trimite mesaje care par să vină oficial de la o primărie sau instituție centrală, cu linkul pe care îl alege atacatorul.</p>
+
+<p>94,4% dintre site-uri nu trec printr-un scut activ de tip WAF/CDN înainte să ajungă la server — Cloudflare folosit doar ca DNS nu contează aici, trebuie să fie un proxy activ care filtrează atacurile.</p>
+
+<h2>Ușile lăsate deschise</h2>
+<p>502 instituții — 21,1% din total — expun porturi riscante direct pe adresa publică. Dintre acestea, 117 expun servicii critice: baze de date, acces la distanță, partajare de fișiere, disponibile oricui știe unde să caute. Multe (468) stau pe găzduire partajată, unde vecinătatea prost izolată cu alți clienți de pe același server devine ea însăși o cale de atac lateral.</p>
+
+<div class="note">
+<strong>Legătura cu ANCPI:</strong> 158 de instituții rulează pe adrese cu vulnerabilități cunoscute și catalogate public — exact categoria de gaură de securitate prin care pare să se fi produs atacul asupra ANCPI, documentată încă din 2021, cu reparație disponibilă de ani buni, dar niciodată aplicată. Barometrul Digital arată că acest tipar nu e un incident izolat, ci o practică răspândită în administrația publică românească.
+</div>
+
+<h2>Criptarea de bază</h2>
+<p>19 site-uri au criptarea complet compromisă: 13 funcționează fără HTTPS deloc, iar alte 6 au certificatul expirat. Datele cetățenilor — nume, CNP-uri, cereri — circulă necriptat, deși certificatele gratuite cu reînnoire automată există din 2016.</p>
+
+<h2>Geografia: problemă națională, nu locală</h2>
+<p>Diferența dintre primul județ (Vaslui, 7,5) și ultimul (Bistrița-Năsăud, 6,6) e de sub un punct. Nicio regiune nu excelează, nicio regiune nu e codașă — semn că problema ține de practici și resurse comune tuturor administrațiilor, nu de particularități locale.</p>
+
+<h2>Surprinzător: comunele stau mai bine decât municipiile</h2>
+<p>Intuiția ar spune că municipiile, cu bugete și departamente IT proprii, ar trebui să stea cel mai bine. Datele arată contrariul: comunele (media 7,1) le întrec pe municipii (6,8). Explicația probabilă: multe primării mici externalizează site-ul către furnizori specializați, care aplică aceleași practici standard la zeci de clienți deodată, în timp ce instituțiile mari, care își administrează singure infrastructura, rămân cu configurări vechi.</p>
+
+<p>Nota maximă din toată țara — 10,0 — aparține primăriei comunei Ciurila, județul Cluj. Nu unui minister, nu unei reședințe de județ.</p>
+
+<div class="note">
+<strong>Ce nu s-a găsit, la fel de important:</strong> nicio instituție evaluată nu apare pe listele publice de phishing sau distribuție de malware, și niciun domeniu instituțional nu figurează în cataloagele publice de breșe de date. Problemele identificate țin de prevenție, nu de compromitere activă — motiv în plus să fie reparate acum, cât costă puțin.
+</div>
+
+<h2>Reparațiile sunt ieftine</h2>
+<p>Raportul propune patru intervenții cu efect național imediat: activarea DMARC și SPF pe toate domeniile (o simplă modificare DNS, fără costuri de licență), HTTPS obligatoriu cu certificate reînnoite automat, închiderea porturilor de administrare expuse public, și un set minim de headere de securitate web. Autorii estimează că majoritatea problemelor se pot rezolva în mai puțin de 24 de ore.</p>
+
+<p>Instituțiile afectate pot cere gratuit fișa tehnică de remediere a propriului domeniu — constatările concrete nu se publică niciodată, ajung doar la instituția vizată.</p>
+
+<div class="source-tag">Sursă: Mircea Șerdin, „Barometrul Digital", raport național, iulie 2026 (Ediția 1, V1.0), barometrul-digital.ro. Verificare directă a cifrelor: Aequus.</div>
+
+</body>
+</html>
