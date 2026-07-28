@@ -120,13 +120,6 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* Separator vertical între sigla și text */
-.logo-link .logo-sep {
-  width: 1px;
-  height: 38px;
-  background: linear-gradient(to bottom, transparent, rgba(26,46,90,0.2), transparent);
-}
-
 /* Navigation */
 .main-nav {
   display: flex;
