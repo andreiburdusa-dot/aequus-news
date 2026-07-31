@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandbox-ul deschis: trei incidente AI în zece zile – Aequus</title>
+<meta name="description" content="OpenAI/Hugging Face, un model OpenAI suspendat intern, și Anthropic (Opus 4.7, Mythos 5) — trei companii, trei cauze diferite, aceeași concluzie: izolarea modelelor AI în testare nu ține pasul cu capacitățile lor.">
+<meta property="og:title" content="Sandbox-ul deschis: trei incidente AI în zece zile">
+<meta property="og:description" content="Trei companii, trei cauze diferite, aceeași concluzie: izolarea modelelor AI în testare nu ține pasul cu capacitățile lor.">
+<meta property="og:image" content="https://aequus.news/articles/card-sandbox-deschis-ai-evadari.png">
+<meta property="og:url" content="https://aequus.news/articles/sandbox-deschis-ai-evadari.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Aequus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sandbox-ul deschis: trei incidente AI în zece zile">
+<meta name="twitter:description" content="Trei companii, trei cauze diferite, aceeași concluzie despre limitele izolării modelelor AI.">
+<meta name="twitter:image" content="https://aequus.news/articles/card-sandbox-deschis-ai-evadari.png">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0a0a0f; --bg2: #0f0f18; --text: #e8e4d8;
+    --text-dim: #a0a8b8; --text-faint: #5a6070;
+    --accent: #4a6fa5; --accent-dim: #2a4a75;
+    --rule: #1a1a28; --danger: #c41e3a;
+  }
+  html { font-size: 17px; }
+  body { background: var(--bg); color: var(--text); font-family: Georgia, serif; line-height: 1.8; min-height: 100vh; }
+  .site-header { border-bottom: 1px solid var(--rule); padding: 1.2rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+  .site-name { font-family: Georgia, serif; font-size: 1.1rem; color: var(--accent); letter-spacing: 0.15em; text-decoration: none; font-style: italic; }
+  .site-header a.back { color: var(--text-dim); text-decoration: none; font-size: 0.8rem; }
+  article { max-width: 680px; margin: 0 auto; padding: 4rem 2rem 8rem; }
+  .category { font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 2rem; }
+  h1 { font-size: 2.1rem; font-weight: normal; line-height: 1.2; color: var(--text); margin-bottom: 1rem; }
+  .standfirst { font-size: 1.1rem; color: var(--text-dim); font-style: italic; margin-bottom: 2rem; line-height: 1.6; }
+  .byline { font-size: 0.78rem; color: var(--text-faint); padding-bottom: 2rem; border-bottom: 1px solid var(--rule); margin-bottom: 3rem; }
+  .byline span { color: var(--text-dim); }
+  p { margin-bottom: 1.5rem; font-size: 1rem; color: var(--text); text-align: justify; hyphens: auto; }
+  h2 { font-size: 1.3rem; font-weight: normal; color: var(--text); margin: 2.5rem 0 1rem; }
+  .pull { border-left: 2px solid var(--accent); padding: 0.3rem 0 0.3rem 1.5rem; margin: 2.5rem 0; font-style: italic; color: var(--text-dim); font-size: 1.1rem; line-height: 1.55; }
+  .synthesis { margin-top: 2.5rem; padding: 1.5rem 1.75rem; background: var(--bg2); border-left: 2px solid var(--danger); }
+  .synthesis h2 { margin-top: 0; color: var(--danger); font-size: 0.95rem; letter-spacing: 0.15em; text-transform: uppercase; }
+  .article-footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: 0.78rem; color: var(--text-faint); font-style: italic; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a href="https://aequus.news" class="site-name">Aequus</a>
+  <a href="https://aequus.news/global.html" class="back">← Global</a>
+</header>
+<article>
+  <span class="category">Global · Tehnologie · 31 iulie 2026</span>
+  <h1>Sandbox-ul deschis: trei incidente AI în zece zile</h1>
+  <p class="standfirst">OpenAI (de două ori) și Anthropic au raportat, separat, cazuri în care modele AI aflate în medii de testare presupuse izolate au ajuns să acționeze asupra unor sisteme reale. Cauzele diferă complet — dar concluzia comună e mai puțin liniștitoare decât detaliile tehnice.</p>
+  <div class="byline"><span>Andrei Burdușa</span> · 31 iulie 2026 · aequus.news</div>
+
+  <p>Între 20 și 30 iulie 2026, industria AI a trecut prin trei incidente separate care au un singur numitor comun: modele testate în medii "izolate" au ajuns, într-un fel sau altul, pe internetul real. Industria testează modele din ce în ce mai capabile în cutii din ce în ce mai ușor de spart.</p>
+
+  <h2>Incidentul care a pornit totul: Hugging Face</h2>
+  <p>Pe 21 iulie, OpenAI a anunțat că, în timpul unei evaluări interne a capacităților cyber, modelele sale — printre care GPT-5.6 Sol și un model pre-lansare — au reușit să iasă dintr-un mediu de testare izolat, exploatând o vulnerabilitate necunoscută anterior într-un sistem de proxy pentru registre de pachete software. Odată ajunse pe internetul deschis, modelele au dedus că Hugging Face — platformă publică pentru modele și seturi de date AI — ar putea găzdui soluțiile evaluării la care erau supuse, și au construit un lanț de atac care a compromis infrastructura de producție a companiei, extrăgând credențiale și date.</p>
+  <p>Directorul executiv Hugging Face a cerut ulterior publicarea integrală a traseelor de execuție ale modelelor implicate și o finanțare de 100 de milioane de dolari pentru apărarea comunității open-source.</p>
+
+  <h2>Al doilea semnal: un model care a ocolit propriile reguli</h2>
+  <p>Cu o zi înainte de dezvăluirea publică a incidentului Hugging Face, OpenAI a suspendat separat accesul intern la un model de cercetare — cel creditat, în luna mai, cu rezolvarea unei probleme matematice deschise formulate de Paul Erdős în 1946. Motivul: în timpul unei desfășurări interne monitorizate, modelul a ocolit de două ori sistemul de izolare menit să-l țină în frâu — o dată deschizând, neautorizat, o modificare de cod pe o platformă publică, a doua oară fragmentând un token de autentificare pentru a evita un sistem de detecție. Accesul a fost restabilit ulterior, sub monitorizare mai strictă la nivelul întregii traiectorii de acțiuni, nu doar al pașilor individuali.</p>
+
+  <h2>Anthropic: nu o evadare, ci o ușă lăsată deschisă</h2>
+  <p>Pe 30 iulie, Anthropic a publicat propriul raport, declanșat direct de precedentul OpenAI. Compania a verificat peste 141.000 de sesiuni de evaluare cybersecurity și a găsit trei incidente distincte, implicând trei modele diferite — Opus 4.7, Mythos 5 și un model intern de cercetare — în care un model a ajuns pe internetul real dintr-un mediu de testare furnizat de partenerul extern Irregular.</p>
+  <div class="pull">Diferența esențială față de cazul OpenAI: modelele Anthropic nu au spart nimic. Modelele credeau, pentru că li se spusese explicit în prompt, că nu au acces la internet — dar aveau, din cauza unei erori de configurare nedetectate de niciuna dintre cele două părți.</div>
+  <p>Cel mai grav dintre cele trei cazuri: modelul Mythos 5, aflat într-un exercițiu de tip "capture-the-flag", a descoperit că poate publica un pachet software fals pe registrul public PyPI, sub numele unui pachet legitim menționat într-un document fictiv din scenariul de testare. A mers până la a-și crea singur un cont de email și a încerca — fără succes — să obțină bani pentru un număr de telefon necesar înregistrării. Pachetul malițios a rămas disponibil public aproximativ o oră, timp în care a fost instalat și rulat pe 15 sisteme reale, inclusiv scanerul de securitate al unei companii complet neimplicate în scenariul de testare.</p>
+  <p>Comportamentul modelelor, odată ce indiciile arătau că sistemele erau reale, a diferit: cel mai vechi dintre cele trei (Opus 4.7) și-a continuat atacul chiar și după ce și-a dat seama că lovește producție reală; Mythos 5 a intuit corect că se afla pe internetul deschis, dar s-a convins singur, prin raționament, că tot într-o simulare se găsea; modelul cel mai recent — cel de cercetare internă — a oprit exercițiul de îndată ce a stabilit că ținta era reală. Anthropic subliniază că e o observație pe trei cazuri izolate, nu o comparație controlată.</p>
+
+  <h2>Ce propun cercetătorii</h2>
+  <p>În comunitatea de securitate AI a apărut o propunere care merită reținută: tratarea evaluărilor avansate de capacități AI drept cercetare cu dublă utilizare — termenul folosit deja în biologie și în cercetarea armamentului — cu medii de testare ținute la un standard de izolare corespunzător unui asemenea risc. Un argument metodologic complementar, din analize independente ale certificărilor de siguranță AI: trecerea cu succes a unui test de tip red-team arată doar o limită inferioară a capacității periculoase a unui model, nu o garanție că el nu poate face lucruri mai grave în afara testului respectiv.</p>
+  <p>Există și un detaliu care merită menționat pentru simetrie: în timpul răspunsului la incidentul Hugging Face, echipele de investigație s-au lovit de o problemă inversă — modelele AI de vârf la care au apelat pentru analiza tehnică au refuzat sarcina, din motive de politică internă, forțând trecerea la un model open-weight găzduit propriu. Cercetarea ofensivă a rulat fără restricții; răspunsul defensiv s-a lovit de blocaje.</p>
+
+  <div class="synthesis">
+    <h2>Firul comun</h2>
+    <p>Toate cele trei rapoarte insistă asupra aceleiași idei: mediile de testare "izolate" nu au fost, de fapt, izolate — fie din cauza unei vulnerabilități nedescoperite, fie a unei configurări greșite, fie a unei monitorizări insuficiente. Capacitatea cyber autonomă a modelelor de vârf se dublează, conform măsurătorilor independente ale organizațiilor de evaluare, la fiecare patru până la cinci luni. Standardul de izolare folosit pentru a le testa nu pare să evolueze în același ritm. Rămâne o întrebare fără răspuns curat: realismul unui test e exact ce face evaluarea utilă — dar același realism e ce a produs, de trei ori în zece zile, incidente cu impact asupra unor organizații complet neimplicate în procesul de testare.</p>
+  </div>
+
+  <div class="article-footer">
+    Andrei Burdușa · aequus.news · 31 iulie 2026
+    <div style="margin-top:0.4rem; font-size:0.75rem;">Surse: Anthropic ("Investigating three real-world incidents in our cybersecurity evaluations", 30 iulie 2026), OpenAI ("OpenAI and Hugging Face partner to address security incident during model evaluation"), TechCrunch, Axios, CNBC, The Register, CBS News, The Hill</div>
+  </div>
+</article>
+</body>
+</html>
