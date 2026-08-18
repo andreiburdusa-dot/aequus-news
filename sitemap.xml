@@ -6,6 +6,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://aequus.news/articles/legea-ani-fritz-ccr.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aequus.news/articles/georgescu-google-trends.html</loc>
     <lastmod>2026-07-28</lastmod>
     <priority>0.8</priority>
@@ -1082,11 +1087,6 @@
   </url>
   <url>
     <loc>https://aequus.news/articles/romania-psd-aur-suspendare-criza-geopolitica.html</loc>
-    <lastmod>2026-07-23</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://aequus.news/articles/romania-work.html</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.6</priority>
   </url>
