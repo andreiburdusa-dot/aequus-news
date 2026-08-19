@@ -1,0 +1,47 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="680" height="680" fill="#1a0a0a"/>
+  
+  <!-- Divider lines -->
+  <line x1="0" y1="135" x2="680" y2="135" stroke="#c41e3a" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="270" x2="680" y2="270" stroke="#c41e3a" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="405" x2="680" y2="405" stroke="#c41e3a" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="540" x2="680" y2="540" stroke="#c41e3a" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Zone 1: Title -->
+  <text x="340" y="85" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#e8e4d8" text-anchor="middle" letter-spacing="1">
+    PEISAJUL POLITIC
+  </text>
+  
+  <!-- Zone 2: Subtitle -->
+  <text x="340" y="200" font-family="Georgia, serif" font-size="20" fill="#d4cfc0" text-anchor="middle" letter-spacing="0.5">
+    Unde se Decide Blocajul
+  </text>
+  <text x="340" y="230" font-family="Georgia, serif" font-size="20" fill="#d4cfc0" text-anchor="middle" letter-spacing="0.5">
+    sau Capitularea
+  </text>
+  
+  <!-- Zone 3: Description -->
+  <text x="340" y="320" font-family="Georgia, serif" font-size="16" fill="#c8c4b8" text-anchor="middle" letter-spacing="0.5">
+    Instituții sub asediu,
+  </text>
+  <text x="340" y="350" font-family="Georgia, serif" font-size="16" fill="#c8c4b8" text-anchor="middle" letter-spacing="0.5">
+    PNRR ca pârghie,
+  </text>
+  <text x="340" y="380" font-family="Georgia, serif" font-size="16" fill="#c8c4b8" text-anchor="middle" letter-spacing="0.5">
+    retroactivitate ca linie roșie
+  </text>
+  
+  <!-- Zone 4: Date & Category -->
+  <text x="340" y="475" font-family="Georgia, serif" font-size="14" fill="#a09880" text-anchor="middle" letter-spacing="1">
+    31 AUGUST 2026 • PEISAJ POLITIC
+  </text>
+  
+  <!-- Zone 5: Logo -->
+  <text x="340" y="625" font-family="Cinzel, serif" font-size="24" font-weight="bold" fill="#c41e3a" text-anchor="middle" letter-spacing="3">
+    ÆQVVS
+  </text>
+  <text x="340" y="655" font-family="Georgia, serif" font-size="11" fill="#a09880" text-anchor="middle" letter-spacing="2">
+    SINE IRA ET STUDIO
+  </text>
+</svg>
