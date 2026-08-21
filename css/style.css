@@ -148,12 +148,6 @@ body {
 /* ==========================================
    MAIN CONTENT
    ========================================== */
-.content-wrapper {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: var(--space-xl) var(--space-md);
-}
-
 .featured-article { cursor: pointer; }
 
 /* ==========================================
@@ -186,6 +180,9 @@ body {
 
 /* ---------- CAP DE AFIȘ (primul articol) ---------- */
 .content-wrapper {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md);
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
