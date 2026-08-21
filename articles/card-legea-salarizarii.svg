@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="680" fill="#0a0a0f"/>
+  
+  <line x1="0" y1="0" x2="680" y2="0" stroke="#1a1410" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="170" x2="680" y2="170" stroke="#1a1410" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="340" x2="680" y2="340" stroke="#1a1410" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="510" x2="680" y2="510" stroke="#1a1410" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="680" x2="680" y2="680" stroke="#1a1410" stroke-width="0.5" opacity="0.5"/>
+  
+  <rect width="4" height="680" fill="#c41e3a" opacity="0.5"/>
+  
+  <text x="40" y="50" font-family="Georgia, serif" font-size="13" fill="#a09880" letter-spacing="1.5" text-anchor="start">
+    ROMÂNIA · UE
+  </text>
+  
+  <line x1="40" y1="65" x2="640" y2="65" stroke="#2a1a1a" stroke-width="1" opacity="0.6"/>
+  
+  <text x="40" y="130" font-family="Georgia, serif" font-size="40" font-weight="600" fill="#e8e4d8" letter-spacing="-0.8" text-anchor="start">
+    <tspan x="40" dy="0">Legea</tspan>
+    <tspan x="40" dy="50">Salarizării</tspan>
+  </text>
+  
+  <text x="40" y="215" font-family="Georgia, serif" font-size="16" fill="#c41e3a" font-style="italic" letter-spacing="0.3" text-anchor="start">
+    Cuiul României în UE
+  </text>
+  
+  <line x1="40" y1="255" x2="640" y2="255" stroke="#2a1a1a" stroke-width="1" opacity="0.5"/>
+  
+  <text x="40" y="310" font-family="Georgia, serif" font-size="14" fill="#d4cfc0" letter-spacing="0.2" text-anchor="start">
+    <tspan x="40" dy="0">40% din buget pe salarii</tspan>
+    <tspan x="40" dy="22">versus 26% media UE</tspan>
+    <tspan x="40" dy="22"></tspan>
+    <tspan x="40" dy="22">3 miliarde euro PNRR la risc</tspan>
+    <tspan x="40" dy="22">Junk status sau restructurare</tspan>
+    <tspan x="40" dy="22">urgentă: România la răscruce</tspan>
+  </text>
+  
+  <line x1="40" y1="550" x2="640" y2="550" stroke="#2a1a1a" stroke-width="1" opacity="0.5"/>
+  
+  <text x="40" y="590" font-family="Georgia, serif" font-size="12" fill="#a09880" letter-spacing="0.8" text-anchor="start">
+    AEQUUS
+  </text>
+  
+  <text x="40" y="615" font-family="Georgia, serif" font-size="12" fill="#7a7670" letter-spacing="0.5" text-anchor="start">
+    21 augusztus 2026 — sine ira et studio
+  </text>
+  
+  <line x1="676" y1="0" x2="676" y2="680" stroke="#c41e3a" stroke-width="4" opacity="0.3"/>
+</svg>
