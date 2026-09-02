@@ -1,0 +1,19 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card-bg { fill: #0a0a0f; }
+      .card-line { stroke: #333; stroke-width: 0.5px; }
+      .card-badge { fill: #c41e3a; font-family: Georgia, serif; font-size: 11px; font-weight: bold; letter-spacing: 1px; }
+      .card-title { fill: #d0d0d0; font-family: Georgia, serif; font-size: 26px; font-weight: normal; line-height: 1.3; }
+      .card-meta { fill: #808080; font-family: Georgia, serif; font-size: 12px; }
+    </style>
+  </defs>
+  <rect class="card-bg" width="680" height="680"/>
+  <line class="card-line" x1="30" y1="100" x2="650" y2="100"/>
+  <text class="card-badge" x="30" y="55">SERIA CAPTURAREA • P.P.F. CODA</text>
+  <text class="card-title" x="30" y="190" textLength="620">Electoratul care l-a ales nu-l mai recunoaște</text>
+  <line class="card-line" x1="30" y1="240" x2="650" y2="240"/>
+  <text class="card-meta" x="30" y="500">Finalizarea absorției instituționale și electorale</text>
+  <text class="card-meta" x="30" y="530">Andrei Burdușă • 1 septembrie 2026</text>
+  <text class="card-meta" x="30" y="560">Articol 5 din 5 • aequus.news</text>
+</svg>
