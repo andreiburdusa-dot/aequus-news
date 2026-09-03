@@ -1,0 +1,20 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card-bg { fill: #0a0a0f; }
+      .card-line { stroke: #333; stroke-width: 0.5px; }
+      .card-badge { fill: #c41e3a; font-family: Georgia, serif; font-size: 11px; font-weight: bold; letter-spacing: 1px; }
+      .card-title { fill: #d0d0d0; font-family: Georgia, serif; font-size: 28px; font-weight: normal; line-height: 1.2; }
+      .card-meta { fill: #808080; font-family: Georgia, serif; font-size: 12px; }
+    </style>
+  </defs>
+  <rect class="card-bg" width="680" height="680"/>
+  <line class="card-line" x1="30" y1="100" x2="650" y2="100"/>
+  <text class="card-badge" x="30" y="55">SERIA CAPTURAREA • P.P.F. EP6</text>
+  <text class="card-title" x="30" y="200" textLength="620">Omul Compromisurilor</text>
+  <text class="card-meta" x="30" y="250">Testul European și ceea ce presa germană vede</text>
+  <line class="card-line" x1="30" y1="290" x2="650" y2="290"/>
+  <text class="card-meta" x="30" y="500">FAZ: "Omul compromisurilor". Bruxelles: 7 întrebări. ND: tace.</text>
+  <text class="card-meta" x="30" y="530">Andrei Burdușă • 2 septembrie 2026</text>
+  <text class="card-meta" x="30" y="560">Articol 6 • aequus.news</text>
+</svg>
