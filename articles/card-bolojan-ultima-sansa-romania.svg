@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1a0a0a"/>
+  
+  <!-- Accent bar top -->
+  <rect width="1200" height="4" fill="#c41e3a"/>
+  
+  <!-- Left stripe -->
+  <rect width="8" height="630" fill="#c41e3a"/>
+  
+  <!-- Category badge background -->
+  <rect x="40" y="40" width="320" height="50" fill="rgba(196, 30, 58, 0.15)" rx="3"/>
+  
+  <!-- Category text -->
+  <text x="60" y="72" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" text-transform="uppercase" fill="#c41e3a">
+    SERIA CAPTURAREA
+  </text>
+  
+  <!-- Main title -->
+  <text x="40" y="180" font-family="Georgia, serif" font-size="56" font-weight="400" line-height="1.2" fill="#f0ece0">
+    <tspan x="40">Bolojan:</tspan>
+    <tspan x="40" dy="70">ultima șansă</tspan>
+    <tspan x="40" dy="70">a României</tspan>
+  </text>
+  
+  <!-- Subtitle/description -->
+  <text x="40" y="420" font-family="Georgia, serif" font-size="20" fill="#c8c4b8" line-height="1.6">
+    <tspan x="40">Ungaria pierdută. Slovacia prea mică.</tspan>
+    <tspan x="40" dy="35">România = ultimul pariu al Rusiei</tspan>
+    <tspan x="40" dy="35">pentru flancul estic.</tspan>
+  </text>
+  
+  <!-- Date/metadata at bottom -->
+  <text x="40" y="580" font-family="Inter, Arial, sans-serif" font-size="13" fill="#a09880" letter-spacing="0.5">
+    14 septembrie 2026 • Analiză Geopolitică
+  </text>
+  
+  <!-- Decorative element bottom right -->
+  <circle cx="1100" cy="550" r="60" fill="rgba(196, 30, 58, 0.08)"/>
+  <circle cx="1100" cy="550" r="45" fill="none" stroke="#c41e3a" stroke-width="2" opacity="0.3"/>
+</svg>
