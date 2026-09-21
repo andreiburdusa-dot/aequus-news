@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+  <rect width="680" height="680" fill="#1a0a0a"/>
+  <text x="40" y="78" font-family="Cinzel, Georgia, serif" font-size="30" letter-spacing="6" fill="#c9a961">ÆQVVS</text>
+  <text x="640" y="76" text-anchor="end" font-family="Georgia, serif" font-size="15" letter-spacing="3" fill="#c41e3a">ROMÂNIA · ECONOMIE</text>
+  <line x1="40" y1="112" x2="640" y2="112" stroke="#c9a961" stroke-width="0.5"/>
+  <text font-family="Georgia, serif" font-size="35" fill="#e8e4d8">
+    <tspan x="40" y="172">Cel mai mic deficit din</tspan>
+    <tspan x="40" y="219">ultimii trei ani, sub cel mai</tspan>
+    <tspan x="40" y="266">lung interimat din istorie</tspan>
+  </text>
+  <text x="40" y="308" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#c8c4b8">Execuția bugetară pe 7 luni, 2026</text>
+  <line x1="40" y1="336" x2="640" y2="336" stroke="#c9a961" stroke-width="0.5"/>
+  <text x="40" y="430" font-family="Georgia, serif" font-size="86" fill="#c41e3a">2,34%</text>
+  <text x="40" y="466" font-family="Georgia, serif" font-size="19" fill="#c8c4b8">deficit bugetar, procent din PIB</text>
+  <line x1="40" y1="496" x2="640" y2="496" stroke="#c9a961" stroke-width="0.5"/>
+  <text font-family="Georgia, serif" font-size="21" fill="#d4cfc0">
+    <tspan x="40" y="540">de la 3,99% în aceeași perioadă din 2025</tspan>
+    <tspan x="40" y="574">118 zile de guvern fără mandat deplin</tspan>
+    <tspan x="40" y="608">770 mil. € pierdute din PNRR</tspan>
+  </text>
+  <line x1="40" y1="632" x2="640" y2="632" stroke="#c9a961" stroke-width="0.5"/>
+  <text x="340" y="662" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-style="italic" letter-spacing="2" fill="#a09880">sine ira et studio · aequus.news</text>
+</svg>

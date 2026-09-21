@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+  <rect width="680" height="680" fill="#1a0a0a"/>
+  <!-- Zona 1: brand + categorie -->
+  <text x="40" y="78" font-family="Cinzel, Georgia, serif" font-size="30" letter-spacing="6" fill="#c9a961">ÆQVVS</text>
+  <text x="640" y="76" text-anchor="end" font-family="Georgia, serif" font-size="15" letter-spacing="3" fill="#c41e3a">ROMÂNIA · JUSTIȚIE</text>
+  <line x1="40" y1="112" x2="640" y2="112" stroke="#c9a961" stroke-width="0.5"/>
+  <!-- Zona 2: titlu -->
+  <text font-family="Georgia, serif" font-size="35" fill="#e8e4d8">
+    <tspan x="40" y="172">DIICOT: Georgescu,</tspan>
+    <tspan x="40" y="219">ridicat din trafic într-un</tspan>
+    <tspan x="40" y="266">dosar de înșelăciune</tspan>
+  </text>
+  <text x="40" y="308" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#c8c4b8">Ce spune comunicatul și ce nu spune</text>
+  <line x1="40" y1="336" x2="640" y2="336" stroke="#c9a961" stroke-width="0.5"/>
+  <!-- Zona 3: cifra -->
+  <text x="40" y="430" font-family="Georgia, serif" font-size="86" fill="#c41e3a">1,1 mil. €</text>
+  <text x="40" y="466" font-family="Georgia, serif" font-size="19" fill="#c8c4b8">prejudiciu indicat de DIICOT</text>
+  <line x1="40" y1="496" x2="640" y2="496" stroke="#c9a961" stroke-width="0.5"/>
+  <!-- Zona 4: fapte -->
+  <text font-family="Georgia, serif" font-size="21" fill="#d4cfc0">
+    <tspan x="40" y="540">5 percheziții · București, Ilfov</tspan>
+    <tspan x="40" y="574">3 făptuitori · grup infracțional organizat</tspan>
+    <tspan x="40" y="608">România și Marea Britanie</tspan>
+  </text>
+  <line x1="40" y1="632" x2="640" y2="632" stroke="#c9a961" stroke-width="0.5"/>
+  <!-- Zona 5: subsol -->
+  <text x="340" y="662" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-style="italic" letter-spacing="2" fill="#a09880">sine ira et studio · aequus.news</text>
+</svg>
