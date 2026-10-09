@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Lecția bombardierelor retrase — Aequus</title>
+<rect width="680" height="680" fill="#1a0a0a"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c41e3a" letter-spacing="0.14em" text-anchor="end">IRAN · ROMÂNIA</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#3a1e1e" stroke-width="0.8"/>
+<rect x="40" y="108" width="80" height="22" rx="2" fill="rgba(196,30,58,0.15)"/>
+<rect x="40" y="108" width="3" height="22" fill="#c41e3a"/>
+<text x="52" y="123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#c41e3a" letter-spacing="0.16em">ANALIZĂ</text>
+<text x="40" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#e8e8f0" letter-spacing="-0.01em">Lecția bombardierelor</text>
+<text x="40" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" font-style="italic" fill="#c41e3a" letter-spacing="-0.01em">retrase</text>
+<text x="40" y="302" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">Fairford, Ramstein, Kogălniceanu: o bază</text>
+<text x="40" y="326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">poate fi golită fără să fie atinsă</text>
+<line x1="40" y1="372" x2="640" y2="372" stroke="#3a1e1e" stroke-width="0.8"/>
+<text x="40" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="120" font-weight="800" fill="#e8e8f0">12 B-1</text>
+<text x="40" y="530" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#c41e3a" letter-spacing="0.18em">RETRASE DE LA RAF FAIRFORD · 0 DRONE ÎN AER</text>
+<text x="40" y="576" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">Amenințarea a fost suficientă. Din martie,</text>
+<text x="40" y="600" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">România face parte din aceeași logistică.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#3a1e1e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">9 OCTOMBRIE 2026</text>
+</svg>
