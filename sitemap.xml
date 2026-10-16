@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://aequus.news/ucraina.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -39,6 +39,11 @@
     <loc>https://aequus.news/despre.html</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://aequus.news/articles/fara-avertizare-informatii-parghie-kiev.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aequus.news/articles/guvernul-niculescu-lista-si-programul.html</loc>
