@@ -32,13 +32,18 @@
   </url>
   <url>
     <loc>https://aequus.news/global.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aequus.news/despre.html</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://aequus.news/articles/povara-unei-a-doua-ialte.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aequus.news/articles/dupa-o-mie-de-drone-capitulare.html</loc>
