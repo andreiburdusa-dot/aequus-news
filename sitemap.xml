@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aequus.news/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://aequus.news/romania.html</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -44,6 +44,11 @@
     <loc>https://aequus.news/abonare.html</loc>
     <lastmod>2026-10-20</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aequus.news/articles/vot-de-necesitate-aritmetica-investirii.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aequus.news/articles/povara-unei-a-doua-ialte.html</loc>
