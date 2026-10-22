@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Filantropica de cine râdem, de fapt? — Aequus</title>
+<rect width="680" height="680" fill="#110c18"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#8e6bbf"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#b89ce0" letter-spacing="0.14em" text-anchor="end">CULTURĂ · FILM</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#251d30" stroke-width="0.8"/>
+<rect x="40" y="108" width="170" height="22" rx="2" fill="rgba(142,107,191,0.15)"/>
+<rect x="40" y="108" width="3" height="22" fill="#8e6bbf"/>
+<text x="52" y="123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#b89ce0" letter-spacing="0.16em">MĂRTURII ÎN OGLINDĂ</text>
+<text x="40" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" fill="#e8e8f0" letter-spacing="-0.01em">Filantropica</text>
+<text x="40" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700" font-style="italic" fill="#b89ce0" letter-spacing="-0.01em">de cine râdem, de fapt?</text>
+<text x="40" y="304" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">Doi spectatori despre comedia lui Nae Caranfil</text><text x="40" y="328" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">și despre prețul demnității.</text>
+<line x1="40" y1="356" x2="640" y2="356" stroke="#251d30" stroke-width="0.8"/>
+<rect x="40" y="382" width="3" height="144" fill="#d68559"/>
+<rect x="49" y="382" width="3" height="144" fill="#5f93c0"/>
+<text x="64" y="410" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#e8e8f0">„Râsul nu ne împiedică neapărat</text><text x="64" y="446" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#e8e8f0">să simțim tragedia. Uneori</text><text x="64" y="482" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#e8e8f0">ne scutește să recunoaștem</text><text x="64" y="518" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#e8e8f0">că participăm la ea.”</text>
+<text x="40" y="564" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#b89ce0" letter-spacing="0.18em">NAE CARANFIL · 2002</text>
+<text x="40" y="596" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">Două voci, un film. De Mihai Mareș.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#251d30" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">22 OCTOMBRIE 2026</text>
+</svg>
