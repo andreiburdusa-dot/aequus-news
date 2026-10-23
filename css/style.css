@@ -536,3 +536,4 @@ body {
 }
 .logo-wordmark .ae { fill: var(--gold); }
 .logo-wordmark .rest { fill: var(--navy); }
+.flux-cultura .cat-chip { background: #110c18; border-color: #8e6bbf; }
