@@ -34,7 +34,6 @@ def insert_before(path, marker_regex, block, skip_if):
 
 
 def common():
-    shutil.copy(f"{KIT}/common/autor-mihai-mares.png", "articles/autor-mihai-mares.png")
     if not os.path.exists("cultura.html"):
         shutil.copy(f"{KIT}/common/cultura.html", "cultura.html")
         print("  cultura.html: creat")
