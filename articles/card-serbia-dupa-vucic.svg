@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Serbia după Vučić — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c41e3a" letter-spacing="0.14em" text-anchor="end">GLOBAL · BALCANI</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<rect x="40" y="108" width="50" height="22" rx="2" fill="rgba(196,30,58,0.15)"/>
+<rect x="40" y="108" width="3" height="22" fill="#c41e3a"/>
+<text x="52" y="123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#c41e3a" letter-spacing="0.16em">NOTĂ</text>
+<text x="40" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" fill="#e8e8f0" letter-spacing="-0.01em">Serbia</text>
+<text x="40" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" font-style="italic" fill="#c41e3a" letter-spacing="-0.01em">după Vučić</text>
+<text x="40" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#e8e4d8">„Este clar că am pierdut aceste alegeri.”</text>
+<text x="40" y="338" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#a09880">Aleksandar Vučić, 25 octombrie, sediul SNS</text>
+<line x1="40" y1="372" x2="640" y2="372" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="800" fill="#e8e8f0">135–140</text>
+<text x="40" y="530" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#c41e3a" letter-spacing="0.18em">MANDATE DIN 250 PENTRU STUDENȚI</text>
+<text x="40" y="576" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">Cifrele lui Vučić, nu ale opoziției.</text>
+<text x="40" y="600" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">SNS conduce Serbia din 2012.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">26 OCTOMBRIE 2026</text>
+</svg>
