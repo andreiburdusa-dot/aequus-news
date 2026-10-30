@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://aequus.news/ue.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -49,6 +49,11 @@
     <loc>https://aequus.news/cultura.html</loc>
     <lastmod>2026-10-23</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aequus.news/articles/kovesi-eppo-ucis-fara-sa-tragi.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aequus.news/articles/rectificare-dobanzi-pib.html</loc>
