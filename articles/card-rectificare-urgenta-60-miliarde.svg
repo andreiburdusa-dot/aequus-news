@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Prima rectificare din 2026 — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c41e3a" letter-spacing="0.14em" text-anchor="end">ROMÂNIA · BUGET</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<rect x="40" y="108" width="72" height="22" rx="2" fill="rgba(196,30,58,0.15)"/>
+<rect x="40" y="108" width="3" height="22" fill="#c41e3a"/>
+<text x="52" y="123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#c41e3a" letter-spacing="0.16em">ANALIZĂ</text>
+<text x="40" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#e8e8f0">60 de miliarde cerute.</text>
+<text x="40" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" font-style="italic" fill="#c41e3a">Ținta, păstrată.</text>
+<text x="40" y="308" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">Prima rectificare din 2026: bani pentru sănătate,</text>
+<text x="40" y="332" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">pensii, dobânzi și restanțele primăriilor.</text>
+<line x1="40" y1="370" x2="640" y2="370" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="470" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="800" fill="#e8e8f0">+3,5 mld.</text>
+<text x="40" y="508" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#c41e3a" letter-spacing="0.18em">CREȘTEREA DEFICITULUI · CÂT PLUSUL LA DOBÂNZI</text>
+<text x="40" y="556" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">Niculescu: am decis „după discuțiile pe care le-am</text>
+<text x="40" y="580" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">avut și cu președintele PSD, domnul Sorin Grindeanu”.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="640" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">30 OCTOMBRIE 2026</text>
+</svg>
