@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Verificat la sursă — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c9a961"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c9a961" letter-spacing="0.14em" text-anchor="end">METODA AEQUUS</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" fill="#e8e8f0" letter-spacing="-0.01em">Ce circulă.</text>
+<text x="40" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" font-style="italic" fill="#c9a961" letter-spacing="-0.01em">Ce e adevărat.</text>
+<text x="40" y="282" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">Verificăm la sursa primară ce se distribuie viral.</text>
+<text x="40" y="306" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#c8c4b8">Nu preluăm, nu amplificăm, nu ghicim.</text>
+<line x1="40" y1="340" x2="640" y2="340" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="800" fill="#e8e8f0">8 din 8</text>
+<text x="40" y="476" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c9a961" letter-spacing="0.14em">POSTĂRI VIRALE VERIFICATE PE 31 OCTOMBRIE.</text>
+<text x="40" y="496" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c9a961" letter-spacing="0.14em">TOATE AVEAU CEL PUȚIN O AFIRMAȚIE FALSĂ SAU NECONFIRMATĂ.</text>
+<line x1="40" y1="526" x2="640" y2="526" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="560" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">Surse numite · Faptele separate de interpretare</text>
+<text x="40" y="584" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">Ce nu se poate verifica, spunem că nu se poate verifica</text>
+<text x="40" y="608" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c8c4b8">Greșelile noastre, corectate public</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">SINE IRA ET STUDIO</text>
+</svg>
