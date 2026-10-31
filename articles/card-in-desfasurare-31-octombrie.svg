@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>În desfășurare — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<circle cx="497" cy="67" r="5" fill="#c41e3a"/>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#c41e3a" letter-spacing="0.16em" text-anchor="end">ÎN DESFĂȘURARE</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" font-style="italic" fill="#c41e3a">Ce s-a schimbat pe firele deschise</text>
+<text x="40" y="192" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">31 OCT.</text>
+<text x="128" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Polonia: criza Tribunalului</text>
+<text x="128" y="220" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Judecătorii aleși de Sejm preiau Tribunalul.</text>
+<line x1="40" y1="242" x2="640" y2="242" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="280" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">30 OCT.</text>
+<text x="128" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Alegerile americane, 3 noiembrie</text>
+<text x="128" y="308" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Trupele, Colby, Patriot, rafinăriile.</text>
+<line x1="40" y1="330" x2="640" y2="330" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="368" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">30 OCT.</text>
+<text x="128" y="368" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Legea Graham, suspendată</text>
+<text x="128" y="396" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Fondul lui Putin și primul petrolier.</text>
+<line x1="40" y1="418" x2="640" y2="418" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="456" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">30 OCT.</text>
+<text x="128" y="456" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Israel după vot</text>
+<text x="128" y="484" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Rezultatele finale: 53–48–19.</text>
+<line x1="40" y1="506" x2="640" y2="506" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="544" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">27 OCT.</text>
+<text x="128" y="544" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Patriot pentru Ucraina</text>
+<text x="128" y="572" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Zelenski îl numește pe Hegseth.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">31 OCTOMBRIE 2026 · TOATE ACTUALIZĂRILE PE AEQUUS.NEWS</text>
+</svg>
