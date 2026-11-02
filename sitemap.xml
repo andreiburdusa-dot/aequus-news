@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aequus.news/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://aequus.news/arhiva.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aequus.news/romania.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://aequus.news/global.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -49,6 +49,16 @@
     <loc>https://aequus.news/cultura.html</loc>
     <lastmod>2026-10-23</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aequus.news/articles/deficit-ora-premierului.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aequus.news/articles/bulgaria-iotova-marea-neagra.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aequus.news/articles/planul-b-casa-alba.html</loc>
@@ -97,7 +107,7 @@
   </url>
   <url>
     <loc>https://aequus.news/articles/alegerile-americane-romania.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -132,7 +142,7 @@
   </url>
   <url>
     <loc>https://aequus.news/articles/bulgaria-tur-doi.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -177,7 +187,7 @@
   </url>
   <url>
     <loc>https://aequus.news/articles/dupa-o-mie-de-drone-capitulare.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
