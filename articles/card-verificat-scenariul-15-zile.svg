@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Scenariul celor 15 zile, verificat — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c9a961"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c9a961" letter-spacing="0.14em" text-anchor="end">VERIFICAT LA SURSĂ</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#e8e8f0">„Războiul în 15 zile”</text>
+<text x="40" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" font-style="italic" fill="#c9a961">Ce e fapt. Ce e ficțiune.</text>
+<text x="40" y="240" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Postarea virală despre Iran care circulă în grupurile românești.</text>
+<line x1="40" y1="266" x2="640" y2="266" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="304" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#7fb37f" letter-spacing="0.14em">REAL</text>
+<text x="150" y="304" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Vance: „Am pierdut din cauza războiului.”</text>
+<text x="150" y="328" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Planul CENTCOM de 3 zile, neaprobat de Trump.</text>
+<text x="150" y="352" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Instrucțiuni nucleare la televiziunea iraniană.</text>
+<line x1="40" y1="378" x2="640" y2="378" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="416" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#c41e3a" letter-spacing="0.14em">FALS</text>
+<text x="150" y="416" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Netanyahu „peste 61”: are 53 de mandate.</text>
+<text x="150" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Petrolul la 102 $: Brent, 98,32 $ pe 6 noiembrie.</text>
+<text x="150" y="464" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">„Muntele Cuțit”: e Pickaxe Mountain, târnăcop.</text>
+<line x1="40" y1="490" x2="640" y2="490" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="528" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#a09880" letter-spacing="0.14em">FICȚIUNE</text>
+<text x="150" y="528" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Zilele 3–15: petrol la 200 $, penurii, colapsul piețelor.</text>
+<text x="150" y="552" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Nicio sursă. Prognoza autorului.</text>
+<line x1="40" y1="580" x2="640" y2="580" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="614" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#c9a961">Toate sursele: aequus.news · Blocada fără război</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">8 NOIEMBRIE 2026 · SINE IRA ET STUDIO</text>
+</svg>
