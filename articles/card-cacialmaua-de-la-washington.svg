@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Cacialmaua de la Washington — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c41e3a" letter-spacing="0.14em" text-anchor="end">SUA · IRAN · UCRAINA · ANALIZĂ</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700" fill="#e8e8f0">Cacialmaua</text>
+<text x="40" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700" font-style="italic" fill="#c41e3a">de la Washington.</text>
+<text x="40" y="286" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#c8c4b8">Iran și Ucraina, același joc: rezultatul anunțat</text>
+<text x="40" y="310" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#c8c4b8">înainte să existe.</text>
+<line x1="40" y1="346" x2="640" y2="346" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="392" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#c41e3a" letter-spacing="0.14em">TRUMP A SPUS</text>
+<text x="350" y="392" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#c41e3a" letter-spacing="0.14em">S-A ÎNTÂMPLAT</text>
+<text x="40" y="428" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">„Nu e război.”</text>
+<text x="350" y="428" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Rachetă pe un cargou.</text>
+<text x="40" y="468" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Lovituri „curând”.</text>
+<text x="350" y="468" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Planul de 3 zile, neaprobat.</text>
+<text x="40" y="508" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Ucraina: „foarte aproape”.</text>
+<text x="350" y="508" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">Niciun termen, niciun semnatar.</text>
+<text x="40" y="548" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">„25.000 între ei doi.”</text>
+<text x="350" y="548" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#e8e8f0">54.400 doar rușii, în octombrie.</text>
+<line x1="40" y1="580" x2="640" y2="580" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="614" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#c8c4b8">Moscova și Teheranul pot aștepta. Washingtonul are termen: 3 ianuarie.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">9 NOIEMBRIE 2026</text>
+<text x="640" y="650" font-family="Arial, sans-serif" font-size="11" fill="#c9a961" text-anchor="end">WWW.AEQUUS.NEWS</text>
+</svg>
