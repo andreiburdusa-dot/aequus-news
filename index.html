@@ -34,11 +34,12 @@
     .cov-band .cb-motto { font-family: var(--font-tagline); font-style: italic; font-size: 1.2rem; color: #c9a961; letter-spacing: 0.05em; }
     .cov-band .cb-rule { width: 64px; height: 1px; background: #c9a961; opacity: .6; margin: 1.2rem auto; }
     .cov-band p { margin: 0 auto; max-width: 720px; font-family: var(--font-display); }
-    .cov-band .cb-lead { font-size: 1.35rem; line-height: 1.4; }
-    .cov-band .cb-list { font-size: 1.05rem; line-height: 1.6; color: #c8c4b8; margin-top: 0.6rem; }
+    .cov-band .cb-lead { font-size: 1.2rem; line-height: 1.6; }
+    .cov-band .cb-list { font-size: 1.2rem; line-height: 1.6; color: #e8e4d8; margin-top: 0; }
     .cov-band .cb-list span { display: block; }
-    .cov-band .cb-close { font-size: 1.3rem; margin-top: 0.8rem; }
-    .cov-band .cb-close em { font-style: normal; color: #c9a961; }
+    .cov-band .cb-close { font-size: 1.2rem; line-height: 1.6; margin-top: 0.7rem; font-style: italic; color: #c9a961; }
+    .cov-band .cb-close span { display: block; }
+
     @keyframes cbFade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
     @keyframes cbDraw { from { stroke-dashoffset: 420; } to { stroke-dashoffset: 0; } }
     @keyframes cbSpread { from { opacity: 0; letter-spacing: .05em; } to { opacity: 1; letter-spacing: .32em; } }
@@ -53,10 +54,10 @@
     @media (max-width: 560px) {
       .cov-band { padding: 1.8rem 1rem 1.7rem; margin-top: 1rem; }
       .cov-band .cb-word { font-size: 1.6rem; }
-      .cov-band .cb-lead { font-size: 1.15rem; }
-      .cov-band .cb-list { font-size: 0.95rem; }
+      .cov-band .cb-lead { font-size: 1.05rem; }
+      .cov-band .cb-list { font-size: 1.05rem; }
       .cov-band .cb-list span { display: block; }
-      .cov-band .cb-close { font-size: 1.1rem; }
+      .cov-band .cb-close { font-size: 1.05rem; }
     }
     .cov-intro { max-width: 760px; padding: 2.2rem 0 1.6rem; border-bottom: 1px solid var(--line); }
     .cov-intro .motto { font-family: var(--font-tagline); font-style: italic; font-size: 1.15rem; color: var(--gold-dark); letter-spacing: 0.04em; }
@@ -197,7 +198,7 @@
       <div class="cb-rule"></div>
       <p class="cb-lead">Un site de informații, de investigație <span style="white-space:nowrap">și geopolitică.</span></p>
       <p class="cb-list"><span>Faptele, separate de interpretare.</span> <span>Sursele – numite.</span> <span>Ce nu se poate verifica, spunem că nu se poate verifica.</span></p>
-      <p class="cb-close">Noi nu vă mințim. <em>Când greșim, corectăm public.</em></p>
+      <p class="cb-close"><span>Noi nu vă mințim.</span> <span>Când greșim, corectăm public.</span></p>
     </section>
 
     <section class="cov-top">
