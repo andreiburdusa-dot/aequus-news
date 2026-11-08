@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Ce s-a mișcat azi — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<circle cx="497" cy="67" r="5" fill="#c41e3a"/>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#c41e3a" letter-spacing="0.16em" text-anchor="end">ÎN DESFĂȘURARE</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" font-style="italic" fill="#c41e3a">Ce s-a mișcat azi</text>
+<text x="40" y="214" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">NOU</text>
+<text x="128" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#e8e8f0">Iran: blocada fără război</text>
+<text x="128" y="244" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Lovituri la Qeshm, un cargou imobilizat, blocada pe uscat.</text>
+<text x="128" y="266" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Trump: „Nu e război.” Cât de aproape e punctul fără întoarcere.</text>
+<line x1="40" y1="296" x2="640" y2="296" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="344" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">8 NOV.</text>
+<text x="128" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#e8e8f0">Trump până pe 3 ianuarie</text>
+<text x="128" y="374" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Ordin către Justiție contra democraților.</text>
+<text x="128" y="396" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Biroul Oval, monument național. Congresul revine luni.</text>
+<line x1="40" y1="426" x2="640" y2="426" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="474" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">8 NOV.</text>
+<text x="128" y="474" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#e8e8f0">Marea Neagră: Wine Trader</text>
+<text x="128" y="504" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Rămășițele marinarilor dispăruți, găsite la bord, la Varna.</text>
+<text x="128" y="526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Probabil șase victime. Lovitura, încă neatribuită oficial.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">8 NOIEMBRIE 2026 · TOATE ACTUALIZĂRILE PE AEQUUS.NEWS</text>
+</svg>
