@@ -7,12 +7,12 @@
   </url>
   <url>
     <loc>https://aequus.news/arhiva.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aequus.news/romania.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -61,8 +61,13 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://aequus.news/articles/seria-capturarea-XL.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aequus.news/articles/nicusor-dan-jurnalist-interzis.html</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -477,7 +482,7 @@
   </url>
   <url>
     <loc>https://aequus.news/articles/pahontu-spp.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
