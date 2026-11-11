@@ -28,10 +28,21 @@
   <style>
     /* Header de revistă */
     .flash { background: #a8141f; color: #fff; font-family: var(--font-body); font-size: 0.86rem; }
-    .flash-in { max-width: var(--max-width); margin: 0 auto; padding: 0.55rem var(--space-md); display: flex; gap: 0.9rem; align-items: baseline; flex-wrap: wrap; }
-    .flash-tag { font-weight: 700; font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; background: #fff; color: #a8141f; padding: 0.12rem 0.45rem; border-radius: 2px; }
-    .flash-txt { flex: 1 1 320px; line-height: 1.4; }
-    .flash-go { color: #fff; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.6); }
+    .flash-in { max-width: var(--max-width); margin: 0 auto; padding: 0.55rem var(--space-md); display: flex; gap: 0.9rem; align-items: center; }
+    .flash-tag { flex: 0 0 auto; font-weight: 700; font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; background: #fff; color: #a8141f; padding: 0.12rem 0.45rem; border-radius: 2px; }
+    .flash-win { flex: 1 1 auto; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%); }
+    .flash-track { display: flex; width: max-content; animation: flashRun 70s linear infinite; }
+    .flash-win:hover .flash-track, .flash-win:focus-within .flash-track { animation-play-state: paused; }
+    .flash-seq { display: flex; align-items: center; white-space: nowrap; }
+    .flash-seq a { color: #fff; text-decoration: none; }
+    .flash-seq a:hover { text-decoration: underline; }
+    .flash-seq .sep { color: rgba(255,255,255,.55); font-size: 0.6rem; margin: 0 1.4rem; }
+    @keyframes flashRun { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) {
+      .flash-track { animation: none; width: auto; }
+      .flash-seq { white-space: normal; flex-wrap: wrap; }
+      .flash-seq[aria-hidden="true"] { display: none; }
+    }
     .mh { background: #0a0a0f; color: #e8e4d8; border-bottom: 3px solid #c9a961; background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px); background-size: 40px 40px; }
     .mh-top { max-width: var(--max-width); margin: 0 auto; padding: 0.6rem var(--space-md); display: flex; justify-content: space-between; gap: 1rem; font-family: var(--font-body); font-size: 0.74rem; letter-spacing: 0.06em; color: #a09880; border-bottom: 1px solid #22222b; }
     .mh-links a { color: #c9a961; text-decoration: none; margin-left: 1.1rem; font-weight: 600; }
@@ -51,7 +62,8 @@
       .mh-nav { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; gap: 0 1.2rem; scrollbar-width: none; }
       .mh-nav::-webkit-scrollbar { display: none; }
       .mh-nav a { flex: 0 0 auto; }
-      .flash-in { font-size: 0.8rem; gap: 0.5rem; }
+      .flash-in { font-size: 0.8rem; gap: 0.6rem; }
+      .flash-track { animation-duration: 55s; }
     }
 
     .cov { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-md) var(--space-xl); }
@@ -186,11 +198,15 @@
 </head>
 <body>
   <!-- BANDA DE ȘTIRE — se schimbă la fiecare subiect major -->
+  <!-- BANDA DE ȘTIRI — derulantă; se oprește la hover; statică pentru cine a cerut mișcare redusă -->
   <div class="flash" role="region" aria-label="Ultima oră">
     <div class="flash-in">
-      <span class="flash-tag">Nou · 11 nov.</span>
-      <span class="flash-txt">Seria Capturarea XL: Urmăm semnăturile. Procurorul general, numit peste avizul negativ al CSM; SRI, 40 de luni fără director.</span>
-      <a class="flash-go" href="/articles/seria-capturarea-XL.html">Citește →</a>
+      <span class="flash-tag">Ultima oră</span>
+      <div class="flash-win">
+        <div class="flash-track">
+          <span class="flash-seq"><a href="/articles/seria-capturarea-XL.html">Seria Capturarea XL: Urmăm semnăturile. Procurorul general, numit peste avizul negativ al CSM; SRI, 40 de luni fără director</a><span class="sep" aria-hidden="true">◆</span><a href="/articles/cine-vorbeste-pentru-europa.html#act-11-nov">Abu Dhabi s-a încheiat: schimb de prizonieri convenit în principiu, fără armistițiu. Joi, Witkoff și Kushner merg la Putin</a><span class="sep" aria-hidden="true">◆</span><a href="/articles/a-facut-o-gluma.html">„A făcut o glumă.” Cum minimizează Cotroceni ce nu vrea să explice</a><span class="sep" aria-hidden="true">◆</span><a href="/ce-am-scris.html#abu-dhabi-11-nov">Ce am scris, ce s-a întâmplat: predicția despre Abu Dhabi, confirmată</a><span class="sep" aria-hidden="true">◆</span></span><span class="flash-seq" aria-hidden="true"><a tabindex="-1" href="/articles/seria-capturarea-XL.html">Seria Capturarea XL: Urmăm semnăturile. Procurorul general, numit peste avizul negativ al CSM; SRI, 40 de luni fără director</a><span class="sep" aria-hidden="true">◆</span><a tabindex="-1" href="/articles/cine-vorbeste-pentru-europa.html#act-11-nov">Abu Dhabi s-a încheiat: schimb de prizonieri convenit în principiu, fără armistițiu. Joi, Witkoff și Kushner merg la Putin</a><span class="sep" aria-hidden="true">◆</span><a tabindex="-1" href="/articles/a-facut-o-gluma.html">„A făcut o glumă.” Cum minimizează Cotroceni ce nu vrea să explice</a><span class="sep" aria-hidden="true">◆</span><a tabindex="-1" href="/ce-am-scris.html#abu-dhabi-11-nov">Ce am scris, ce s-a întâmplat: predicția despre Abu Dhabi, confirmată</a><span class="sep" aria-hidden="true">◆</span></span>
+        </div>
+      </div>
     </div>
   </div>
 
