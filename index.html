@@ -26,6 +26,34 @@
   <link rel="stylesheet" href="/css/style.css">
 
   <style>
+    /* Header de revistă */
+    .flash { background: #a8141f; color: #fff; font-family: var(--font-body); font-size: 0.86rem; }
+    .flash-in { max-width: var(--max-width); margin: 0 auto; padding: 0.55rem var(--space-md); display: flex; gap: 0.9rem; align-items: baseline; flex-wrap: wrap; }
+    .flash-tag { font-weight: 700; font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; background: #fff; color: #a8141f; padding: 0.12rem 0.45rem; border-radius: 2px; }
+    .flash-txt { flex: 1 1 320px; line-height: 1.4; }
+    .flash-go { color: #fff; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.6); }
+    .mh { background: #0a0a0f; color: #e8e4d8; border-bottom: 3px solid #c9a961; background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px); background-size: 40px 40px; }
+    .mh-top { max-width: var(--max-width); margin: 0 auto; padding: 0.6rem var(--space-md); display: flex; justify-content: space-between; gap: 1rem; font-family: var(--font-body); font-size: 0.74rem; letter-spacing: 0.06em; color: #a09880; border-bottom: 1px solid #22222b; }
+    .mh-links a { color: #c9a961; text-decoration: none; margin-left: 1.1rem; font-weight: 600; }
+    .mh-brand { display: flex; flex-direction: column; align-items: center; text-decoration: none; padding: 1.6rem 1rem 1.2rem; color: #e8e4d8; }
+    .mh-word { font-family: var(--font-logo); font-size: 3.2rem; font-weight: 500; letter-spacing: 0.34em; margin: 0.5rem 0 0 0.34em; line-height: 1; }
+    .mh-motto { font-family: var(--font-tagline); font-style: italic; font-size: 1.25rem; color: #c9a961; letter-spacing: 0.06em; margin-top: 0.45rem; }
+    .mh-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 0 1.6rem; padding: 0.7rem var(--space-md); border-top: 1px solid #22222b; font-family: var(--font-body); }
+    .mh-nav a { color: #e8e4d8; text-decoration: none; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.3rem 0; border-bottom: 2px solid transparent; }
+    .mh-nav a:hover, .mh-nav a[aria-current="page"] { color: #c9a961; border-bottom-color: #c9a961; }
+    @media (max-width: 760px) {
+      .mh-place { display: none; }
+      .mh-top { white-space: nowrap; font-size: 0.7rem; letter-spacing: 0.03em; }
+      .mh-links a { margin-left: 0.8rem; }
+      .mh-word { font-size: 2.1rem; }
+      .mh-sigla { width: 48px; height: 48px; }
+      .mh-brand { padding: 1.1rem 1rem 0.9rem; }
+      .mh-nav { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; gap: 0 1.2rem; scrollbar-width: none; }
+      .mh-nav::-webkit-scrollbar { display: none; }
+      .mh-nav a { flex: 0 0 auto; }
+      .flash-in { font-size: 0.8rem; gap: 0.5rem; }
+    }
+
     .cov { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-md) var(--space-xl); }
 
     .cov-band { position: relative; text-align: center; background: #0a0a0f; color: #e8e4d8; padding: 2.4rem 1.5rem 2.2rem; margin: 1.4rem 0 0; border-left: 4px solid #c9a961; background-image: linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px); background-size: 40px 40px; }
@@ -138,6 +166,9 @@
       .feed .it { grid-template-columns: 1fr; }
       .join { padding: 1.4rem; }
     }
+      /* Banda de pe copertă: sigla și numele sunt acum în header */
+    .cov-band .cb-logo, .cov-band .cb-word, .cov-band .cb-motto, .cov-band .cb-rule { display: none !important; }
+    .cov-band { padding-top: 1.8rem; }
   </style>
 
   <!-- OneSignal Web Push -->
@@ -154,42 +185,42 @@
   <link rel="canonical" href="https://aequus.news/">
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-content">
-      <div class="masthead">
-        <a href="/" class="logo-link">
-          <svg class="logo-sigla" width="52" height="52" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="80" cy="80" r="74" fill="none" stroke="#1a2e5a" stroke-width="1.6" opacity="0.25"/>
-            <circle cx="80" cy="80" r="66" fill="none" stroke="#1a2e5a" stroke-width="3" opacity="0.9"/>
-            <circle cx="80" cy="80" r="65" fill="transparent"/>
-            <g stroke="#1a2e5a" stroke-linecap="round" stroke-linejoin="round" fill="none">
-              <line x1="80" y1="28" x2="50" y2="112" stroke-width="4.6"/>
-              <line x1="80" y1="28" x2="110" y2="112" stroke-width="4.6"/>
-              <line x1="63" y1="83" x2="97" y2="83" stroke-width="3.6"/>
-              <line x1="42" y1="112" x2="58" y2="112" stroke-width="4.2"/>
-              <line x1="102" y1="112" x2="118" y2="112" stroke-width="4.2"/>
-            </g>
-            <polygon points="80,19 83.5,28 80,37 76.5,28" fill="#1a2e5a" opacity="0.8"/>
-          </svg>
-          <div class="logo-text">
-            <span class="logo-titlu">AEQUUS</span>
-            <span class="logo-tagline">echilibru · luciditate · atitudine civică</span>
-          </div>
-        </a>
-      </div>
-      <nav class="main-nav">
-        <a href="/">Acasă</a>
-        <a href="/in-desfasurare.html">În desfășurare</a>
-        <a href="/iran.html">Iran</a>
-        <a href="/ucraina.html">Ucraina</a>
-        <a href="/romania.html">România</a>
-        <a href="/ue.html">UE</a>
-        <a href="/global.html">Global</a>
-        <a href="/cultura.html">Cultură</a>
-        <a href="/despre.html">Despre</a>
-      </nav>
+  <!-- BANDA DE ȘTIRE — se schimbă la fiecare subiect major -->
+  <div class="flash" role="region" aria-label="Ultima oră">
+    <div class="flash-in">
+      <span class="flash-tag">Nou · 11 nov.</span>
+      <span class="flash-txt">Seria Capturarea XL: Urmăm semnăturile. Procurorul general, numit peste avizul negativ al CSM; SRI, 40 de luni fără director.</span>
+      <a class="flash-go" href="/articles/seria-capturarea-XL.html">Citește →</a>
     </div>
+  </div>
+
+  <header class="mh">
+    <div class="mh-top">
+      <span class="mh-date" id="mh-date">Miercuri, 11 noiembrie 2026</span>
+      <span class="mh-place">Timișoara · independent, fără bani de partid și fără publicitate</span>
+      <span class="mh-links"><a href="/abonare.html">Abonează-te</a><a href="https://whatsapp.com/channel/0029Vb8MOBs9mrGfbSEVUc22">WhatsApp</a></span>
+    </div>
+    <a class="mh-brand" href="/" aria-label="Aequus, prima pagină">
+      <svg class="mh-sigla" width="64" height="64" viewBox="0 0 160 160" aria-hidden="true"><circle cx="80" cy="80" r="74" fill="none" stroke="#c9a961" stroke-width="1.6" opacity="0.45"/><circle cx="80" cy="80" r="66" fill="none" stroke="#c9a961" stroke-width="3"/><g stroke="#c9a961" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="80" y1="28" x2="50" y2="112" stroke-width="4.6"/><line x1="80" y1="28" x2="110" y2="112" stroke-width="4.6"/><line x1="63" y1="83" x2="97" y2="83" stroke-width="3.6"/><line x1="42" y1="112" x2="58" y2="112" stroke-width="4.2"/><line x1="102" y1="112" x2="118" y2="112" stroke-width="4.2"/></g><polygon points="80,19 83.5,28 80,37 76.5,28" fill="#c9a961" opacity="0.9"/></svg>
+      <span class="mh-word">AEQUUS</span>
+      <span class="mh-motto">sine ira et studio</span>
+    </a>
+    <nav class="mh-nav" aria-label="Rubrici">
+      <a href="/" aria-current="page">Acasă</a>
+      <a href="/in-desfasurare.html">În desfășurare</a>
+      <a href="/iran.html">Iran</a>
+      <a href="/ucraina.html">Ucraina</a>
+      <a href="/romania.html">România</a>
+      <a href="/ue.html">UE</a>
+      <a href="/global.html">Global</a>
+      <a href="/cultura.html">Cultură</a>
+      <a href="/ce-am-scris.html">Ce am scris</a>
+      <a href="/despre.html">Despre</a>
+    </nav>
   </header>
+  <script>
+    try { var d=new Date(); var s=d.toLocaleDateString('ro-RO',{weekday:'long',day:'numeric',month:'long',year:'numeric',timeZone:'Europe/Bucharest'}); document.getElementById('mh-date').textContent=s.charAt(0).toUpperCase()+s.slice(1); } catch(e) {}
+  </script>
   <main class="cov">
     <section class="cov-band" aria-label="Despre aequus">
       <svg class="cb-logo" width="76" height="76" viewBox="0 0 160 160" aria-hidden="true"><circle cx="80" cy="80" r="74" fill="none" stroke="#c9a961" stroke-width="1.6" opacity="0.45"/><circle class="cb-ring" cx="80" cy="80" r="66" fill="none" stroke="#c9a961" stroke-width="3" opacity="1"/><g stroke="#c9a961" stroke-linecap="round" stroke-linejoin="round" fill="none"><line x1="80" y1="28" x2="50" y2="112" stroke-width="4.6"/><line x1="80" y1="28" x2="110" y2="112" stroke-width="4.6"/><line x1="63" y1="83" x2="97" y2="83" stroke-width="3.6"/><line x1="42" y1="112" x2="58" y2="112" stroke-width="4.2"/><line x1="102" y1="112" x2="118" y2="112" stroke-width="4.2"/></g><polygon points="80,19 83.5,28 80,37 76.5,28" fill="#c9a961" opacity="0.9"/></svg>
