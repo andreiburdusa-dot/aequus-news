@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Shenzhen: trei versiuni — Aequus</title>
+<rect width="680" height="680" fill="#1a0a0a"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#c41e3a" letter-spacing="0.14em" text-anchor="end">GLOBAL · UCRAINA · ROMÂNIA</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#2e1e1e" stroke-width="0.8"/>
+<rect x="40" y="108" width="214" height="22" rx="2" fill="rgba(196,30,58,0.15)"/>
+<rect x="40" y="108" width="3" height="22" fill="#c41e3a"/>
+<text x="52" y="123" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#c41e3a" letter-spacing="0.16em">SHENZHEN, JOI, 19 NOIEMBRIE</text>
+<text x="40" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#e8e8f0" letter-spacing="-0.01em">Trei versiuni</text>
+<text x="40" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" font-style="italic" fill="#c41e3a" letter-spacing="-0.01em">ale aceleiași mese.</text>
+<line x1="40" y1="276" x2="640" y2="276" stroke="#2e1e1e" stroke-width="0.8"/>
+<text x="40" y="312" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#c41e3a" letter-spacing="0.14em">CASA ALBĂ</text>
+<text x="40" y="340" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#e8e8f0">Arme nucleare și Iran. Ucraina, nu.</text>
+<text x="40" y="380" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#c41e3a" letter-spacing="0.14em">TRUMP, 16 NOIEMBRIE</text>
+<text x="40" y="408" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic" fill="#e8e8f0">„We'll talk about, my favorite subject, Ukraine”</text>
+<text x="40" y="448" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#c41e3a" letter-spacing="0.14em">KREMLINUL</text>
+<text x="40" y="476" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#e8e8f0">Declarație comună în lucru. Putin–Trump,</text>
+<text x="40" y="502" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#e8e8f0">separat, cu Ucraina pe agendă.</text>
+<text x="40" y="542" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#c41e3a" letter-spacing="0.14em">BEIJINGUL</text>
+<text x="40" y="570" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#e8e8f0">„Global peace.” Atât.</text>
+<text x="40" y="612" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c8c4b8" letter-spacing="0.08em">BUCUREȘTIUL: NICIO DECLARAȚIE PÂNĂ ACUM.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#2e1e1e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">17 NOIEMBRIE 2026</text>
+<text x="640" y="650" font-family="Arial, sans-serif" font-size="11" fill="#a09880" text-anchor="end">Notă · aequus.news</text>
+</svg>
