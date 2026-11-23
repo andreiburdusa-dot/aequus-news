@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Ce s-a mai întâmplat azi — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<circle cx="497" cy="67" r="5" fill="#c41e3a"/>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#c41e3a" letter-spacing="0.16em" text-anchor="end">ÎN DESFĂȘURARE</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" font-style="italic" fill="#c41e3a">Ce s-a mai întâmplat azi</text>
+<text x="40" y="196" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">23 NOV.</text>
+<text x="128" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#e8e8f0">„Nicio pagubă”, verificat</text>
+<text x="128" y="226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Trump pune atacurile Iranului pe seama democraților.</text>
+<text x="128" y="248" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">JMIC: șapte petroliere lovite din 16 noiembrie.</text>
+<line x1="40" y1="258" x2="640" y2="258" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="308" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">23 NOV.</text>
+<text x="128" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#e8e8f0">NATO în schimbul Donbasului</text>
+<text x="128" y="338" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">WSJ: ideea emisarilor Kushner și Witkoff. Riabkov</text>
+<text x="128" y="360" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">respinge orice „cvasi-aderare”. Nicio reacție a Bucureștiului.</text>
+<line x1="40" y1="370" x2="640" y2="370" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="420" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">23 NOV.</text>
+<text x="128" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#e8e8f0">Alertă aeriană în Tulcea</text>
+<text x="128" y="450" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">RO-Alert la 00:46, două F-16 de la Fetești. Ordinele</text>
+<text x="128" y="472" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">comune pentru doborârea dronelor, nesemnate.</text>
+<line x1="40" y1="482" x2="640" y2="482" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="532" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">23 NOV.</text>
+<text x="128" y="532" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#e8e8f0">Decretul despre Congres</text>
+<text x="128" y="562" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Contractorii federali, obligați să anunțe Casa Albă.</text>
+<text x="128" y="584" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">11 decembrie: finanțarea guvernului, fără acord.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">23 NOIEMBRIE 2026 · TOATE ACTUALIZĂRILE PE AEQUUS.NEWS</text>
+</svg>
