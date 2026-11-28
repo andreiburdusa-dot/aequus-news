@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680" width="680" height="680">
+<title>Săptămâna pe scurt — Aequus</title>
+<rect width="680" height="680" fill="#0a0a0f"/>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.15" opacity="0.06"/></pattern></defs>
+<rect width="680" height="680" fill="url(#grid)"/>
+<rect x="0" y="0" width="5" height="680" fill="#c41e3a"/>
+<text x="40" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" letter-spacing="0.22em" opacity="0.5">AEQUUS.NEWS</text>
+<circle cx="452" cy="67" r="5" fill="#c41e3a"/>
+<text x="640" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#c41e3a" letter-spacing="0.16em" text-anchor="end">SĂPTĂMÂNA PE SCURT</text>
+<line x1="40" y1="88" x2="640" y2="88" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" font-style="italic" fill="#c41e3a">Săptămâna, pe scurt</text>
+<text x="40" y="208" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">IRAN</text>
+<text x="128" y="208" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">O antenă radar în Kuweit</text>
+<text x="128" y="236" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Doi tehnicieni italieni, uciși; Iranul neagă.</text>
+<line x1="40" y1="272" x2="640" y2="272" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="324" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">SUA</text>
+<text x="128" y="324" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Muniție da, război nu</text>
+<text x="128" y="352" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Republicanii din Senat, deschiși la tăierea banilor.</text>
+<line x1="40" y1="388" x2="640" y2="388" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="440" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">UE</text>
+<text x="128" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Aceeași cifră, altă lege</text>
+<text x="128" y="468" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">SUA propun tarife de 15% pentru UE.</text>
+<line x1="40" y1="504" x2="640" y2="504" stroke="#1e1e2e" stroke-width="0.8"/>
+<text x="40" y="556" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#c41e3a" letter-spacing="0.12em">ROMÂNIA</text>
+<text x="128" y="556" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#e8e8f0">Acasă, nu achitat</text>
+<text x="128" y="584" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#c8c4b8">Georgescu, în arest la domiciliu, cu brățară.</text>
+<line x1="0" y1="660" x2="680" y2="660" stroke="#1e1e2e" stroke-width="0.5"/>
+<text x="40" y="650" font-family="Arial, sans-serif" font-size="12" fill="#a09880" letter-spacing="0.08em">23–27 NOIEMBRIE 2026 · TOT FIRUL PE AEQUUS.NEWS</text>
+</svg>
